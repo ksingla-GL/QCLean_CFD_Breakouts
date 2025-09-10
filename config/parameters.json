@@ -1,0 +1,14 @@
+{
+  "description": "Trading parameters for CFD Breakout Strategy",
+  "parameters": {
+    "long_entry_offset": 0.02,
+    "short_entry_offset": 0.02,
+    "tp_percentage": 0.05,
+    "sl_percentage": 0.03,
+    "tickers": "AAPL,MSFT,GOOGL"
+  },
+  "notes": {
+    "milestone_4": "Capture point (4%) and timestop parameters to be added",
+    "milestone_5": "Position sizing and risk limits to be added"
+  }
+}
