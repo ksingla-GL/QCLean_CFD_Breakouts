@@ -17,23 +17,36 @@ class SignalGenerator:
     def generate_entry_signals(self, ticker, open_price):
         """
         Generate entry signals based on opening price.
-        Returns dict with long_stop and short_stop prices.
-        Implementation will be completed in milestone 3.
+        Returns dict with long_stop and short_stop prices for OCO orders.
         """
-        # Structure in place for OCO order levels
+        if open_price <= 0:
+            return None
+            
         signals = {
-            'long_stop': open_price * (1 + self.long_offset),
-            'short_stop': open_price * (1 - self.short_offset),
+            'ticker': ticker,
+            'open_price': open_price,
+            'long_stop': round(open_price * (1 + self.long_offset), 2),
+            'short_stop': round(open_price * (1 - self.short_offset), 2),
             'tp_percentage': self.tp_percentage,
-            'sl_percentage': self.sl_percentage
+            'sl_percentage': self.sl_percentage,
+            'timestamp': None  # Will be set by algo
         }
         
-        # Placeholder - actual signal validation logic in milestone 3
-        return None  # Will return signals when implementation is complete
+        # Validate signals are reasonable
+        if signals['long_stop'] <= open_price or signals['short_stop'] >= open_price:
+            return None
+            
+        return signals
     
-    def calculate_position_size(self, account_value, risk_percentage):
+    def should_enter_position(self, ticker, existing_position, in_blackout):
         """
-        Calculate position size based on risk parameters.
-        To be implemented in milestone 5.
+        Determine if we should enter a new position.
+        Checks for existing positions and blackout periods.
         """
-        pass
+        if existing_position:
+            return False, "Already has position"
+        
+        if in_blackout:
+            return False, "In earnings blackout"
+            
+        return True, "Clear to trade"

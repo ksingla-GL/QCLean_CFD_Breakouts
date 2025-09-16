@@ -31,8 +31,8 @@ class TradeLogger:
             'symbol': order_event.symbol,
             'order_id': order_event.order_id,
             'status': order_event.status,
-            'fill_price': order_event.fill_price if order_event.status == "Filled" else None,
-            'fill_quantity': order_event.fill_quantity if order_event.status == "Filled" else None
+            'fill_price': order_event.fill_price if order_event.status == OrderStatus.FILLED else None,
+            'fill_quantity': order_event.fill_quantity if order_event.status == OrderStatus.FILLED else None
         }
         
         self.log_event(f"Order Event: {event_data}")
