@@ -1,0 +1,2683 @@
+2024-01-01 00:00:00 Launching analysis for 977b1bfaf2452ef3621d6b3e1632dee9 with LEAN Engine v2.5.0.0.17306
+2024-01-01 00:00:00 Universe: 3 symbols
+2024-01-01 00:00:00 ==================================================
+2024-01-01 00:00:00 Startup reconciliation
+2024-01-01 00:00:00 Reconciliation complete
+2024-01-01 00:00:00 Scheduling configured
+2024-01-01 00:00:00 ==================================================
+2024-01-01 00:00:00 CFD BREAKOUT STRATEGY
+2024-01-01 00:00:00 Long offset: +2.0%
+2024-01-01 00:00:00 Short offset: -2.0%
+2024-01-01 00:00:00 TP: 5.0%
+2024-01-01 00:00:00 SL: 3.0%
+2024-01-01 00:00:00 Position size: $10000.0
+2024-01-01 00:00:00 Tickers: AAPL,MSFT,GOOGL
+2024-01-01 00:00:00 ==================================================
+2024-01-01 00:00:00 Accurate daily end-times now enabled by default. See more at https://qnt.co/3YHaWHL. To disable it and use legacy daily bars set self.settings.daily_precise_end_time = False.
+2024-01-02 09:31:00 ==================================================
+2024-01-02 09:31:00 Market open at 2024-01-02 09:30:00
+2024-01-02 09:31:00 Warning: No opening price for AAPL
+2024-01-02 09:31:00 Warning: No opening price for MSFT
+2024-01-02 09:31:00 Warning: No opening price for GOOGL
+2024-01-03 09:31:00 ==================================================
+2024-01-03 09:31:00 Market open at 2024-01-03 09:30:00
+2024-01-03 09:31:00 AAPL open: $183.98
+2024-01-03 09:31:00 OCO placed: Long 53@$187.66, Short 55@$180.30
+2024-01-03 09:31:00   OCO orders placed for AAPL
+2024-01-03 09:31:00 MSFT open: $366.39
+2024-01-03 09:31:00 OCO placed: Long 26@$373.72, Short 27@$359.06
+2024-01-03 09:31:00   OCO orders placed for MSFT
+2024-01-03 09:31:00 GOOGL open: $137.31
+2024-01-03 09:31:00 OCO placed: Long 71@$140.06, Short 74@$134.57
+2024-01-03 09:31:00   OCO orders placed for GOOGL
+2024-01-03 15:55:00 Canceled OCO orders for AAPL
+2024-01-03 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-01-03 15:55:00 Canceled OCO orders for MSFT
+2024-01-03 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-03 15:55:00 Canceled OCO orders for GOOGL
+2024-01-03 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-01-04 09:31:00 ==================================================
+2024-01-04 09:31:00 Market open at 2024-01-04 09:30:00
+2024-01-04 09:31:00 AAPL open: $182.73
+2024-01-04 09:31:00 OCO placed: Long 53@$186.39, Short 55@$179.08
+2024-01-04 09:31:00   OCO orders placed for AAPL
+2024-01-04 09:31:00 MSFT open: $365.75
+2024-01-04 09:31:00 OCO placed: Long 26@$373.07, Short 27@$358.44
+2024-01-04 09:31:00   OCO orders placed for MSFT
+2024-01-04 09:31:00 GOOGL open: $137.95
+2024-01-04 09:31:00 OCO placed: Long 71@$140.71, Short 73@$135.19
+2024-01-04 09:31:00   OCO orders placed for GOOGL
+2024-01-04 15:55:00 Canceled OCO orders for AAPL
+2024-01-04 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-01-04 15:55:00 Canceled OCO orders for MSFT
+2024-01-04 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-04 15:55:00 Canceled OCO orders for GOOGL
+2024-01-04 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-01-05 09:31:00 ==================================================
+2024-01-05 09:31:00 Market open at 2024-01-05 09:30:00
+2024-01-05 09:31:00 AAPL open: $180.50
+2024-01-05 09:31:00 OCO placed: Long 54@$184.11, Short 56@$176.89
+2024-01-05 09:31:00   OCO orders placed for AAPL
+2024-01-05 09:31:00 MSFT open: $363.06
+2024-01-05 09:31:00 OCO placed: Long 27@$370.32, Short 28@$355.79
+2024-01-05 09:31:00   OCO orders placed for MSFT
+2024-01-05 09:31:00 GOOGL open: $135.49
+2024-01-05 09:31:00 OCO placed: Long 72@$138.20, Short 75@$132.78
+2024-01-05 09:31:00   OCO orders placed for GOOGL
+2024-01-05 15:55:00 Canceled OCO orders for AAPL
+2024-01-05 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-01-05 15:55:00 Canceled OCO orders for MSFT
+2024-01-05 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-05 15:55:00 Canceled OCO orders for GOOGL
+2024-01-05 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-01-08 09:31:00 ==================================================
+2024-01-08 09:31:00 Market open at 2024-01-08 09:30:00
+2024-01-08 09:31:00 AAPL open: $179.64
+2024-01-08 09:31:00 OCO placed: Long 54@$183.24, Short 56@$176.05
+2024-01-08 09:31:00   OCO orders placed for AAPL
+2024-01-08 09:31:00 MSFT open: $363.22
+2024-01-08 09:31:00 OCO placed: Long 26@$370.49, Short 28@$355.96
+2024-01-08 09:31:00   OCO orders placed for MSFT
+2024-01-08 09:31:00 GOOGL open: $134.86
+2024-01-08 09:31:00 OCO placed: Long 72@$137.56, Short 75@$132.16
+2024-01-08 09:31:00   OCO orders placed for GOOGL
+2024-01-08 14:12:00 Brackets placed: TP@$192.41, SL@$177.75
+2024-01-08 14:12:00 Entry recorded: AAPL long @ $183.25
+2024-01-08 14:12:00 [2024-01-08 14:12:00] [INFO] FILL: AAPL BUY 54.0 @ $183.25
+2024-01-08 14:29:00 Brackets placed: TP@$144.46, SL@$133.45
+2024-01-08 14:29:00 Entry recorded: GOOGL long @ $137.58
+2024-01-08 14:29:00 [2024-01-08 14:29:00] [INFO] FILL: GOOGL BUY 72.0 @ $137.58
+2024-01-08 15:55:00 Canceled OCO orders for MSFT
+2024-01-08 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-09 09:31:00 ==================================================
+2024-01-09 09:31:00 Market open at 2024-01-09 09:30:00
+2024-01-09 09:31:00 AAPL open: $183.96
+2024-01-09 09:31:00   AAPL has position - skipping
+2024-01-09 09:31:00 MSFT open: $370.20
+2024-01-09 09:31:00 OCO placed: Long 26@$377.61, Short 27@$362.80
+2024-01-09 09:31:00   OCO orders placed for MSFT
+2024-01-09 09:31:00 GOOGL open: $137.96
+2024-01-09 09:31:00   GOOGL has position - skipping
+2024-01-09 15:55:00 Canceled OCO orders for MSFT
+2024-01-09 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-10 09:31:00 ==================================================
+2024-01-10 09:31:00 Market open at 2024-01-10 09:30:00
+2024-01-10 09:31:00 AAPL open: $183.53
+2024-01-10 09:31:00   AAPL has position - skipping
+2024-01-10 09:31:00 MSFT open: $370.82
+2024-01-10 09:31:00 OCO placed: Long 26@$378.24, Short 27@$363.41
+2024-01-10 09:31:00   OCO orders placed for MSFT
+2024-01-10 09:31:00 GOOGL open: $139.99
+2024-01-10 09:31:00   GOOGL has position - skipping
+2024-01-10 14:13:00 Brackets placed: TP@$397.17, SL@$366.91
+2024-01-10 14:13:00 Entry recorded: MSFT long @ $378.26
+2024-01-10 14:13:00 [2024-01-10 14:13:00] [INFO] FILL: MSFT BUY 26.0 @ $378.26
+2024-01-11 09:31:00 ==================================================
+2024-01-11 09:31:00 Market open at 2024-01-11 09:30:00
+2024-01-11 09:31:00 AAPL open: $184.59
+2024-01-11 09:31:00   AAPL has position - skipping
+2024-01-11 09:31:00 MSFT open: $378.00
+2024-01-11 09:31:00   MSFT has position - skipping
+2024-01-11 09:31:00 GOOGL open: $141.36
+2024-01-11 09:31:00   GOOGL has position - skipping
+2024-01-12 09:31:00 ==================================================
+2024-01-12 09:31:00 Market open at 2024-01-12 09:30:00
+2024-01-12 09:31:00 AAPL open: $184.14
+2024-01-12 09:31:00   AAPL has position - skipping
+2024-01-12 09:31:00 MSFT open: $379.78
+2024-01-12 09:31:00   MSFT has position - skipping
+2024-01-12 09:31:00 GOOGL open: $141.13
+2024-01-12 09:31:00   GOOGL has position - skipping
+2024-01-16 09:31:00 ==================================================
+2024-01-16 09:31:00 Market open at 2024-01-16 09:30:00
+2024-01-16 09:31:00 AAPL open: $184.38
+2024-01-16 09:31:00   AAPL has position - skipping
+2024-01-16 09:31:00 MSFT open: $383.63
+2024-01-16 09:31:00   MSFT has position - skipping
+2024-01-16 09:31:00 GOOGL open: $141.71
+2024-01-16 09:31:00   GOOGL has position - skipping
+2024-01-17 09:31:00 ==================================================
+2024-01-17 09:31:00 Market open at 2024-01-17 09:30:00
+2024-01-17 09:31:00 AAPL open: $182.04
+2024-01-17 09:31:00   AAPL has position - skipping
+2024-01-17 09:31:00 MSFT open: $385.16
+2024-01-17 09:31:00   MSFT has position - skipping
+2024-01-17 09:31:00 GOOGL open: $141.45
+2024-01-17 09:31:00   GOOGL has position - skipping
+2024-01-18 09:31:00 ==================================================
+2024-01-18 09:31:00 Market open at 2024-01-18 09:30:00
+2024-01-18 09:31:00 AAPL open: $181.27
+2024-01-18 09:31:00   AAPL has position - skipping
+2024-01-18 09:31:00 MSFT open: $384.63
+2024-01-18 09:31:00   MSFT has position - skipping
+2024-01-18 09:31:00 GOOGL open: $140.61
+2024-01-18 09:31:00   GOOGL has position - skipping
+2024-01-19 09:31:00 ==================================================
+2024-01-19 09:31:00 Market open at 2024-01-19 09:30:00
+2024-01-19 09:31:00 AAPL open: $187.18
+2024-01-19 09:31:00   AAPL has position - skipping
+2024-01-19 09:31:00 MSFT open: $388.91
+2024-01-19 09:31:00   MSFT has position - skipping
+2024-01-19 09:31:00 GOOGL open: $142.49
+2024-01-19 09:31:00   GOOGL has position - skipping
+2024-01-19 09:43:00 Exit recorded: GOOGL @ $144.46 (TakeProfit, +5.00%)
+2024-01-19 09:43:00 [2024-01-19 09:43:00] [INFO] TRADE: GOOGL long entry=$137.58 exit=$144.46 pnl=$495.28 (+5.00%) reason=TakeProfit
+2024-01-19 09:43:00 [2024-01-19 09:43:00] [INFO] FILL: GOOGL SELL 72.0 @ $144.46
+2024-01-19 15:55:00 [2024-01-19 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $495.28
+2024-01-22 09:31:00 ==================================================
+2024-01-22 09:31:00 Market open at 2024-01-22 09:30:00
+2024-01-22 09:31:00 AAPL open: $189.76
+2024-01-22 09:31:00   AAPL has position - skipping
+2024-01-22 09:31:00 MSFT open: $393.23
+2024-01-22 09:31:00   MSFT has position - skipping
+2024-01-22 09:31:00 GOOGL open: $145.30
+2024-01-22 09:31:00 OCO placed: Long 67@$148.20, Short 70@$142.39
+2024-01-22 09:31:00   OCO orders placed for GOOGL
+2024-01-22 09:39:00 Exit recorded: AAPL @ $192.41 (TakeProfit, +5.00%)
+2024-01-22 09:39:00 [2024-01-22 09:39:00] [INFO] TRADE: AAPL long entry=$183.25 exit=$192.41 pnl=$494.72 (+5.00%) reason=TakeProfit
+2024-01-22 09:39:00 [2024-01-22 09:39:00] [INFO] FILL: AAPL SELL 54.0 @ $192.41
+2024-01-22 15:55:00 Canceled OCO orders for GOOGL
+2024-01-22 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-01-22 15:55:00 [2024-01-22 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $494.72
+2024-01-23 09:31:00 ==================================================
+2024-01-23 09:31:00 Market open at 2024-01-23 09:30:00
+2024-01-23 09:31:00 AAPL open: $192.22
+2024-01-23 09:31:00 OCO placed: Long 51@$196.07, Short 53@$188.38
+2024-01-23 09:31:00   OCO orders placed for AAPL
+2024-01-23 09:31:00 MSFT open: $391.50
+2024-01-23 09:31:00   MSFT has position - skipping
+2024-01-23 09:31:00 GOOGL open: $144.93
+2024-01-23 09:31:00 OCO placed: Long 67@$147.83, Short 70@$142.03
+2024-01-23 09:31:00   OCO orders placed for GOOGL
+2024-01-23 15:55:00 Canceled OCO orders for AAPL
+2024-01-23 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-01-23 15:55:00 Canceled OCO orders for GOOGL
+2024-01-23 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-01-24 09:31:00 ==================================================
+2024-01-24 09:31:00 Market open at 2024-01-24 09:30:00
+2024-01-24 09:31:00 AAPL open: $193.55
+2024-01-24 09:31:00 OCO placed: Long 50@$197.42, Short 52@$189.68
+2024-01-24 09:31:00   OCO orders placed for AAPL
+2024-01-24 09:31:00 MSFT open: $394.10
+2024-01-24 09:31:00   MSFT has position - skipping
+2024-01-24 09:31:00 GOOGL open: $146.09
+2024-01-24 09:31:00 OCO placed: Long 67@$149.01, Short 69@$143.17
+2024-01-24 09:31:00   OCO orders placed for GOOGL
+2024-01-24 09:34:00 Exit recorded: MSFT @ $397.17 (TakeProfit, +5.00%)
+2024-01-24 09:34:00 [2024-01-24 09:34:00] [INFO] TRADE: MSFT long entry=$378.26 exit=$397.17 pnl=$491.73 (+5.00%) reason=TakeProfit
+2024-01-24 09:34:00 [2024-01-24 09:34:00] [INFO] FILL: MSFT SELL 26.0 @ $397.17
+2024-01-24 15:55:00 Canceled OCO orders for AAPL
+2024-01-24 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-01-24 15:55:00 Canceled OCO orders for GOOGL
+2024-01-24 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-01-24 15:55:00 [2024-01-24 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $491.73
+2024-01-25 09:31:00 ==================================================
+2024-01-25 09:31:00 Market open at 2024-01-25 09:30:00
+2024-01-25 09:31:00 AAPL open: $192.75
+2024-01-25 09:31:00 OCO placed: Long 50@$196.61, Short 52@$188.90
+2024-01-25 09:31:00   OCO orders placed for AAPL
+2024-01-25 09:31:00 MSFT open: $397.35
+2024-01-25 09:31:00 OCO placed: Long 24@$405.30, Short 25@$389.40
+2024-01-25 09:31:00   OCO orders placed for MSFT
+2024-01-25 09:31:00 GOOGL open: $147.64
+2024-01-25 09:31:00 OCO placed: Long 66@$150.59, Short 69@$144.68
+2024-01-25 09:31:00   OCO orders placed for GOOGL
+2024-01-25 10:20:00 Brackets placed: TP@$158.13, SL@$146.08
+2024-01-25 10:20:00 Entry recorded: GOOGL long @ $150.60
+2024-01-25 10:20:00 [2024-01-25 10:20:00] [INFO] FILL: GOOGL BUY 66.0 @ $150.60
+2024-01-25 15:55:00 Canceled OCO orders for AAPL
+2024-01-25 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-01-25 15:55:00 Canceled OCO orders for MSFT
+2024-01-25 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-26 09:31:00 ==================================================
+2024-01-26 09:31:00 Market open at 2024-01-26 09:30:00
+2024-01-26 09:31:00 AAPL open: $192.37
+2024-01-26 09:31:00 OCO placed: Long 50@$196.21, Short 53@$188.52
+2024-01-26 09:31:00   OCO orders placed for AAPL
+2024-01-26 09:31:00 MSFT open: $399.40
+2024-01-26 09:31:00 OCO placed: Long 24@$407.39, Short 25@$391.41
+2024-01-26 09:31:00   OCO orders placed for MSFT
+2024-01-26 09:31:00 GOOGL open: $150.76
+2024-01-26 09:31:00   GOOGL has position - skipping
+2024-01-26 15:55:00 Canceled OCO orders for AAPL
+2024-01-26 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-01-26 15:55:00 Canceled OCO orders for MSFT
+2024-01-26 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-29 09:31:00 ==================================================
+2024-01-29 09:31:00 Market open at 2024-01-29 09:30:00
+2024-01-29 09:31:00 AAPL open: $190.65
+2024-01-29 09:31:00 OCO placed: Long 51@$194.46, Short 53@$186.83
+2024-01-29 09:31:00   OCO orders placed for AAPL
+2024-01-29 09:31:00 MSFT open: $398.68
+2024-01-29 09:31:00 OCO placed: Long 24@$406.66, Short 25@$390.71
+2024-01-29 09:31:00   OCO orders placed for MSFT
+2024-01-29 09:31:00 GOOGL open: $151.19
+2024-01-29 09:31:00   GOOGL has position - skipping
+2024-01-29 15:55:00 Canceled OCO orders for AAPL
+2024-01-29 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-01-29 15:55:00 Canceled OCO orders for MSFT
+2024-01-29 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-30 09:31:00 ==================================================
+2024-01-30 09:31:00 Market open at 2024-01-30 09:30:00
+2024-01-30 09:31:00 AAPL open: $190.18
+2024-01-30 09:31:00 OCO placed: Long 51@$193.99, Short 53@$186.38
+2024-01-30 09:31:00   OCO orders placed for AAPL
+2024-01-30 09:31:00 MSFT open: $404.56
+2024-01-30 09:31:00 OCO placed: Long 24@$412.65, Short 25@$396.46
+2024-01-30 09:31:00   OCO orders placed for MSFT
+2024-01-30 09:31:00 GOOGL open: $152.54
+2024-01-30 09:31:00   GOOGL has position - skipping
+2024-01-30 11:10:00 Brackets placed: TP@$176.99, SL@$191.89
+2024-01-30 11:10:00 Entry recorded: AAPL short @ $186.30
+2024-01-30 11:10:00 [2024-01-30 11:10:00] [INFO] FILL: AAPL SELL 53.0 @ $186.30
+2024-01-30 15:55:00 Canceled OCO orders for MSFT
+2024-01-30 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-01-31 09:31:00 ==================================================
+2024-01-31 09:31:00 Market open at 2024-01-31 09:30:00
+2024-01-31 09:31:00 AAPL open: $186.43
+2024-01-31 09:31:00   AAPL has position - skipping
+2024-01-31 09:31:00 MSFT open: $403.72
+2024-01-31 09:31:00 OCO placed: Long 24@$411.79, Short 25@$395.64
+2024-01-31 09:31:00   OCO orders placed for MSFT
+2024-01-31 09:31:00 GOOGL open: $150.30
+2024-01-31 09:31:00   GOOGL has position - skipping
+2024-01-31 14:23:00 Brackets placed: TP@$375.68, SL@$407.32
+2024-01-31 14:23:00 Entry recorded: MSFT short @ $395.45
+2024-01-31 14:23:00 [2024-01-31 14:23:00] [INFO] FILL: MSFT SELL 25.0 @ $395.45
+2024-02-01 09:31:00 ==================================================
+2024-02-01 09:31:00 Market open at 2024-02-01 09:30:00
+2024-02-01 09:31:00 AAPL open: $183.47
+2024-02-01 09:31:00   AAPL has position - skipping
+2024-02-01 09:31:00 MSFT open: $392.85
+2024-02-01 09:31:00   MSFT has position - skipping
+2024-02-01 09:31:00 GOOGL open: $139.24
+2024-02-01 09:31:00   GOOGL has position - skipping
+2024-02-02 09:31:00 ==================================================
+2024-02-02 09:31:00 Market open at 2024-02-02 09:30:00
+2024-02-02 09:31:00 AAPL open: $185.18
+2024-02-02 09:31:00   AAPL has position - skipping
+2024-02-02 09:31:00 MSFT open: $398.35
+2024-02-02 09:31:00   MSFT has position - skipping
+2024-02-02 09:31:00 GOOGL open: $140.17
+2024-02-02 09:31:00   GOOGL has position - skipping
+2024-02-02 15:55:00 Exit recorded: MSFT @ $407.35 (StopLoss, -3.01%)
+2024-02-02 15:55:00 [2024-02-02 15:55:00] [INFO] TRADE: MSFT short entry=$395.45 exit=$407.35 pnl=$-297.38 (-3.01%) reason=StopLoss
+2024-02-02 15:55:00 [2024-02-02 15:55:00] [INFO] FILL: MSFT BUY 25.0 @ $407.35
+2024-02-02 15:55:00 [2024-02-02 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-297.38
+2024-02-05 09:31:00 ==================================================
+2024-02-05 09:31:00 Market open at 2024-02-05 09:30:00
+2024-02-05 09:31:00 AAPL open: $184.71
+2024-02-05 09:31:00   AAPL has position - skipping
+2024-02-05 09:31:00 MSFT open: $406.26
+2024-02-05 09:31:00 OCO placed: Long 24@$414.39, Short 25@$398.14
+2024-02-05 09:31:00   OCO orders placed for MSFT
+2024-02-05 09:31:00 GOOGL open: $141.42
+2024-02-05 09:31:00   GOOGL has position - skipping
+2024-02-05 15:55:00 Canceled OCO orders for MSFT
+2024-02-05 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-02-06 09:31:00 ==================================================
+2024-02-06 09:31:00 Market open at 2024-02-06 09:30:00
+2024-02-06 09:31:00 AAPL open: $186.44
+2024-02-06 09:31:00   AAPL has position - skipping
+2024-02-06 09:31:00 MSFT open: $400.76
+2024-02-06 09:31:00 OCO placed: Long 24@$408.78, Short 25@$392.75
+2024-02-06 09:31:00   OCO orders placed for MSFT
+2024-02-06 09:31:00 GOOGL open: $142.80
+2024-02-06 09:31:00   GOOGL has position - skipping
+2024-02-06 15:55:00 Canceled OCO orders for MSFT
+2024-02-06 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-02-07 09:31:00 ==================================================
+2024-02-07 09:31:00 Market open at 2024-02-07 09:30:00
+2024-02-07 09:31:00 AAPL open: $187.56
+2024-02-07 09:31:00   AAPL has position - skipping
+2024-02-07 09:31:00 MSFT open: $399.97
+2024-02-07 09:31:00 OCO placed: Long 24@$407.97, Short 25@$391.98
+2024-02-07 09:31:00   OCO orders placed for MSFT
+2024-02-07 09:31:00 GOOGL open: $143.11
+2024-02-07 09:31:00   GOOGL has position - skipping
+2024-02-07 15:05:00 Brackets placed: TP@$428.39, SL@$395.75
+2024-02-07 15:05:00 Entry recorded: MSFT long @ $407.99
+2024-02-07 15:05:00 [2024-02-07 15:05:00] [INFO] FILL: MSFT BUY 24.0 @ $407.99
+2024-02-08 09:31:00 ==================================================
+2024-02-08 09:31:00 Market open at 2024-02-08 09:30:00
+2024-02-08 09:31:00 AAPL open: $187.69
+2024-02-08 09:31:00   AAPL has position - skipping
+2024-02-08 09:31:00 MSFT open: $408.65
+2024-02-08 09:31:00   MSFT has position - skipping
+2024-02-08 09:31:00 GOOGL open: $144.44
+2024-02-08 09:31:00   GOOGL has position - skipping
+2024-02-09 09:31:00 ==================================================
+2024-02-09 09:31:00 Market open at 2024-02-09 09:30:00
+2024-02-09 09:31:00 AAPL open: $186.58
+2024-02-09 09:31:00   AAPL has position - skipping
+2024-02-09 09:31:00 MSFT open: $408.36
+2024-02-09 09:31:00   MSFT has position - skipping
+2024-02-09 09:31:00 GOOGL open: $144.83
+2024-02-09 09:31:00   GOOGL has position - skipping
+2024-02-09 09:58:00 Exit recorded: GOOGL @ $145.93 (StopLoss, -3.10%)
+2024-02-09 09:58:00 [2024-02-09 09:58:00] [INFO] TRADE: GOOGL long entry=$150.60 exit=$145.93 pnl=$-308.30 (-3.10%) reason=StopLoss
+2024-02-09 09:58:00 [2024-02-09 09:58:00] [INFO] FILL: GOOGL SELL 66.0 @ $145.93
+2024-02-09 15:55:00 [2024-02-09 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-308.30
+2024-02-12 09:31:00 ==================================================
+2024-02-12 09:31:00 Market open at 2024-02-12 09:30:00
+2024-02-12 09:31:00 AAPL open: $187.47
+2024-02-12 09:31:00   AAPL has position - skipping
+2024-02-12 09:31:00 MSFT open: $415.05
+2024-02-12 09:31:00   MSFT has position - skipping
+2024-02-12 09:31:00 GOOGL open: $147.96
+2024-02-12 09:31:00 OCO placed: Long 66@$150.92, Short 68@$145.00
+2024-02-12 09:31:00   OCO orders placed for GOOGL
+2024-02-12 15:55:00 Canceled OCO orders for GOOGL
+2024-02-12 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-02-13 09:31:00 ==================================================
+2024-02-13 09:31:00 Market open at 2024-02-13 09:30:00
+2024-02-13 09:31:00 AAPL open: $185.65
+2024-02-13 09:31:00   AAPL has position - skipping
+2024-02-13 09:31:00 MSFT open: $409.66
+2024-02-13 09:31:00   MSFT has position - skipping
+2024-02-13 09:31:00 GOOGL open: $146.50
+2024-02-13 09:31:00 OCO placed: Long 66@$149.43, Short 69@$143.57
+2024-02-13 09:31:00   OCO orders placed for GOOGL
+2024-02-13 09:31:00 Brackets placed: TP@$136.29, SL@$147.76
+2024-02-13 09:31:00 Entry recorded: GOOGL short @ $143.46
+2024-02-13 09:31:00 [2024-02-13 09:31:00] [INFO] FILL: GOOGL SELL 69.0 @ $143.46
+2024-02-14 09:31:00 ==================================================
+2024-02-14 09:31:00 Market open at 2024-02-14 09:30:00
+2024-02-14 09:31:00 AAPL open: $183.78
+2024-02-14 09:31:00   AAPL has position - skipping
+2024-02-14 09:31:00 MSFT open: $401.42
+2024-02-14 09:31:00   MSFT has position - skipping
+2024-02-14 09:31:00 GOOGL open: $144.17
+2024-02-14 09:31:00   GOOGL has position - skipping
+2024-02-15 09:31:00 ==================================================
+2024-02-15 09:31:00 Market open at 2024-02-15 09:30:00
+2024-02-15 09:31:00 AAPL open: $182.76
+2024-02-15 09:31:00   AAPL has position - skipping
+2024-02-15 09:31:00 MSFT open: $404.83
+2024-02-15 09:31:00   MSFT has position - skipping
+2024-02-15 09:31:00 GOOGL open: $144.96
+2024-02-15 09:31:00   GOOGL has position - skipping
+2024-02-16 09:31:00 ==================================================
+2024-02-16 09:31:00 Market open at 2024-02-16 09:30:00
+2024-02-16 09:31:00 AAPL open: $182.81
+2024-02-16 09:31:00   AAPL has position - skipping
+2024-02-16 09:31:00 MSFT open: $401.85
+2024-02-16 09:31:00   MSFT has position - skipping
+2024-02-16 09:31:00 GOOGL open: $141.79
+2024-02-16 09:31:00   GOOGL has position - skipping
+2024-02-20 09:31:00 ==================================================
+2024-02-20 09:31:00 Market open at 2024-02-20 09:30:00
+2024-02-20 09:31:00 AAPL open: $180.87
+2024-02-20 09:31:00   AAPL has position - skipping
+2024-02-20 09:31:00 MSFT open: $399.32
+2024-02-20 09:31:00   MSFT has position - skipping
+2024-02-20 09:31:00 GOOGL open: $139.51
+2024-02-20 09:31:00   GOOGL has position - skipping
+2024-02-20 09:51:00 Exit recorded: MSFT @ $395.59 (StopLoss, -3.04%)
+2024-02-20 09:51:00 [2024-02-20 09:51:00] [INFO] TRADE: MSFT long entry=$407.99 exit=$395.59 pnl=$-297.57 (-3.04%) reason=StopLoss
+2024-02-20 09:51:00 [2024-02-20 09:51:00] [INFO] FILL: MSFT SELL 24.0 @ $395.59
+2024-02-20 15:55:00 [2024-02-20 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-297.57
+2024-02-21 09:31:00 ==================================================
+2024-02-21 09:31:00 Market open at 2024-02-21 09:30:00
+2024-02-21 09:31:00 AAPL open: $180.04
+2024-02-21 09:31:00   AAPL has position - skipping
+2024-02-21 09:31:00 MSFT open: $397.74
+2024-02-21 09:31:00 OCO placed: Long 24@$405.69, Short 25@$389.78
+2024-02-21 09:31:00   OCO orders placed for MSFT
+2024-02-21 09:31:00 GOOGL open: $140.06
+2024-02-21 09:31:00   GOOGL has position - skipping
+2024-02-21 15:55:00 Canceled OCO orders for MSFT
+2024-02-21 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-02-22 09:31:00 ==================================================
+2024-02-22 09:31:00 Market open at 2024-02-22 09:30:00
+2024-02-22 09:31:00 AAPL open: $181.06
+2024-02-22 09:31:00   AAPL has position - skipping
+2024-02-22 09:31:00 MSFT open: $397.72
+2024-02-22 09:31:00 OCO placed: Long 24@$405.67, Short 25@$389.76
+2024-02-22 09:31:00   OCO orders placed for MSFT
+2024-02-22 09:31:00 GOOGL open: $141.61
+2024-02-22 09:31:00   GOOGL has position - skipping
+2024-02-22 09:31:00 Brackets placed: TP@$426.38, SL@$393.89
+2024-02-22 09:31:00 Entry recorded: MSFT long @ $406.07
+2024-02-22 09:31:00 [2024-02-22 09:31:00] [INFO] FILL: MSFT BUY 24.0 @ $406.07
+2024-02-23 09:31:00 ==================================================
+2024-02-23 09:31:00 Market open at 2024-02-23 09:30:00
+2024-02-23 09:31:00 AAPL open: $183.01
+2024-02-23 09:31:00   AAPL has position - skipping
+2024-02-23 09:31:00 MSFT open: $406.96
+2024-02-23 09:31:00   MSFT has position - skipping
+2024-02-23 09:31:00 GOOGL open: $143.01
+2024-02-23 09:31:00   GOOGL has position - skipping
+2024-02-26 09:31:00 ==================================================
+2024-02-26 09:31:00 Market open at 2024-02-26 09:30:00
+2024-02-26 09:31:00 AAPL open: $181.38
+2024-02-26 09:31:00   AAPL has position - skipping
+2024-02-26 09:31:00 MSFT open: $406.15
+2024-02-26 09:31:00   MSFT has position - skipping
+2024-02-26 09:31:00 GOOGL open: $143.13
+2024-02-26 09:31:00   GOOGL has position - skipping
+2024-02-27 09:31:00 ==================================================
+2024-02-27 09:31:00 Market open at 2024-02-27 09:30:00
+2024-02-27 09:31:00 AAPL open: $179.95
+2024-02-27 09:31:00   AAPL has position - skipping
+2024-02-27 09:31:00 MSFT open: $403.23
+2024-02-27 09:31:00   MSFT has position - skipping
+2024-02-27 09:31:00 GOOGL open: $136.62
+2024-02-27 09:31:00   GOOGL has position - skipping
+2024-02-27 12:40:00 Exit recorded: GOOGL @ $136.29 (TakeProfit, +5.00%)
+2024-02-27 12:40:00 [2024-02-27 12:40:00] [INFO] TRADE: GOOGL short entry=$143.46 exit=$136.29 pnl=$494.77 (+5.00%) reason=TakeProfit
+2024-02-27 12:40:00 [2024-02-27 12:40:00] [INFO] FILL: GOOGL BUY 69.0 @ $136.29
+2024-02-27 15:55:00 [2024-02-27 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $494.77
+2024-02-28 09:31:00 ==================================================
+2024-02-28 09:31:00 Market open at 2024-02-28 09:30:00
+2024-02-28 09:31:00 AAPL open: $181.34
+2024-02-28 09:31:00   AAPL has position - skipping
+2024-02-28 09:31:00 MSFT open: $402.93
+2024-02-28 09:31:00   MSFT has position - skipping
+2024-02-28 09:31:00 GOOGL open: $137.97
+2024-02-28 09:31:00 OCO placed: Long 71@$140.73, Short 73@$135.21
+2024-02-28 09:31:00   OCO orders placed for GOOGL
+2024-02-28 09:48:00 Brackets placed: TP@$128.43, SL@$139.24
+2024-02-28 09:48:00 Entry recorded: GOOGL short @ $135.19
+2024-02-28 09:48:00 [2024-02-28 09:48:00] [INFO] FILL: GOOGL SELL 73.0 @ $135.19
+2024-02-29 09:31:00 ==================================================
+2024-02-29 09:31:00 Market open at 2024-02-29 09:30:00
+2024-02-29 09:31:00 AAPL open: $180.08
+2024-02-29 09:31:00   AAPL has position - skipping
+2024-02-29 09:31:00 MSFT open: $403.14
+2024-02-29 09:31:00   MSFT has position - skipping
+2024-02-29 09:31:00 GOOGL open: $135.37
+2024-02-29 09:31:00   GOOGL has position - skipping
+2024-03-01 09:31:00 ==================================================
+2024-03-01 09:31:00 Market open at 2024-03-01 09:30:00
+2024-03-01 09:31:00 AAPL open: $179.64
+2024-03-01 09:31:00   AAPL has position - skipping
+2024-03-01 09:31:00 MSFT open: $409.29
+2024-03-01 09:31:00   MSFT has position - skipping
+2024-03-01 09:31:00 GOOGL open: $137.51
+2024-03-01 09:31:00   GOOGL has position - skipping
+2024-03-01 10:32:00 Exit recorded: AAPL @ $176.99 (TakeProfit, +5.00%)
+2024-03-01 10:32:00 [2024-03-01 10:32:00] [INFO] TRADE: AAPL short entry=$186.30 exit=$176.99 pnl=$493.57 (+5.00%) reason=TakeProfit
+2024-03-01 10:32:00 [2024-03-01 10:32:00] [INFO] FILL: AAPL BUY 53.0 @ $176.99
+2024-03-01 15:55:00 [2024-03-01 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $493.57
+2024-03-04 09:31:00 ==================================================
+2024-03-04 09:31:00 Market open at 2024-03-04 09:30:00
+2024-03-04 09:31:00 AAPL open: $178.41
+2024-03-04 09:31:00 OCO placed: Long 54@$181.98, Short 57@$174.85
+2024-03-04 09:31:00   OCO orders placed for AAPL
+2024-03-04 09:31:00 MSFT open: $410.89
+2024-03-04 09:31:00   MSFT has position - skipping
+2024-03-04 09:31:00 GOOGL open: $136.17
+2024-03-04 09:31:00   GOOGL has position - skipping
+2024-03-04 09:31:00 Brackets placed: TP@$165.95, SL@$179.92
+2024-03-04 09:31:00 Entry recorded: AAPL short @ $174.68
+2024-03-04 09:31:00 [2024-03-04 09:31:00] [INFO] FILL: AAPL SELL 57.0 @ $174.68
+2024-03-05 09:31:00 ==================================================
+2024-03-05 09:31:00 Market open at 2024-03-05 09:30:00
+2024-03-05 09:31:00 AAPL open: $173.89
+2024-03-05 09:31:00   AAPL has position - skipping
+2024-03-05 09:31:00 MSFT open: $410.35
+2024-03-05 09:31:00   MSFT has position - skipping
+2024-03-05 09:31:00 GOOGL open: $132.38
+2024-03-05 09:31:00   GOOGL has position - skipping
+2024-03-06 09:31:00 ==================================================
+2024-03-06 09:31:00 Market open at 2024-03-06 09:30:00
+2024-03-06 09:31:00 AAPL open: $168.96
+2024-03-06 09:31:00   AAPL has position - skipping
+2024-03-06 09:31:00 MSFT open: $398.23
+2024-03-06 09:31:00   MSFT has position - skipping
+2024-03-06 09:31:00 GOOGL open: $131.80
+2024-03-06 09:31:00   GOOGL has position - skipping
+2024-03-07 09:31:00 ==================================================
+2024-03-07 09:31:00 Market open at 2024-03-07 09:30:00
+2024-03-07 09:31:00 AAPL open: $167.95
+2024-03-07 09:31:00   AAPL has position - skipping
+2024-03-07 09:31:00 MSFT open: $397.70
+2024-03-07 09:31:00   MSFT has position - skipping
+2024-03-07 09:31:00 GOOGL open: $130.50
+2024-03-07 09:31:00   GOOGL has position - skipping
+2024-03-08 09:31:00 ==================================================
+2024-03-08 09:31:00 Market open at 2024-03-08 09:30:00
+2024-03-08 09:31:00 AAPL open: $167.89
+2024-03-08 09:31:00   AAPL has position - skipping
+2024-03-08 09:31:00 MSFT open: $404.62
+2024-03-08 09:31:00   MSFT has position - skipping
+2024-03-08 09:31:00 GOOGL open: $133.49
+2024-03-08 09:31:00   GOOGL has position - skipping
+2024-03-11 09:31:00 ==================================================
+2024-03-11 09:31:00 Market open at 2024-03-11 09:30:00
+2024-03-11 09:31:00 AAPL open: $169.79
+2024-03-11 09:31:00   AAPL has position - skipping
+2024-03-11 09:31:00 MSFT open: $402.08
+2024-03-11 09:31:00   MSFT has position - skipping
+2024-03-11 09:31:00 GOOGL open: $134.61
+2024-03-11 09:31:00   GOOGL has position - skipping
+2024-03-12 09:31:00 ==================================================
+2024-03-12 09:31:00 Market open at 2024-03-12 09:30:00
+2024-03-12 09:31:00 AAPL open: $171.49
+2024-03-12 09:31:00   AAPL has position - skipping
+2024-03-12 09:31:00 MSFT open: $400.11
+2024-03-12 09:31:00   MSFT has position - skipping
+2024-03-12 09:31:00 GOOGL open: $136.79
+2024-03-12 09:31:00   GOOGL has position - skipping
+2024-03-13 09:31:00 ==================================================
+2024-03-13 09:31:00 Market open at 2024-03-13 09:30:00
+2024-03-13 09:31:00 AAPL open: $171.98
+2024-03-13 09:31:00   AAPL has position - skipping
+2024-03-13 09:31:00 MSFT open: $410.72
+2024-03-13 09:31:00   MSFT has position - skipping
+2024-03-13 09:31:00 GOOGL open: $137.59
+2024-03-13 09:31:00   GOOGL has position - skipping
+2024-03-13 09:37:00 Exit recorded: GOOGL @ $139.29 (StopLoss, -3.03%)
+2024-03-13 09:37:00 [2024-03-13 09:37:00] [INFO] TRADE: GOOGL short entry=$135.19 exit=$139.29 pnl=$-299.42 (-3.03%) reason=StopLoss
+2024-03-13 09:37:00 [2024-03-13 09:37:00] [INFO] FILL: GOOGL BUY 73.0 @ $139.29
+2024-03-13 15:55:00 [2024-03-13 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-299.42
+2024-03-14 09:31:00 ==================================================
+2024-03-14 09:31:00 Market open at 2024-03-14 09:30:00
+2024-03-14 09:31:00 AAPL open: $169.94
+2024-03-14 09:31:00   AAPL has position - skipping
+2024-03-14 09:31:00 MSFT open: $410.50
+2024-03-14 09:31:00   MSFT has position - skipping
+2024-03-14 09:31:00 GOOGL open: $138.79
+2024-03-14 09:31:00 OCO placed: Long 70@$141.56, Short 73@$136.01
+2024-03-14 09:31:00   OCO orders placed for GOOGL
+2024-03-14 10:27:00 Brackets placed: TP@$148.78, SL@$137.45
+2024-03-14 10:27:00 Entry recorded: GOOGL long @ $141.70
+2024-03-14 10:27:00 [2024-03-14 10:27:00] [INFO] FILL: GOOGL BUY 70.0 @ $141.70
+2024-03-15 09:31:00 ==================================================
+2024-03-15 09:31:00 Market open at 2024-03-15 09:30:00
+2024-03-15 09:31:00 AAPL open: $171.73
+2024-03-15 09:31:00   AAPL has position - skipping
+2024-03-15 09:31:00 MSFT open: $420.38
+2024-03-15 09:31:00   MSFT has position - skipping
+2024-03-15 09:31:00 GOOGL open: $142.04
+2024-03-15 09:31:00   GOOGL has position - skipping
+2024-03-18 09:31:00 ==================================================
+2024-03-18 09:31:00 Market open at 2024-03-18 09:30:00
+2024-03-18 09:31:00 AAPL open: $171.22
+2024-03-18 09:31:00   AAPL has position - skipping
+2024-03-18 09:31:00 MSFT open: $411.70
+2024-03-18 09:31:00   MSFT has position - skipping
+2024-03-18 09:31:00 GOOGL open: $140.20
+2024-03-18 09:31:00   GOOGL has position - skipping
+2024-03-18 09:32:00 Exit recorded: GOOGL @ $148.78 (TakeProfit, +5.00%)
+2024-03-18 09:32:00 [2024-03-18 09:32:00] [INFO] TRADE: GOOGL long entry=$141.70 exit=$148.78 pnl=$495.60 (+5.00%) reason=TakeProfit
+2024-03-18 09:32:00 [2024-03-18 09:32:00] [INFO] FILL: GOOGL SELL 70.0 @ $148.78
+2024-03-18 15:55:00 [2024-03-18 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $495.60
+2024-03-19 09:31:00 ==================================================
+2024-03-19 09:31:00 Market open at 2024-03-19 09:30:00
+2024-03-19 09:31:00 AAPL open: $172.38
+2024-03-19 09:31:00   AAPL has position - skipping
+2024-03-19 09:31:00 MSFT open: $412.38
+2024-03-19 09:31:00   MSFT has position - skipping
+2024-03-19 09:31:00 GOOGL open: $146.62
+2024-03-19 09:31:00 OCO placed: Long 66@$149.55, Short 69@$143.69
+2024-03-19 09:31:00   OCO orders placed for GOOGL
+2024-03-19 15:55:00 Canceled OCO orders for GOOGL
+2024-03-19 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-03-20 09:31:00 ==================================================
+2024-03-20 09:31:00 Market open at 2024-03-20 09:30:00
+2024-03-20 09:31:00 AAPL open: $174.80
+2024-03-20 09:31:00   AAPL has position - skipping
+2024-03-20 09:31:00 MSFT open: $416.89
+2024-03-20 09:31:00   MSFT has position - skipping
+2024-03-20 09:31:00 GOOGL open: $146.02
+2024-03-20 09:31:00 OCO placed: Long 67@$148.94, Short 69@$143.10
+2024-03-20 09:31:00   OCO orders placed for GOOGL
+2024-03-20 15:55:00 Canceled OCO orders for GOOGL
+2024-03-20 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-03-21 09:31:00 ==================================================
+2024-03-21 09:31:00 Market open at 2024-03-21 09:30:00
+2024-03-21 09:31:00 AAPL open: $177.19
+2024-03-21 09:31:00   AAPL has position - skipping
+2024-03-21 09:31:00 MSFT open: $420.21
+2024-03-21 09:31:00   MSFT has position - skipping
+2024-03-21 09:31:00 GOOGL open: $147.70
+2024-03-21 09:31:00 OCO placed: Long 66@$150.66, Short 69@$144.75
+2024-03-21 09:31:00   OCO orders placed for GOOGL
+2024-03-21 15:55:00 Canceled OCO orders for GOOGL
+2024-03-21 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-03-22 09:31:00 ==================================================
+2024-03-22 09:31:00 Market open at 2024-03-22 09:30:00
+2024-03-22 09:31:00 AAPL open: $170.27
+2024-03-22 09:31:00   AAPL has position - skipping
+2024-03-22 09:31:00 MSFT open: $424.86
+2024-03-22 09:31:00   MSFT has position - skipping
+2024-03-22 09:31:00 GOOGL open: $146.72
+2024-03-22 09:31:00 OCO placed: Long 66@$149.65, Short 69@$143.78
+2024-03-22 09:31:00   OCO orders placed for GOOGL
+2024-03-22 09:48:00 Brackets placed: TP@$157.23, SL@$145.25
+2024-03-22 09:48:00 Entry recorded: GOOGL long @ $149.75
+2024-03-22 09:48:00 [2024-03-22 09:48:00] [INFO] FILL: GOOGL BUY 66.0 @ $149.75
+2024-03-25 09:31:00 ==================================================
+2024-03-25 09:31:00 Market open at 2024-03-25 09:30:00
+2024-03-25 09:31:00 AAPL open: $171.24
+2024-03-25 09:31:00   AAPL has position - skipping
+2024-03-25 09:31:00 MSFT open: $424.63
+2024-03-25 09:31:00   MSFT has position - skipping
+2024-03-25 09:31:00 GOOGL open: $149.90
+2024-03-25 09:31:00   GOOGL has position - skipping
+2024-03-26 09:31:00 ==================================================
+2024-03-26 09:31:00 Market open at 2024-03-26 09:30:00
+2024-03-26 09:31:00 AAPL open: $169.65
+2024-03-26 09:31:00   AAPL has position - skipping
+2024-03-26 09:31:00 MSFT open: $417.92
+2024-03-26 09:31:00   MSFT has position - skipping
+2024-03-26 09:31:00 GOOGL open: $148.91
+2024-03-26 09:31:00   GOOGL has position - skipping
+2024-03-27 09:31:00 ==================================================
+2024-03-27 09:31:00 Market open at 2024-03-27 09:30:00
+2024-03-27 09:31:00 AAPL open: $168.65
+2024-03-27 09:31:00   AAPL has position - skipping
+2024-03-27 09:31:00 MSFT open: $417.03
+2024-03-27 09:31:00   MSFT has position - skipping
+2024-03-27 09:31:00 GOOGL open: $149.60
+2024-03-27 09:31:00   GOOGL has position - skipping
+2024-03-28 09:31:00 ==================================================
+2024-03-28 09:31:00 Market open at 2024-03-28 09:30:00
+2024-03-28 09:31:00 AAPL open: $172.00
+2024-03-28 09:31:00   AAPL has position - skipping
+2024-03-28 09:31:00 MSFT open: $416.69
+2024-03-28 09:31:00   MSFT has position - skipping
+2024-03-28 09:31:00 GOOGL open: $149.81
+2024-03-28 09:31:00   GOOGL has position - skipping
+2024-04-01 09:31:00 ==================================================
+2024-04-01 09:31:00 Market open at 2024-04-01 09:30:00
+2024-04-01 09:31:00 AAPL open: $170.63
+2024-04-01 09:31:00   AAPL has position - skipping
+2024-04-01 09:31:00 MSFT open: $416.57
+2024-04-01 09:31:00   MSFT has position - skipping
+2024-04-01 09:31:00 GOOGL open: $149.87
+2024-04-01 09:31:00   GOOGL has position - skipping
+2024-04-02 09:31:00 ==================================================
+2024-04-02 09:31:00 Market open at 2024-04-02 09:30:00
+2024-04-02 09:31:00 AAPL open: $168.75
+2024-04-02 09:31:00   AAPL has position - skipping
+2024-04-02 09:31:00 MSFT open: $419.88
+2024-04-02 09:31:00   MSFT has position - skipping
+2024-04-02 09:31:00 GOOGL open: $154.33
+2024-04-02 09:31:00   GOOGL has position - skipping
+2024-04-03 09:31:00 ==================================================
+2024-04-03 09:31:00 Market open at 2024-04-03 09:30:00
+2024-04-03 09:31:00 AAPL open: $167.80
+2024-04-03 09:31:00   AAPL has position - skipping
+2024-04-03 09:31:00 MSFT open: $416.68
+2024-04-03 09:31:00   MSFT has position - skipping
+2024-04-03 09:31:00 GOOGL open: $153.55
+2024-04-03 09:31:00   GOOGL has position - skipping
+2024-04-04 09:31:00 ==================================================
+2024-04-04 09:31:00 Market open at 2024-04-04 09:30:00
+2024-04-04 09:31:00 AAPL open: $168.36
+2024-04-04 09:31:00   AAPL has position - skipping
+2024-04-04 09:31:00 MSFT open: $415.59
+2024-04-04 09:31:00   MSFT has position - skipping
+2024-04-04 09:31:00 GOOGL open: $153.94
+2024-04-04 09:31:00   GOOGL has position - skipping
+2024-04-05 09:31:00 ==================================================
+2024-04-05 09:31:00 Market open at 2024-04-05 09:30:00
+2024-04-05 09:31:00 AAPL open: $167.73
+2024-04-05 09:31:00   AAPL has position - skipping
+2024-04-05 09:31:00 MSFT open: $413.10
+2024-04-05 09:31:00   MSFT has position - skipping
+2024-04-05 09:31:00 GOOGL open: $149.46
+2024-04-05 09:31:00   GOOGL has position - skipping
+2024-04-08 09:31:00 ==================================================
+2024-04-08 09:31:00 Market open at 2024-04-08 09:30:00
+2024-04-08 09:31:00 AAPL open: $168.38
+2024-04-08 09:31:00   AAPL has position - skipping
+2024-04-08 09:31:00 MSFT open: $421.08
+2024-04-08 09:31:00   MSFT has position - skipping
+2024-04-08 09:31:00 GOOGL open: $151.48
+2024-04-08 09:31:00   GOOGL has position - skipping
+2024-04-09 09:31:00 ==================================================
+2024-04-09 09:31:00 Market open at 2024-04-09 09:30:00
+2024-04-09 09:31:00 AAPL open: $167.26
+2024-04-09 09:31:00   AAPL has position - skipping
+2024-04-09 09:31:00 MSFT open: $420.05
+2024-04-09 09:31:00   MSFT has position - skipping
+2024-04-09 09:31:00 GOOGL open: $153.75
+2024-04-09 09:31:00   GOOGL has position - skipping
+2024-04-09 10:04:00 Exit recorded: GOOGL @ $157.23 (TakeProfit, +5.00%)
+2024-04-09 10:04:00 [2024-04-09 10:04:00] [INFO] TRADE: GOOGL long entry=$149.75 exit=$157.23 pnl=$493.87 (+5.00%) reason=TakeProfit
+2024-04-09 10:04:00 [2024-04-09 10:04:00] [INFO] FILL: GOOGL SELL 66.0 @ $157.23
+2024-04-09 15:55:00 [2024-04-09 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $493.87
+2024-04-10 09:31:00 ==================================================
+2024-04-10 09:31:00 Market open at 2024-04-10 09:30:00
+2024-04-10 09:31:00 AAPL open: $168.19
+2024-04-10 09:31:00   AAPL has position - skipping
+2024-04-10 09:31:00 MSFT open: $420.91
+2024-04-10 09:31:00   MSFT has position - skipping
+2024-04-10 09:31:00 GOOGL open: $155.45
+2024-04-10 09:31:00 OCO placed: Long 63@$158.56, Short 65@$152.34
+2024-04-10 09:31:00   OCO orders placed for GOOGL
+2024-04-10 10:04:00 Exit recorded: AAPL @ $165.95 (TakeProfit, +5.00%)
+2024-04-10 10:04:00 [2024-04-10 10:04:00] [INFO] TRADE: AAPL short entry=$174.68 exit=$165.95 pnl=$497.61 (+5.00%) reason=TakeProfit
+2024-04-10 10:04:00 [2024-04-10 10:04:00] [INFO] FILL: AAPL BUY 57.0 @ $165.95
+2024-04-10 15:55:00 Canceled OCO orders for GOOGL
+2024-04-10 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-04-10 15:55:00 [2024-04-10 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $497.61
+2024-04-11 09:31:00 ==================================================
+2024-04-11 09:31:00 Market open at 2024-04-11 09:30:00
+2024-04-11 09:31:00 AAPL open: $166.87
+2024-04-11 09:31:00 OCO placed: Long 58@$170.21, Short 61@$163.53
+2024-04-11 09:31:00   OCO orders placed for AAPL
+2024-04-11 09:31:00 MSFT open: $419.05
+2024-04-11 09:31:00   MSFT has position - skipping
+2024-04-11 09:31:00 GOOGL open: $155.21
+2024-04-11 09:31:00 OCO placed: Long 63@$158.31, Short 65@$152.11
+2024-04-11 09:31:00   OCO orders placed for GOOGL
+2024-04-11 13:18:00 Brackets placed: TP@$178.78, SL@$165.16
+2024-04-11 13:18:00 Entry recorded: AAPL long @ $170.27
+2024-04-11 13:18:00 [2024-04-11 13:18:00] [INFO] FILL: AAPL BUY 58.0 @ $170.27
+2024-04-11 14:35:00 Brackets placed: TP@$166.25, SL@$153.59
+2024-04-11 14:35:00 Entry recorded: GOOGL long @ $158.34
+2024-04-11 14:35:00 [2024-04-11 14:35:00] [INFO] FILL: GOOGL BUY 63.0 @ $158.34
+2024-04-12 09:31:00 ==================================================
+2024-04-12 09:31:00 Market open at 2024-04-12 09:30:00
+2024-04-12 09:31:00 AAPL open: $173.91
+2024-04-12 09:31:00   AAPL has position - skipping
+2024-04-12 09:31:00 MSFT open: $423.44
+2024-04-12 09:31:00   MSFT has position - skipping
+2024-04-12 09:31:00 GOOGL open: $158.33
+2024-04-12 09:31:00   GOOGL has position - skipping
+2024-04-15 09:31:00 ==================================================
+2024-04-15 09:31:00 Market open at 2024-04-15 09:30:00
+2024-04-15 09:31:00 AAPL open: $175.31
+2024-04-15 09:31:00   AAPL has position - skipping
+2024-04-15 09:31:00 MSFT open: $416.90
+2024-04-15 09:31:00   MSFT has position - skipping
+2024-04-15 09:31:00 GOOGL open: $156.52
+2024-04-15 09:31:00   GOOGL has position - skipping
+2024-04-15 15:18:00 Exit recorded: GOOGL @ $153.51 (StopLoss, -3.05%)
+2024-04-15 15:18:00 [2024-04-15 15:18:00] [INFO] TRADE: GOOGL long entry=$158.34 exit=$153.51 pnl=$-304.08 (-3.05%) reason=StopLoss
+2024-04-15 15:18:00 [2024-04-15 15:18:00] [INFO] FILL: GOOGL SELL 63.0 @ $153.51
+2024-04-15 15:55:00 [2024-04-15 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-304.08
+2024-04-16 09:31:00 ==================================================
+2024-04-16 09:31:00 Market open at 2024-04-16 09:30:00
+2024-04-16 09:31:00 AAPL open: $171.55
+2024-04-16 09:31:00   AAPL has position - skipping
+2024-04-16 09:31:00 MSFT open: $409.18
+2024-04-16 09:31:00   MSFT has position - skipping
+2024-04-16 09:31:00 GOOGL open: $153.77
+2024-04-16 09:31:00 OCO placed: Long 63@$156.84, Short 66@$150.69
+2024-04-16 09:31:00   OCO orders placed for GOOGL
+2024-04-16 15:55:00 Canceled OCO orders for GOOGL
+2024-04-16 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-04-17 09:31:00 ==================================================
+2024-04-17 09:31:00 Market open at 2024-04-17 09:30:00
+2024-04-17 09:31:00 AAPL open: $168.15
+2024-04-17 09:31:00   AAPL has position - skipping
+2024-04-17 09:31:00 MSFT open: $409.80
+2024-04-17 09:31:00   MSFT has position - skipping
+2024-04-17 09:31:00 GOOGL open: $153.33
+2024-04-17 09:31:00 OCO placed: Long 63@$156.40, Short 66@$150.27
+2024-04-17 09:31:00   OCO orders placed for GOOGL
+2024-04-17 15:55:00 Canceled OCO orders for GOOGL
+2024-04-17 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-04-18 09:31:00 ==================================================
+2024-04-18 09:31:00 Market open at 2024-04-18 09:30:00
+2024-04-18 09:31:00 AAPL open: $167.08
+2024-04-18 09:31:00   AAPL has position - skipping
+2024-04-18 09:31:00 MSFT open: $408.07
+2024-04-18 09:31:00   MSFT has position - skipping
+2024-04-18 09:31:00 GOOGL open: $154.61
+2024-04-18 09:31:00 OCO placed: Long 63@$157.71, Short 65@$151.52
+2024-04-18 09:31:00   OCO orders placed for GOOGL
+2024-04-18 15:55:00 Canceled OCO orders for GOOGL
+2024-04-18 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-04-19 09:31:00 ==================================================
+2024-04-19 09:31:00 Market open at 2024-04-19 09:30:00
+2024-04-19 09:31:00 AAPL open: $165.82
+2024-04-19 09:31:00   AAPL has position - skipping
+2024-04-19 09:31:00 MSFT open: $399.86
+2024-04-19 09:31:00   MSFT has position - skipping
+2024-04-19 09:31:00 GOOGL open: $154.91
+2024-04-19 09:31:00 OCO placed: Long 63@$158.01, Short 65@$151.81
+2024-04-19 09:31:00   OCO orders placed for GOOGL
+2024-04-19 09:32:00 Exit recorded: AAPL @ $164.99 (StopLoss, -3.10%)
+2024-04-19 09:32:00 [2024-04-19 09:32:00] [INFO] TRADE: AAPL long entry=$170.27 exit=$164.99 pnl=$-306.08 (-3.10%) reason=StopLoss
+2024-04-19 09:32:00 [2024-04-19 09:32:00] [INFO] FILL: AAPL SELL 58.0 @ $164.99
+2024-04-19 12:29:00 Brackets placed: TP@$144.16, SL@$156.30
+2024-04-19 12:29:00 Entry recorded: GOOGL short @ $151.74
+2024-04-19 12:29:00 [2024-04-19 12:29:00] [INFO] FILL: GOOGL SELL 65.0 @ $151.74
+2024-04-19 12:30:00 Exit recorded: MSFT @ $393.82 (StopLoss, -3.02%)
+2024-04-19 12:30:00 [2024-04-19 12:30:00] [INFO] TRADE: MSFT long entry=$406.07 exit=$393.82 pnl=$-294.08 (-3.02%) reason=StopLoss
+2024-04-19 12:30:00 [2024-04-19 12:30:00] [INFO] FILL: MSFT SELL 24.0 @ $393.82
+2024-04-19 15:55:00 [2024-04-19 15:55:00] [INFO] Daily Summary: 2 trades, W/L: 0/2, PnL: $-600.17
+2024-04-22 09:31:00 ==================================================
+2024-04-22 09:31:00 Market open at 2024-04-22 09:30:00
+2024-04-22 09:31:00 AAPL open: $163.83
+2024-04-22 09:31:00 OCO placed: Long 59@$167.11, Short 62@$160.55
+2024-04-22 09:31:00   OCO orders placed for AAPL
+2024-04-22 09:31:00 MSFT open: $394.71
+2024-04-22 09:31:00 OCO placed: Long 24@$402.61, Short 25@$386.82
+2024-04-22 09:31:00   OCO orders placed for MSFT
+2024-04-22 09:31:00 GOOGL open: $153.11
+2024-04-22 09:31:00   GOOGL has position - skipping
+2024-04-22 14:12:00 Exit recorded: GOOGL @ $156.30 (StopLoss, -3.00%)
+2024-04-22 14:12:00 [2024-04-22 14:12:00] [INFO] TRADE: GOOGL short entry=$151.74 exit=$156.30 pnl=$-296.31 (-3.00%) reason=StopLoss
+2024-04-22 14:12:00 [2024-04-22 14:12:00] [INFO] FILL: GOOGL BUY 65.0 @ $156.30
+2024-04-22 15:55:00 Canceled OCO orders for AAPL
+2024-04-22 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-04-22 15:55:00 Canceled OCO orders for MSFT
+2024-04-22 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-04-22 15:55:00 [2024-04-22 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-296.31
+2024-04-23 09:31:00 ==================================================
+2024-04-23 09:31:00 Market open at 2024-04-23 09:30:00
+2024-04-23 09:31:00 AAPL open: $164.50
+2024-04-23 09:31:00 OCO placed: Long 59@$167.79, Short 62@$161.21
+2024-04-23 09:31:00   OCO orders placed for AAPL
+2024-04-23 09:31:00 MSFT open: $396.12
+2024-04-23 09:31:00 OCO placed: Long 24@$404.04, Short 25@$388.19
+2024-04-23 09:31:00   OCO orders placed for MSFT
+2024-04-23 09:31:00 GOOGL open: $154.99
+2024-04-23 09:31:00 OCO placed: Long 63@$158.09, Short 65@$151.89
+2024-04-23 09:31:00   OCO orders placed for GOOGL
+2024-04-23 15:55:00 Canceled OCO orders for AAPL
+2024-04-23 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-04-23 15:55:00 Canceled OCO orders for MSFT
+2024-04-23 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-04-23 15:55:00 Canceled OCO orders for GOOGL
+2024-04-23 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-04-24 09:31:00 ==================================================
+2024-04-24 09:31:00 Market open at 2024-04-24 09:30:00
+2024-04-24 09:31:00 AAPL open: $165.62
+2024-04-24 09:31:00 OCO placed: Long 59@$168.93, Short 61@$162.30
+2024-04-24 09:31:00   OCO orders placed for AAPL
+2024-04-24 09:31:00 MSFT open: $402.51
+2024-04-24 09:31:00 OCO placed: Long 24@$410.56, Short 25@$394.46
+2024-04-24 09:31:00   OCO orders placed for MSFT
+2024-04-24 09:31:00 GOOGL open: $157.01
+2024-04-24 09:31:00 OCO placed: Long 62@$160.15, Short 64@$153.87
+2024-04-24 09:31:00   OCO orders placed for GOOGL
+2024-04-24 15:55:00 Canceled OCO orders for AAPL
+2024-04-24 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-04-24 15:55:00 Canceled OCO orders for MSFT
+2024-04-24 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-04-24 15:55:00 Canceled OCO orders for GOOGL
+2024-04-24 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-04-25 09:31:00 ==================================================
+2024-04-25 09:31:00 Market open at 2024-04-25 09:30:00
+2024-04-25 09:31:00 AAPL open: $167.92
+2024-04-25 09:31:00 OCO placed: Long 58@$171.28, Short 60@$164.56
+2024-04-25 09:31:00   OCO orders placed for AAPL
+2024-04-25 09:31:00 MSFT open: $404.99
+2024-04-25 09:31:00 OCO placed: Long 24@$413.09, Short 25@$396.89
+2024-04-25 09:31:00   OCO orders placed for MSFT
+2024-04-25 09:31:00 GOOGL open: $158.16
+2024-04-25 09:31:00 OCO placed: Long 61@$161.32, Short 64@$155.00
+2024-04-25 09:31:00   OCO orders placed for GOOGL
+2024-04-25 11:42:00 Brackets placed: TP@$147.10, SL@$159.49
+2024-04-25 11:42:00 Entry recorded: GOOGL short @ $154.84
+2024-04-25 11:42:00 [2024-04-25 11:42:00] [INFO] FILL: GOOGL SELL 64.0 @ $154.84
+2024-04-25 15:55:00 Canceled OCO orders for AAPL
+2024-04-25 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-04-25 15:55:00 Canceled OCO orders for MSFT
+2024-04-25 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-04-26 09:31:00 ==================================================
+2024-04-26 09:31:00 Market open at 2024-04-26 09:30:00
+2024-04-26 09:31:00 AAPL open: $168.66
+2024-04-26 09:31:00 OCO placed: Long 58@$172.03, Short 60@$165.29
+2024-04-26 09:31:00   OCO orders placed for AAPL
+2024-04-26 09:31:00 MSFT open: $395.09
+2024-04-26 09:31:00 OCO placed: Long 24@$402.99, Short 25@$387.19
+2024-04-26 09:31:00   OCO orders placed for MSFT
+2024-04-26 09:31:00 GOOGL open: $155.09
+2024-04-26 09:31:00   GOOGL has position - skipping
+2024-04-26 09:38:00 Brackets placed: TP@$423.56, SL@$391.29
+2024-04-26 09:38:00 Entry recorded: MSFT long @ $403.39
+2024-04-26 09:38:00 [2024-04-26 09:38:00] [INFO] FILL: MSFT BUY 24.0 @ $403.39
+2024-04-26 15:55:00 Canceled OCO orders for AAPL
+2024-04-26 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-04-29 09:31:00 ==================================================
+2024-04-29 09:31:00 Market open at 2024-04-29 09:30:00
+2024-04-29 09:31:00 AAPL open: $168.11
+2024-04-29 09:31:00 OCO placed: Long 58@$171.47, Short 60@$164.75
+2024-04-29 09:31:00   OCO orders placed for AAPL
+2024-04-29 09:31:00 MSFT open: $402.02
+2024-04-29 09:31:00   MSFT has position - skipping
+2024-04-29 09:31:00 GOOGL open: $170.87
+2024-04-29 09:31:00   GOOGL has position - skipping
+2024-04-29 15:55:00 Canceled OCO orders for AAPL
+2024-04-29 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-04-30 09:31:00 ==================================================
+2024-04-30 09:31:00 Market open at 2024-04-30 09:30:00
+2024-04-30 09:31:00 AAPL open: $172.13
+2024-04-30 09:31:00 OCO placed: Long 56@$175.58, Short 59@$168.69
+2024-04-30 09:31:00   OCO orders placed for AAPL
+2024-04-30 09:31:00 MSFT open: $397.78
+2024-04-30 09:31:00   MSFT has position - skipping
+2024-04-30 09:31:00 GOOGL open: $164.96
+2024-04-30 09:31:00   GOOGL has position - skipping
+2024-04-30 12:35:00 Exit recorded: MSFT @ $391.23 (StopLoss, -3.01%)
+2024-04-30 12:35:00 [2024-04-30 12:35:00] [INFO] TRADE: MSFT long entry=$403.39 exit=$391.23 pnl=$-291.84 (-3.01%) reason=StopLoss
+2024-04-30 12:35:00 [2024-04-30 12:35:00] [INFO] FILL: MSFT SELL 24.0 @ $391.23
+2024-04-30 15:55:00 Canceled OCO orders for AAPL
+2024-04-30 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-04-30 15:55:00 [2024-04-30 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-291.84
+2024-05-01 09:31:00 ==================================================
+2024-05-01 09:31:00 Market open at 2024-05-01 09:30:00
+2024-05-01 09:31:00 AAPL open: $169.24
+2024-05-01 09:31:00 OCO placed: Long 57@$172.63, Short 60@$165.86
+2024-05-01 09:31:00   OCO orders placed for AAPL
+2024-05-01 09:31:00 MSFT open: $385.85
+2024-05-01 09:31:00 OCO placed: Long 25@$393.57, Short 26@$378.13
+2024-05-01 09:31:00   OCO orders placed for MSFT
+2024-05-01 09:31:00 GOOGL open: $161.67
+2024-05-01 09:31:00   GOOGL has position - skipping
+2024-05-01 14:40:00 Brackets placed: TP@$413.27, SL@$381.79
+2024-05-01 14:40:00 Entry recorded: MSFT long @ $393.59
+2024-05-01 14:40:00 [2024-05-01 14:40:00] [INFO] FILL: MSFT BUY 25.0 @ $393.59
+2024-05-01 15:55:00 Canceled OCO orders for AAPL
+2024-05-01 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-05-02 09:31:00 ==================================================
+2024-05-02 09:31:00 Market open at 2024-05-02 09:30:00
+2024-05-02 09:31:00 AAPL open: $168.34
+2024-05-02 09:31:00 OCO placed: Long 58@$171.71, Short 60@$164.97
+2024-05-02 09:31:00   OCO orders placed for AAPL
+2024-05-02 09:31:00 MSFT open: $390.80
+2024-05-02 09:31:00   MSFT has position - skipping
+2024-05-02 09:31:00 GOOGL open: $162.74
+2024-05-02 09:31:00   GOOGL has position - skipping
+2024-05-02 14:28:00 Brackets placed: TP@$180.30, SL@$166.57
+2024-05-02 14:28:00 Entry recorded: AAPL long @ $171.72
+2024-05-02 14:28:00 [2024-05-02 14:28:00] [INFO] FILL: AAPL BUY 58.0 @ $171.72
+2024-05-03 09:31:00 ==================================================
+2024-05-03 09:31:00 Market open at 2024-05-03 09:30:00
+2024-05-03 09:31:00 AAPL open: $171.74
+2024-05-03 09:31:00   AAPL has position - skipping
+2024-05-03 09:31:00 MSFT open: $393.04
+2024-05-03 09:31:00   MSFT has position - skipping
+2024-05-03 09:31:00 GOOGL open: $165.31
+2024-05-03 09:31:00   GOOGL has position - skipping
+2024-05-03 09:31:00 Exit recorded: AAPL @ $185.32 (TakeProfit, +7.92%)
+2024-05-03 09:31:00 [2024-05-03 09:31:00] [INFO] TRADE: AAPL long entry=$171.72 exit=$185.32 pnl=$788.93 (+7.92%) reason=TakeProfit
+2024-05-03 09:31:00 [2024-05-03 09:31:00] [INFO] FILL: AAPL SELL 58.0 @ $185.32
+2024-05-03 15:55:00 [2024-05-03 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $788.93
+2024-05-06 09:31:00 ==================================================
+2024-05-06 09:31:00 Market open at 2024-05-06 09:30:00
+2024-05-06 09:31:00 AAPL open: $181.81
+2024-05-06 09:31:00 OCO placed: Long 53@$185.45, Short 56@$178.18
+2024-05-06 09:31:00   OCO orders placed for AAPL
+2024-05-06 09:31:00 MSFT open: $402.10
+2024-05-06 09:31:00   MSFT has position - skipping
+2024-05-06 09:31:00 GOOGL open: $166.06
+2024-05-06 09:31:00   GOOGL has position - skipping
+2024-05-06 15:55:00 Canceled OCO orders for AAPL
+2024-05-06 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-05-07 09:31:00 ==================================================
+2024-05-07 09:31:00 Market open at 2024-05-07 09:30:00
+2024-05-07 09:31:00 AAPL open: $180.40
+2024-05-07 09:31:00 OCO placed: Long 54@$184.01, Short 56@$176.79
+2024-05-07 09:31:00   OCO orders placed for AAPL
+2024-05-07 09:31:00 MSFT open: $409.06
+2024-05-07 09:31:00   MSFT has position - skipping
+2024-05-07 09:31:00 GOOGL open: $166.87
+2024-05-07 09:31:00   GOOGL has position - skipping
+2024-05-07 15:55:00 Canceled OCO orders for AAPL
+2024-05-07 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-05-08 09:31:00 ==================================================
+2024-05-08 09:31:00 Market open at 2024-05-08 09:30:00
+2024-05-08 09:31:00 AAPL open: $181.26
+2024-05-08 09:31:00 OCO placed: Long 54@$184.88, Short 56@$177.63
+2024-05-08 09:31:00   OCO orders placed for AAPL
+2024-05-08 09:31:00 MSFT open: $404.92
+2024-05-08 09:31:00   MSFT has position - skipping
+2024-05-08 09:31:00 GOOGL open: $170.16
+2024-05-08 09:31:00   GOOGL has position - skipping
+2024-05-08 15:55:00 Canceled OCO orders for AAPL
+2024-05-08 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-05-09 09:31:00 ==================================================
+2024-05-09 09:31:00 Market open at 2024-05-09 09:30:00
+2024-05-09 09:31:00 AAPL open: $181.52
+2024-05-09 09:31:00 OCO placed: Long 54@$185.15, Short 56@$177.89
+2024-05-09 09:31:00   OCO orders placed for AAPL
+2024-05-09 09:31:00 MSFT open: $406.36
+2024-05-09 09:31:00   MSFT has position - skipping
+2024-05-09 09:31:00 GOOGL open: $168.24
+2024-05-09 09:31:00   GOOGL has position - skipping
+2024-05-09 15:55:00 Canceled OCO orders for AAPL
+2024-05-09 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-05-10 09:31:00 ==================================================
+2024-05-10 09:31:00 Market open at 2024-05-10 09:30:00
+2024-05-10 09:31:00 AAPL open: $183.25
+2024-05-10 09:31:00 OCO placed: Long 53@$186.92, Short 55@$179.59
+2024-05-10 09:31:00   OCO orders placed for AAPL
+2024-05-10 09:31:00 MSFT open: $407.69
+2024-05-10 09:31:00   MSFT has position - skipping
+2024-05-10 09:31:00 GOOGL open: $168.67
+2024-05-10 09:31:00   GOOGL has position - skipping
+2024-05-10 15:55:00 Canceled OCO orders for AAPL
+2024-05-10 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-05-13 09:31:00 ==================================================
+2024-05-13 09:31:00 Market open at 2024-05-13 09:30:00
+2024-05-13 09:31:00 AAPL open: $182.04
+2024-05-13 09:31:00 OCO placed: Long 53@$185.68, Short 56@$178.40
+2024-05-13 09:31:00   OCO orders placed for AAPL
+2024-05-13 09:31:00 MSFT open: $410.44
+2024-05-13 09:31:00   MSFT has position - skipping
+2024-05-13 09:31:00 GOOGL open: $167.60
+2024-05-13 09:31:00   GOOGL has position - skipping
+2024-05-13 09:31:00 Exit recorded: MSFT @ $413.39 (TakeProfit, +5.03%)
+2024-05-13 09:31:00 [2024-05-13 09:31:00] [INFO] TRADE: MSFT long entry=$393.59 exit=$413.39 pnl=$494.98 (+5.03%) reason=TakeProfit
+2024-05-13 09:31:00 [2024-05-13 09:31:00] [INFO] FILL: MSFT SELL 25.0 @ $413.39
+2024-05-13 12:57:00 Brackets placed: TP@$195.02, SL@$180.16
+2024-05-13 12:57:00 Entry recorded: AAPL long @ $185.73
+2024-05-13 12:57:00 [2024-05-13 12:57:00] [INFO] FILL: AAPL BUY 53.0 @ $185.73
+2024-05-13 15:55:00 [2024-05-13 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $494.98
+2024-05-14 09:31:00 ==================================================
+2024-05-14 09:31:00 Market open at 2024-05-14 09:30:00
+2024-05-14 09:31:00 AAPL open: $185.04
+2024-05-14 09:31:00   AAPL has position - skipping
+2024-05-14 09:31:00 MSFT open: $408.99
+2024-05-14 09:31:00 OCO placed: Long 23@$417.17, Short 24@$400.81
+2024-05-14 09:31:00   OCO orders placed for MSFT
+2024-05-14 09:31:00 GOOGL open: $167.89
+2024-05-14 09:31:00   GOOGL has position - skipping
+2024-05-14 15:55:00 Canceled OCO orders for MSFT
+2024-05-14 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-15 09:31:00 ==================================================
+2024-05-15 09:31:00 Market open at 2024-05-15 09:30:00
+2024-05-15 09:31:00 AAPL open: $186.48
+2024-05-15 09:31:00   AAPL has position - skipping
+2024-05-15 09:31:00 MSFT open: $412.23
+2024-05-15 09:31:00 OCO placed: Long 23@$420.47, Short 24@$403.98
+2024-05-15 09:31:00   OCO orders placed for MSFT
+2024-05-15 09:31:00 GOOGL open: $169.17
+2024-05-15 09:31:00   GOOGL has position - skipping
+2024-05-15 15:55:00 Canceled OCO orders for MSFT
+2024-05-15 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-16 09:31:00 ==================================================
+2024-05-16 09:31:00 Market open at 2024-05-16 09:30:00
+2024-05-16 09:31:00 AAPL open: $188.56
+2024-05-16 09:31:00   AAPL has position - skipping
+2024-05-16 09:31:00 MSFT open: $419.22
+2024-05-16 09:31:00 OCO placed: Long 23@$427.61, Short 24@$410.84
+2024-05-16 09:31:00   OCO orders placed for MSFT
+2024-05-16 09:31:00 GOOGL open: $171.33
+2024-05-16 09:31:00   GOOGL has position - skipping
+2024-05-16 15:55:00 Canceled OCO orders for MSFT
+2024-05-16 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-17 09:31:00 ==================================================
+2024-05-17 09:31:00 Market open at 2024-05-17 09:30:00
+2024-05-17 09:31:00 AAPL open: $188.82
+2024-05-17 09:31:00   AAPL has position - skipping
+2024-05-17 09:31:00 MSFT open: $417.15
+2024-05-17 09:31:00 OCO placed: Long 23@$425.49, Short 24@$408.81
+2024-05-17 09:31:00   OCO orders placed for MSFT
+2024-05-17 09:31:00 GOOGL open: $172.97
+2024-05-17 09:31:00   GOOGL has position - skipping
+2024-05-17 15:55:00 Canceled OCO orders for MSFT
+2024-05-17 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-20 09:31:00 ==================================================
+2024-05-20 09:31:00 Market open at 2024-05-20 09:30:00
+2024-05-20 09:31:00 AAPL open: $188.70
+2024-05-20 09:31:00   AAPL has position - skipping
+2024-05-20 09:31:00 MSFT open: $415.83
+2024-05-20 09:31:00 OCO placed: Long 23@$424.15, Short 24@$407.52
+2024-05-20 09:31:00   OCO orders placed for MSFT
+2024-05-20 09:31:00 GOOGL open: $174.77
+2024-05-20 09:31:00   GOOGL has position - skipping
+2024-05-20 15:55:00 Canceled OCO orders for MSFT
+2024-05-20 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-21 09:31:00 ==================================================
+2024-05-21 09:31:00 Market open at 2024-05-21 09:30:00
+2024-05-21 09:31:00 AAPL open: $189.74
+2024-05-21 09:31:00   AAPL has position - skipping
+2024-05-21 09:31:00 MSFT open: $420.70
+2024-05-21 09:31:00 OCO placed: Long 23@$429.11, Short 24@$412.28
+2024-05-21 09:31:00   OCO orders placed for MSFT
+2024-05-21 09:31:00 GOOGL open: $175.46
+2024-05-21 09:31:00   GOOGL has position - skipping
+2024-05-21 15:55:00 Canceled OCO orders for MSFT
+2024-05-21 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-22 09:31:00 ==================================================
+2024-05-22 09:31:00 Market open at 2024-05-22 09:30:00
+2024-05-22 09:31:00 AAPL open: $191.21
+2024-05-22 09:31:00   AAPL has position - skipping
+2024-05-22 09:31:00 MSFT open: $425.12
+2024-05-22 09:31:00 OCO placed: Long 23@$433.62, Short 24@$416.61
+2024-05-22 09:31:00   OCO orders placed for MSFT
+2024-05-22 09:31:00 GOOGL open: $176.71
+2024-05-22 09:31:00   GOOGL has position - skipping
+2024-05-22 15:55:00 Canceled OCO orders for MSFT
+2024-05-22 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-23 09:31:00 ==================================================
+2024-05-23 09:31:00 Market open at 2024-05-23 09:30:00
+2024-05-23 09:31:00 AAPL open: $189.72
+2024-05-23 09:31:00   AAPL has position - skipping
+2024-05-23 09:31:00 MSFT open: $426.24
+2024-05-23 09:31:00 OCO placed: Long 23@$434.76, Short 23@$417.71
+2024-05-23 09:31:00   OCO orders placed for MSFT
+2024-05-23 09:31:00 GOOGL open: $174.98
+2024-05-23 09:31:00   GOOGL has position - skipping
+2024-05-23 15:55:00 Canceled OCO orders for MSFT
+2024-05-23 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-24 09:31:00 ==================================================
+2024-05-24 09:31:00 Market open at 2024-05-24 09:30:00
+2024-05-24 09:31:00 AAPL open: $185.75
+2024-05-24 09:31:00   AAPL has position - skipping
+2024-05-24 09:31:00 MSFT open: $423.14
+2024-05-24 09:31:00 OCO placed: Long 23@$431.61, Short 24@$414.68
+2024-05-24 09:31:00   OCO orders placed for MSFT
+2024-05-24 09:31:00 GOOGL open: $172.39
+2024-05-24 09:31:00   GOOGL has position - skipping
+2024-05-24 15:55:00 Canceled OCO orders for MSFT
+2024-05-24 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-28 09:31:00 ==================================================
+2024-05-28 09:31:00 Market open at 2024-05-28 09:30:00
+2024-05-28 09:31:00 AAPL open: $188.86
+2024-05-28 09:31:00   AAPL has position - skipping
+2024-05-28 09:31:00 MSFT open: $426.06
+2024-05-28 09:31:00 OCO placed: Long 23@$434.58, Short 23@$417.54
+2024-05-28 09:31:00   OCO orders placed for MSFT
+2024-05-28 09:31:00 GOOGL open: $173.89
+2024-05-28 09:31:00   GOOGL has position - skipping
+2024-05-28 15:55:00 Canceled OCO orders for MSFT
+2024-05-28 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-29 09:31:00 ==================================================
+2024-05-29 09:31:00 Market open at 2024-05-29 09:30:00
+2024-05-29 09:31:00 AAPL open: $188.72
+2024-05-29 09:31:00   AAPL has position - skipping
+2024-05-29 09:31:00 MSFT open: $425.75
+2024-05-29 09:31:00 OCO placed: Long 23@$434.27, Short 23@$417.24
+2024-05-29 09:31:00   OCO orders placed for MSFT
+2024-05-29 09:31:00 GOOGL open: $174.87
+2024-05-29 09:31:00   GOOGL has position - skipping
+2024-05-29 15:55:00 Canceled OCO orders for MSFT
+2024-05-29 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-05-30 09:31:00 ==================================================
+2024-05-30 09:31:00 Market open at 2024-05-30 09:30:00
+2024-05-30 09:31:00 AAPL open: $189.15
+2024-05-30 09:31:00   AAPL has position - skipping
+2024-05-30 09:31:00 MSFT open: $424.85
+2024-05-30 09:31:00 OCO placed: Long 23@$433.35, Short 24@$416.35
+2024-05-30 09:31:00   OCO orders placed for MSFT
+2024-05-30 09:31:00 GOOGL open: $174.53
+2024-05-30 09:31:00   GOOGL has position - skipping
+2024-05-30 10:10:00 Brackets placed: TP@$395.52, SL@$428.83
+2024-05-30 10:10:00 Entry recorded: MSFT short @ $416.34
+2024-05-30 10:10:00 [2024-05-30 10:10:00] [INFO] FILL: MSFT SELL 24.0 @ $416.34
+2024-05-31 09:31:00 ==================================================
+2024-05-31 09:31:00 Market open at 2024-05-31 09:30:00
+2024-05-31 09:31:00 AAPL open: $190.19
+2024-05-31 09:31:00   AAPL has position - skipping
+2024-05-31 09:31:00 MSFT open: $410.75
+2024-05-31 09:31:00   MSFT has position - skipping
+2024-05-31 09:31:00 GOOGL open: $170.97
+2024-05-31 09:31:00   GOOGL has position - skipping
+2024-06-03 09:31:00 ==================================================
+2024-06-03 09:31:00 Market open at 2024-06-03 09:30:00
+2024-06-03 09:31:00 AAPL open: $191.03
+2024-06-03 09:31:00   AAPL has position - skipping
+2024-06-03 09:31:00 MSFT open: $410.10
+2024-06-03 09:31:00   MSFT has position - skipping
+2024-06-03 09:31:00 GOOGL open: $171.30
+2024-06-03 09:31:00   GOOGL has position - skipping
+2024-06-04 09:31:00 ==================================================
+2024-06-04 09:31:00 Market open at 2024-06-04 09:30:00
+2024-06-04 09:31:00 AAPL open: $192.66
+2024-06-04 09:31:00   AAPL has position - skipping
+2024-06-04 09:31:00 MSFT open: $409.27
+2024-06-04 09:31:00   MSFT has position - skipping
+2024-06-04 09:31:00 GOOGL open: $171.80
+2024-06-04 09:31:00   GOOGL has position - skipping
+2024-06-05 09:31:00 ==================================================
+2024-06-05 09:31:00 Market open at 2024-06-05 09:30:00
+2024-06-05 09:31:00 AAPL open: $193.29
+2024-06-05 09:31:00   AAPL has position - skipping
+2024-06-05 09:31:00 MSFT open: $412.36
+2024-06-05 09:31:00   MSFT has position - skipping
+2024-06-05 09:31:00 GOOGL open: $172.52
+2024-06-05 09:31:00   GOOGL has position - skipping
+2024-06-05 09:33:00 Exit recorded: AAPL @ $195.02 (TakeProfit, +5.00%)
+2024-06-05 09:33:00 [2024-06-05 09:33:00] [INFO] TRADE: AAPL long entry=$185.73 exit=$195.02 pnl=$492.39 (+5.00%) reason=TakeProfit
+2024-06-05 09:33:00 [2024-06-05 09:33:00] [INFO] FILL: AAPL SELL 53.0 @ $195.02
+2024-06-05 15:55:00 [2024-06-05 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $492.39
+2024-06-06 09:31:00 ==================================================
+2024-06-06 09:31:00 Market open at 2024-06-06 09:30:00
+2024-06-06 09:31:00 AAPL open: $194.71
+2024-06-06 09:31:00 OCO placed: Long 50@$198.61, Short 52@$190.82
+2024-06-06 09:31:00   OCO orders placed for AAPL
+2024-06-06 09:31:00 MSFT open: $419.67
+2024-06-06 09:31:00   MSFT has position - skipping
+2024-06-06 09:31:00 GOOGL open: $174.06
+2024-06-06 09:31:00   GOOGL has position - skipping
+2024-06-06 15:55:00 Canceled OCO orders for AAPL
+2024-06-06 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-06-07 09:31:00 ==================================================
+2024-06-07 09:31:00 Market open at 2024-06-07 09:30:00
+2024-06-07 09:31:00 AAPL open: $193.22
+2024-06-07 09:31:00 OCO placed: Long 50@$197.09, Short 52@$189.36
+2024-06-07 09:31:00   OCO orders placed for AAPL
+2024-06-07 09:31:00 MSFT open: $420.51
+2024-06-07 09:31:00   MSFT has position - skipping
+2024-06-07 09:31:00 GOOGL open: $175.33
+2024-06-07 09:31:00   GOOGL has position - skipping
+2024-06-07 15:55:00 Canceled OCO orders for AAPL
+2024-06-07 15:55:00 Canceled unfilled OCO orders for AAPL
+2024-06-10 09:31:00 ==================================================
+2024-06-10 09:31:00 Market open at 2024-06-10 09:30:00
+2024-06-10 09:31:00 AAPL open: $195.71
+2024-06-10 09:31:00 OCO placed: Long 50@$199.63, Short 52@$191.80
+2024-06-10 09:31:00   OCO orders placed for AAPL
+2024-06-10 09:31:00 MSFT open: $420.30
+2024-06-10 09:31:00   MSFT has position - skipping
+2024-06-10 09:31:00 GOOGL open: $173.26
+2024-06-10 09:31:00   GOOGL has position - skipping
+2024-06-10 14:21:00 Brackets placed: TP@$182.03, SL@$197.36
+2024-06-10 14:21:00 Entry recorded: AAPL short @ $191.61
+2024-06-10 14:21:00 [2024-06-10 14:21:00] [INFO] FILL: AAPL SELL 52.0 @ $191.61
+2024-06-11 09:31:00 ==================================================
+2024-06-11 09:31:00 Market open at 2024-06-11 09:30:00
+2024-06-11 09:31:00 AAPL open: $191.59
+2024-06-11 09:31:00   AAPL has position - skipping
+2024-06-11 09:31:00 MSFT open: $423.33
+2024-06-11 09:31:00   MSFT has position - skipping
+2024-06-11 09:31:00 GOOGL open: $173.92
+2024-06-11 09:31:00   GOOGL has position - skipping
+2024-06-12 09:31:00 ==================================================
+2024-06-12 09:31:00 Market open at 2024-06-12 09:30:00
+2024-06-12 09:31:00 AAPL open: $205.66
+2024-06-12 09:31:00   AAPL has position - skipping
+2024-06-12 09:31:00 MSFT open: $428.44
+2024-06-12 09:31:00   MSFT has position - skipping
+2024-06-12 09:31:00 GOOGL open: $175.61
+2024-06-12 09:31:00   GOOGL has position - skipping
+2024-06-13 09:31:00 ==================================================
+2024-06-13 09:31:00 Market open at 2024-06-13 09:30:00
+2024-06-13 09:31:00 AAPL open: $211.80
+2024-06-13 09:31:00   AAPL has position - skipping
+2024-06-13 09:31:00 MSFT open: $437.70
+2024-06-13 09:31:00   MSFT has position - skipping
+2024-06-13 09:31:00 GOOGL open: $176.97
+2024-06-13 09:31:00   GOOGL has position - skipping
+2024-06-14 09:31:00 ==================================================
+2024-06-14 09:31:00 Market open at 2024-06-14 09:30:00
+2024-06-14 09:31:00 AAPL open: $213.46
+2024-06-14 09:31:00   AAPL has position - skipping
+2024-06-14 09:31:00 MSFT open: $437.87
+2024-06-14 09:31:00   MSFT has position - skipping
+2024-06-14 09:31:00 GOOGL open: $174.26
+2024-06-14 09:31:00   GOOGL has position - skipping
+2024-06-17 09:31:00 ==================================================
+2024-06-17 09:31:00 Market open at 2024-06-17 09:30:00
+2024-06-17 09:31:00 AAPL open: $211.34
+2024-06-17 09:31:00   AAPL has position - skipping
+2024-06-17 09:31:00 MSFT open: $438.23
+2024-06-17 09:31:00   MSFT has position - skipping
+2024-06-17 09:31:00 GOOGL open: $175.62
+2024-06-17 09:31:00   GOOGL has position - skipping
+2024-06-18 09:31:00 ==================================================
+2024-06-18 09:31:00 Market open at 2024-06-18 09:30:00
+2024-06-18 09:31:00 AAPL open: $215.27
+2024-06-18 09:31:00   AAPL has position - skipping
+2024-06-18 09:31:00 MSFT open: $444.17
+2024-06-18 09:31:00   MSFT has position - skipping
+2024-06-18 09:31:00 GOOGL open: $176.25
+2024-06-18 09:31:00   GOOGL has position - skipping
+2024-06-20 09:31:00 ==================================================
+2024-06-20 09:31:00 Market open at 2024-06-20 09:30:00
+2024-06-20 09:31:00 AAPL open: $212.95
+2024-06-20 09:31:00   AAPL has position - skipping
+2024-06-20 09:31:00 MSFT open: $442.61
+2024-06-20 09:31:00   MSFT has position - skipping
+2024-06-20 09:31:00 GOOGL open: $174.16
+2024-06-20 09:31:00   GOOGL has position - skipping
+2024-06-21 09:31:00 ==================================================
+2024-06-21 09:31:00 Market open at 2024-06-21 09:30:00
+2024-06-21 09:31:00 AAPL open: $208.36
+2024-06-21 09:31:00   AAPL has position - skipping
+2024-06-21 09:31:00 MSFT open: $441.65
+2024-06-21 09:31:00   MSFT has position - skipping
+2024-06-21 09:31:00 GOOGL open: $175.30
+2024-06-21 09:31:00   GOOGL has position - skipping
+2024-06-24 09:31:00 ==================================================
+2024-06-24 09:31:00 Market open at 2024-06-24 09:30:00
+2024-06-24 09:31:00 AAPL open: $206.82
+2024-06-24 09:31:00   AAPL has position - skipping
+2024-06-24 09:31:00 MSFT open: $445.99
+2024-06-24 09:31:00   MSFT has position - skipping
+2024-06-24 09:31:00 GOOGL open: $178.21
+2024-06-24 09:31:00   GOOGL has position - skipping
+2024-06-25 09:31:00 ==================================================
+2024-06-25 09:31:00 Market open at 2024-06-25 09:30:00
+2024-06-25 09:31:00 AAPL open: $207.10
+2024-06-25 09:31:00   AAPL has position - skipping
+2024-06-25 09:31:00 MSFT open: $443.50
+2024-06-25 09:31:00   MSFT has position - skipping
+2024-06-25 09:31:00 GOOGL open: $178.11
+2024-06-25 09:31:00   GOOGL has position - skipping
+2024-06-26 09:31:00 ==================================================
+2024-06-26 09:31:00 Market open at 2024-06-26 09:30:00
+2024-06-26 09:31:00 AAPL open: $208.08
+2024-06-26 09:31:00   AAPL has position - skipping
+2024-06-26 09:31:00 MSFT open: $446.79
+2024-06-26 09:31:00   MSFT has position - skipping
+2024-06-26 09:31:00 GOOGL open: $183.12
+2024-06-26 09:31:00   GOOGL has position - skipping
+2024-06-27 09:31:00 ==================================================
+2024-06-27 09:31:00 Market open at 2024-06-27 09:30:00
+2024-06-27 09:31:00 AAPL open: $212.11
+2024-06-27 09:31:00   AAPL has position - skipping
+2024-06-27 09:31:00 MSFT open: $448.06
+2024-06-27 09:31:00   MSFT has position - skipping
+2024-06-27 09:31:00 GOOGL open: $182.90
+2024-06-27 09:31:00   GOOGL has position - skipping
+2024-06-28 09:31:00 ==================================================
+2024-06-28 09:31:00 Market open at 2024-06-28 09:30:00
+2024-06-28 09:31:00 AAPL open: $212.58
+2024-06-28 09:31:00   AAPL has position - skipping
+2024-06-28 09:31:00 MSFT open: $448.31
+2024-06-28 09:31:00   MSFT has position - skipping
+2024-06-28 09:31:00 GOOGL open: $184.22
+2024-06-28 09:31:00   GOOGL has position - skipping
+2024-07-01 09:31:00 ==================================================
+2024-07-01 09:31:00 Market open at 2024-07-01 09:30:00
+2024-07-01 09:31:00 AAPL open: $209.75
+2024-07-01 09:31:00   AAPL has position - skipping
+2024-07-01 09:31:00 MSFT open: $444.00
+2024-07-01 09:31:00   MSFT has position - skipping
+2024-07-01 09:31:00 GOOGL open: $181.20
+2024-07-01 09:31:00   GOOGL has position - skipping
+2024-07-02 09:31:00 ==================================================
+2024-07-02 09:31:00 Market open at 2024-07-02 09:30:00
+2024-07-02 09:31:00 AAPL open: $215.52
+2024-07-02 09:31:00   AAPL has position - skipping
+2024-07-02 09:31:00 MSFT open: $452.62
+2024-07-02 09:31:00   MSFT has position - skipping
+2024-07-02 09:31:00 GOOGL open: $181.97
+2024-07-02 09:31:00   GOOGL has position - skipping
+2024-07-03 09:31:00 ==================================================
+2024-07-03 09:31:00 Market open at 2024-07-03 09:30:00
+2024-07-03 09:31:00 AAPL open: $219.03
+2024-07-03 09:31:00   AAPL has position - skipping
+2024-07-03 09:31:00 MSFT open: $455.16
+2024-07-03 09:31:00   MSFT has position - skipping
+2024-07-03 09:31:00 GOOGL open: $184.13
+2024-07-03 09:31:00   GOOGL has position - skipping
+2024-07-05 09:31:00 ==================================================
+2024-07-05 09:31:00 Market open at 2024-07-05 09:30:00
+2024-07-05 09:31:00 AAPL open: $220.05
+2024-07-05 09:31:00   AAPL has position - skipping
+2024-07-05 09:31:00 MSFT open: $455.86
+2024-07-05 09:31:00   MSFT has position - skipping
+2024-07-05 09:31:00 GOOGL open: $184.75
+2024-07-05 09:31:00   GOOGL has position - skipping
+2024-07-08 09:31:00 ==================================================
+2024-07-08 09:31:00 Market open at 2024-07-08 09:30:00
+2024-07-08 09:31:00 AAPL open: $225.12
+2024-07-08 09:31:00   AAPL has position - skipping
+2024-07-08 09:31:00 MSFT open: $463.46
+2024-07-08 09:31:00   MSFT has position - skipping
+2024-07-08 09:31:00 GOOGL open: $189.58
+2024-07-08 09:31:00   GOOGL has position - skipping
+2024-07-09 09:31:00 ==================================================
+2024-07-09 09:31:00 Market open at 2024-07-09 09:30:00
+2024-07-09 09:31:00 AAPL open: $226.37
+2024-07-09 09:31:00   AAPL has position - skipping
+2024-07-09 09:31:00 MSFT open: $461.59
+2024-07-09 09:31:00   MSFT has position - skipping
+2024-07-09 09:31:00 GOOGL open: $187.89
+2024-07-09 09:31:00   GOOGL has position - skipping
+2024-07-10 09:31:00 ==================================================
+2024-07-10 09:31:00 Market open at 2024-07-10 09:30:00
+2024-07-10 09:31:00 AAPL open: $227.43
+2024-07-10 09:31:00   AAPL has position - skipping
+2024-07-10 09:31:00 MSFT open: $455.12
+2024-07-10 09:31:00   MSFT has position - skipping
+2024-07-10 09:31:00 GOOGL open: $187.91
+2024-07-10 09:31:00   GOOGL has position - skipping
+2024-07-11 09:31:00 ==================================================
+2024-07-11 09:31:00 Market open at 2024-07-11 09:30:00
+2024-07-11 09:31:00 AAPL open: $231.66
+2024-07-11 09:31:00   AAPL has position - skipping
+2024-07-11 09:31:00 MSFT open: $461.99
+2024-07-11 09:31:00   MSFT has position - skipping
+2024-07-11 09:31:00 GOOGL open: $190.20
+2024-07-11 09:31:00   GOOGL has position - skipping
+2024-07-12 09:31:00 ==================================================
+2024-07-12 09:31:00 Market open at 2024-07-12 09:30:00
+2024-07-12 09:31:00 AAPL open: $226.45
+2024-07-12 09:31:00   AAPL has position - skipping
+2024-07-12 09:31:00 MSFT open: $450.93
+2024-07-12 09:31:00   MSFT has position - skipping
+2024-07-12 09:31:00 GOOGL open: $184.62
+2024-07-12 09:31:00   GOOGL has position - skipping
+2024-07-15 09:31:00 ==================================================
+2024-07-15 09:31:00 Market open at 2024-07-15 09:30:00
+2024-07-15 09:31:00 AAPL open: $228.92
+2024-07-15 09:31:00   AAPL has position - skipping
+2024-07-15 09:31:00 MSFT open: $448.85
+2024-07-15 09:31:00   MSFT has position - skipping
+2024-07-15 09:31:00 GOOGL open: $183.76
+2024-07-15 09:31:00   GOOGL has position - skipping
+2024-07-16 09:31:00 ==================================================
+2024-07-16 09:31:00 Market open at 2024-07-16 09:30:00
+2024-07-16 09:31:00 AAPL open: $232.77
+2024-07-16 09:31:00   AAPL has position - skipping
+2024-07-16 09:31:00 MSFT open: $448.77
+2024-07-16 09:31:00   MSFT has position - skipping
+2024-07-16 09:31:00 GOOGL open: $185.20
+2024-07-16 09:31:00   GOOGL has position - skipping
+2024-07-17 09:31:00 ==================================================
+2024-07-17 09:31:00 Market open at 2024-07-17 09:30:00
+2024-07-17 09:31:00 AAPL open: $233.59
+2024-07-17 09:31:00   AAPL has position - skipping
+2024-07-17 09:31:00 MSFT open: $445.68
+2024-07-17 09:31:00   MSFT has position - skipping
+2024-07-17 09:31:00 GOOGL open: $182.95
+2024-07-17 09:31:00   GOOGL has position - skipping
+2024-07-18 09:31:00 ==================================================
+2024-07-18 09:31:00 Market open at 2024-07-18 09:30:00
+2024-07-18 09:31:00 AAPL open: $227.82
+2024-07-18 09:31:00   AAPL has position - skipping
+2024-07-18 09:31:00 MSFT open: $439.74
+2024-07-18 09:31:00   MSFT has position - skipping
+2024-07-18 09:31:00 GOOGL open: $180.06
+2024-07-18 09:31:00   GOOGL has position - skipping
+2024-07-19 09:31:00 ==================================================
+2024-07-19 09:31:00 Market open at 2024-07-19 09:30:00
+2024-07-19 09:31:00 AAPL open: $222.72
+2024-07-19 09:31:00   AAPL has position - skipping
+2024-07-19 09:31:00 MSFT open: $436.11
+2024-07-19 09:31:00   MSFT has position - skipping
+2024-07-19 09:31:00 GOOGL open: $176.40
+2024-07-19 09:31:00   GOOGL has position - skipping
+2024-07-19 09:31:00 Exit recorded: MSFT @ $429.26 (StopLoss, -3.10%)
+2024-07-19 09:31:00 [2024-07-19 09:31:00] [INFO] TRADE: MSFT short entry=$416.34 exit=$429.26 pnl=$-310.12 (-3.10%) reason=StopLoss
+2024-07-19 09:31:00 [2024-07-19 09:31:00] [INFO] FILL: MSFT BUY 24.0 @ $429.26
+2024-07-19 15:55:00 [2024-07-19 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-310.12
+2024-07-22 09:31:00 ==================================================
+2024-07-22 09:31:00 Market open at 2024-07-22 09:30:00
+2024-07-22 09:31:00 AAPL open: $222.93
+2024-07-22 09:31:00   AAPL has position - skipping
+2024-07-22 09:31:00 MSFT open: $432.49
+2024-07-22 09:31:00 OCO placed: Long 22@$441.14, Short 23@$423.84
+2024-07-22 09:31:00   OCO orders placed for MSFT
+2024-07-22 09:31:00 GOOGL open: $176.54
+2024-07-22 09:31:00   GOOGL has position - skipping
+2024-07-22 15:55:00 Canceled OCO orders for MSFT
+2024-07-22 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-07-23 09:31:00 ==================================================
+2024-07-23 09:31:00 Market open at 2024-07-23 09:30:00
+2024-07-23 09:31:00 AAPL open: $222.72
+2024-07-23 09:31:00   AAPL has position - skipping
+2024-07-23 09:31:00 MSFT open: $438.83
+2024-07-23 09:31:00 OCO placed: Long 22@$447.61, Short 23@$430.06
+2024-07-23 09:31:00   OCO orders placed for MSFT
+2024-07-23 09:31:00 GOOGL open: $180.65
+2024-07-23 09:31:00   GOOGL has position - skipping
+2024-07-23 15:55:00 Canceled OCO orders for MSFT
+2024-07-23 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-07-24 09:31:00 ==================================================
+2024-07-24 09:31:00 Market open at 2024-07-24 09:30:00
+2024-07-24 09:31:00 AAPL open: $223.56
+2024-07-24 09:31:00   AAPL has position - skipping
+2024-07-24 09:31:00 MSFT open: $440.29
+2024-07-24 09:31:00 OCO placed: Long 22@$449.09, Short 23@$431.48
+2024-07-24 09:31:00   OCO orders placed for MSFT
+2024-07-24 09:31:00 GOOGL open: $180.65
+2024-07-24 09:31:00   GOOGL has position - skipping
+2024-07-24 10:42:00 Brackets placed: TP@$409.88, SL@$444.40
+2024-07-24 10:42:00 Entry recorded: MSFT short @ $431.46
+2024-07-24 10:42:00 [2024-07-24 10:42:00] [INFO] FILL: MSFT SELL 23.0 @ $431.46
+2024-07-25 09:31:00 ==================================================
+2024-07-25 09:31:00 Market open at 2024-07-25 09:30:00
+2024-07-25 09:31:00 AAPL open: $217.28
+2024-07-25 09:31:00   AAPL has position - skipping
+2024-07-25 09:31:00 MSFT open: $424.89
+2024-07-25 09:31:00   MSFT has position - skipping
+2024-07-25 09:31:00 GOOGL open: $171.46
+2024-07-25 09:31:00   GOOGL has position - skipping
+2024-07-26 09:31:00 ==================================================
+2024-07-26 09:31:00 Market open at 2024-07-26 09:30:00
+2024-07-26 09:31:00 AAPL open: $216.34
+2024-07-26 09:31:00   AAPL has position - skipping
+2024-07-26 09:31:00 MSFT open: $414.36
+2024-07-26 09:31:00   MSFT has position - skipping
+2024-07-26 09:31:00 GOOGL open: $166.42
+2024-07-26 09:31:00   GOOGL has position - skipping
+2024-07-29 09:31:00 ==================================================
+2024-07-29 09:31:00 Market open at 2024-07-29 09:30:00
+2024-07-29 09:31:00 AAPL open: $216.46
+2024-07-29 09:31:00   AAPL has position - skipping
+2024-07-29 09:31:00 MSFT open: $421.27
+2024-07-29 09:31:00   MSFT has position - skipping
+2024-07-29 09:31:00 GOOGL open: $165.75
+2024-07-29 09:31:00   GOOGL has position - skipping
+2024-07-30 09:31:00 ==================================================
+2024-07-30 09:31:00 Market open at 2024-07-30 09:30:00
+2024-07-30 09:31:00 AAPL open: $216.91
+2024-07-30 09:31:00   AAPL has position - skipping
+2024-07-30 09:31:00 MSFT open: $422.80
+2024-07-30 09:31:00   MSFT has position - skipping
+2024-07-30 09:31:00 GOOGL open: $168.45
+2024-07-30 09:31:00   GOOGL has position - skipping
+2024-07-31 09:31:00 ==================================================
+2024-07-31 09:31:00 Market open at 2024-07-31 09:30:00
+2024-07-31 09:31:00 AAPL open: $218.06
+2024-07-31 09:31:00   AAPL has position - skipping
+2024-07-31 09:31:00 MSFT open: $420.23
+2024-07-31 09:31:00   MSFT has position - skipping
+2024-07-31 09:31:00 GOOGL open: $169.59
+2024-07-31 09:31:00   GOOGL has position - skipping
+2024-07-31 09:47:00 Exit recorded: MSFT @ $409.88 (TakeProfit, +5.00%)
+2024-07-31 09:47:00 [2024-07-31 09:47:00] [INFO] TRADE: MSFT short entry=$431.46 exit=$409.88 pnl=$496.28 (+5.00%) reason=TakeProfit
+2024-07-31 09:47:00 [2024-07-31 09:47:00] [INFO] FILL: MSFT BUY 23.0 @ $409.88
+2024-07-31 15:55:00 [2024-07-31 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $496.28
+2024-08-01 09:31:00 ==================================================
+2024-08-01 09:31:00 Market open at 2024-08-01 09:30:00
+2024-08-01 09:31:00 AAPL open: $220.90
+2024-08-01 09:31:00   AAPL has position - skipping
+2024-08-01 09:31:00 MSFT open: $414.72
+2024-08-01 09:31:00 OCO placed: Long 23@$423.02, Short 24@$406.43
+2024-08-01 09:31:00   OCO orders placed for MSFT
+2024-08-01 09:31:00 GOOGL open: $170.69
+2024-08-01 09:31:00   GOOGL has position - skipping
+2024-08-01 09:50:00 Brackets placed: TP@$444.41, SL@$410.55
+2024-08-01 09:50:00 Entry recorded: MSFT long @ $423.24
+2024-08-01 09:50:00 [2024-08-01 09:50:00] [INFO] FILL: MSFT BUY 23.0 @ $423.24
+2024-08-01 13:41:00 Exit recorded: MSFT @ $410.37 (StopLoss, -3.04%)
+2024-08-01 13:41:00 [2024-08-01 13:41:00] [INFO] TRADE: MSFT long entry=$423.24 exit=$410.37 pnl=$-296.01 (-3.04%) reason=StopLoss
+2024-08-01 13:41:00 [2024-08-01 13:41:00] [INFO] FILL: MSFT SELL 23.0 @ $410.37
+2024-08-01 15:55:00 [2024-08-01 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-296.01
+2024-08-02 09:31:00 ==================================================
+2024-08-02 09:31:00 Market open at 2024-08-02 09:30:00
+2024-08-02 09:31:00 AAPL open: $216.86
+2024-08-02 09:31:00   AAPL has position - skipping
+2024-08-02 09:31:00 MSFT open: $413.15
+2024-08-02 09:31:00 OCO placed: Long 23@$421.41, Short 24@$404.89
+2024-08-02 09:31:00   OCO orders placed for MSFT
+2024-08-02 09:31:00 GOOGL open: $169.65
+2024-08-02 09:31:00   GOOGL has position - skipping
+2024-08-02 09:46:00 Brackets placed: TP@$384.51, SL@$416.89
+2024-08-02 09:46:00 Entry recorded: MSFT short @ $404.75
+2024-08-02 09:46:00 [2024-08-02 09:46:00] [INFO] FILL: MSFT SELL 24.0 @ $404.75
+2024-08-05 09:31:00 ==================================================
+2024-08-05 09:31:00 Market open at 2024-08-05 09:30:00
+2024-08-05 09:31:00 AAPL open: $218.02
+2024-08-05 09:31:00   AAPL has position - skipping
+2024-08-05 09:31:00 MSFT open: $404.34
+2024-08-05 09:31:00   MSFT has position - skipping
+2024-08-05 09:31:00 GOOGL open: $165.59
+2024-08-05 09:31:00   GOOGL has position - skipping
+2024-08-05 09:31:00 Exit recorded: GOOGL @ $156.40 (StopLoss, -1.01%)
+2024-08-05 09:31:00 [2024-08-05 09:31:00] [INFO] TRADE: GOOGL short entry=$154.84 exit=$156.40 pnl=$-99.96 (-1.01%) reason=StopLoss
+2024-08-05 09:31:00 [2024-08-05 09:31:00] [INFO] FILL: GOOGL BUY 64.0 @ $156.40
+2024-08-05 09:31:00 Exit recorded: MSFT @ $384.51 (TakeProfit, +5.00%)
+2024-08-05 09:31:00 [2024-08-05 09:31:00] [INFO] TRADE: MSFT short entry=$404.75 exit=$384.51 pnl=$485.67 (+5.00%) reason=TakeProfit
+2024-08-05 09:31:00 [2024-08-05 09:31:00] [INFO] FILL: MSFT BUY 24.0 @ $384.51
+2024-08-05 15:55:00 [2024-08-05 15:55:00] [INFO] Daily Summary: 2 trades, W/L: 1/1, PnL: $385.72
+2024-08-06 09:31:00 ==================================================
+2024-08-06 09:31:00 Market open at 2024-08-06 09:30:00
+2024-08-06 09:31:00 AAPL open: $207.74
+2024-08-06 09:31:00   AAPL has position - skipping
+2024-08-06 09:31:00 MSFT open: $391.38
+2024-08-06 09:31:00 OCO placed: Long 25@$399.21, Short 26@$383.55
+2024-08-06 09:31:00   OCO orders placed for MSFT
+2024-08-06 09:31:00 GOOGL open: $158.23
+2024-08-06 09:31:00 OCO placed: Long 61@$161.40, Short 64@$155.07
+2024-08-06 09:31:00   OCO orders placed for GOOGL
+2024-08-06 10:10:00 Brackets placed: TP@$419.31, SL@$387.37
+2024-08-06 10:10:00 Entry recorded: MSFT long @ $399.35
+2024-08-06 10:10:00 [2024-08-06 10:10:00] [INFO] FILL: MSFT BUY 25.0 @ $399.35
+2024-08-06 15:55:00 Canceled OCO orders for GOOGL
+2024-08-06 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-08-07 09:31:00 ==================================================
+2024-08-07 09:31:00 Market open at 2024-08-07 09:30:00
+2024-08-07 09:31:00 AAPL open: $205.40
+2024-08-07 09:31:00   AAPL has position - skipping
+2024-08-07 09:31:00 MSFT open: $395.88
+2024-08-07 09:31:00   MSFT has position - skipping
+2024-08-07 09:31:00 GOOGL open: $157.50
+2024-08-07 09:31:00 OCO placed: Long 62@$160.65, Short 64@$154.35
+2024-08-07 09:31:00   OCO orders placed for GOOGL
+2024-08-07 09:33:00 Brackets placed: TP@$168.85, SL@$155.99
+2024-08-07 09:33:00 Entry recorded: GOOGL long @ $160.81
+2024-08-07 09:33:00 [2024-08-07 09:33:00] [INFO] FILL: GOOGL BUY 62.0 @ $160.81
+2024-08-08 09:31:00 ==================================================
+2024-08-08 09:31:00 Market open at 2024-08-08 09:30:00
+2024-08-08 09:31:00 AAPL open: $208.43
+2024-08-08 09:31:00   AAPL has position - skipping
+2024-08-08 09:31:00 MSFT open: $394.25
+2024-08-08 09:31:00   MSFT has position - skipping
+2024-08-08 09:31:00 GOOGL open: $157.79
+2024-08-08 09:31:00   GOOGL has position - skipping
+2024-08-09 09:31:00 ==================================================
+2024-08-09 09:31:00 Market open at 2024-08-09 09:30:00
+2024-08-09 09:31:00 AAPL open: $211.62
+2024-08-09 09:31:00   AAPL has position - skipping
+2024-08-09 09:31:00 MSFT open: $398.12
+2024-08-09 09:31:00   MSFT has position - skipping
+2024-08-09 09:31:00 GOOGL open: $160.78
+2024-08-09 09:31:00   GOOGL has position - skipping
+2024-08-12 09:31:00 ==================================================
+2024-08-12 09:31:00 Market open at 2024-08-12 09:30:00
+2024-08-12 09:31:00 AAPL open: $215.04
+2024-08-12 09:31:00   AAPL has position - skipping
+2024-08-12 09:31:00 MSFT open: $402.55
+2024-08-12 09:31:00   MSFT has position - skipping
+2024-08-12 09:31:00 GOOGL open: $162.75
+2024-08-12 09:31:00   GOOGL has position - skipping
+2024-08-13 09:31:00 ==================================================
+2024-08-13 09:31:00 Market open at 2024-08-13 09:30:00
+2024-08-13 09:31:00 AAPL open: $216.01
+2024-08-13 09:31:00   AAPL has position - skipping
+2024-08-13 09:31:00 MSFT open: $402.63
+2024-08-13 09:31:00   MSFT has position - skipping
+2024-08-13 09:31:00 GOOGL open: $161.18
+2024-08-13 09:31:00   GOOGL has position - skipping
+2024-08-14 09:31:00 ==================================================
+2024-08-14 09:31:00 Market open at 2024-08-14 09:30:00
+2024-08-14 09:31:00 AAPL open: $220.06
+2024-08-14 09:31:00   AAPL has position - skipping
+2024-08-14 09:31:00 MSFT open: $409.96
+2024-08-14 09:31:00   MSFT has position - skipping
+2024-08-14 09:31:00 GOOGL open: $163.12
+2024-08-14 09:31:00   GOOGL has position - skipping
+2024-08-15 09:31:00 ==================================================
+2024-08-15 09:31:00 Market open at 2024-08-15 09:30:00
+2024-08-15 09:31:00 AAPL open: $221.03
+2024-08-15 09:31:00   AAPL has position - skipping
+2024-08-15 09:31:00 MSFT open: $413.70
+2024-08-15 09:31:00   MSFT has position - skipping
+2024-08-15 09:31:00 GOOGL open: $159.64
+2024-08-15 09:31:00   GOOGL has position - skipping
+2024-08-16 09:31:00 ==================================================
+2024-08-16 09:31:00 Market open at 2024-08-16 09:30:00
+2024-08-16 09:31:00 AAPL open: $223.23
+2024-08-16 09:31:00   AAPL has position - skipping
+2024-08-16 09:31:00 MSFT open: $416.92
+2024-08-16 09:31:00   MSFT has position - skipping
+2024-08-16 09:31:00 GOOGL open: $160.15
+2024-08-16 09:31:00   GOOGL has position - skipping
+2024-08-19 09:31:00 ==================================================
+2024-08-19 09:31:00 Market open at 2024-08-19 09:30:00
+2024-08-19 09:31:00 AAPL open: $224.81
+2024-08-19 09:31:00   AAPL has position - skipping
+2024-08-19 09:31:00 MSFT open: $415.31
+2024-08-19 09:31:00   MSFT has position - skipping
+2024-08-19 09:31:00 GOOGL open: $161.97
+2024-08-19 09:31:00   GOOGL has position - skipping
+2024-08-20 09:31:00 ==================================================
+2024-08-20 09:31:00 Market open at 2024-08-20 09:30:00
+2024-08-20 09:31:00 AAPL open: $224.77
+2024-08-20 09:31:00   AAPL has position - skipping
+2024-08-20 09:31:00 MSFT open: $417.99
+2024-08-20 09:31:00   MSFT has position - skipping
+2024-08-20 09:31:00 GOOGL open: $165.62
+2024-08-20 09:31:00   GOOGL has position - skipping
+2024-08-20 09:31:00 Exit recorded: MSFT @ $419.31 (TakeProfit, +5.00%)
+2024-08-20 09:31:00 [2024-08-20 09:31:00] [INFO] TRADE: MSFT long entry=$399.35 exit=$419.31 pnl=$499.08 (+5.00%) reason=TakeProfit
+2024-08-20 09:31:00 [2024-08-20 09:31:00] [INFO] FILL: MSFT SELL 25.0 @ $419.31
+2024-08-20 15:55:00 [2024-08-20 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $499.08
+2024-08-21 09:31:00 ==================================================
+2024-08-21 09:31:00 Market open at 2024-08-21 09:30:00
+2024-08-21 09:31:00 AAPL open: $225.52
+2024-08-21 09:31:00   AAPL has position - skipping
+2024-08-21 09:31:00 MSFT open: $422.13
+2024-08-21 09:31:00 OCO placed: Long 23@$430.57, Short 24@$413.69
+2024-08-21 09:31:00   OCO orders placed for MSFT
+2024-08-21 09:31:00 GOOGL open: $166.22
+2024-08-21 09:31:00   GOOGL has position - skipping
+2024-08-21 15:55:00 Canceled OCO orders for MSFT
+2024-08-21 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-08-22 09:31:00 ==================================================
+2024-08-22 09:31:00 Market open at 2024-08-22 09:30:00
+2024-08-22 09:31:00 AAPL open: $225.46
+2024-08-22 09:31:00   AAPL has position - skipping
+2024-08-22 09:31:00 MSFT open: $420.86
+2024-08-22 09:31:00 OCO placed: Long 23@$429.28, Short 24@$412.44
+2024-08-22 09:31:00   OCO orders placed for MSFT
+2024-08-22 09:31:00 GOOGL open: $164.87
+2024-08-22 09:31:00   GOOGL has position - skipping
+2024-08-22 13:32:00 Brackets placed: TP@$391.63, SL@$424.61
+2024-08-22 13:32:00 Entry recorded: MSFT short @ $412.25
+2024-08-22 13:32:00 [2024-08-22 13:32:00] [INFO] FILL: MSFT SELL 24.0 @ $412.25
+2024-08-23 09:31:00 ==================================================
+2024-08-23 09:31:00 Market open at 2024-08-23 09:30:00
+2024-08-23 09:31:00 AAPL open: $223.05
+2024-08-23 09:31:00   AAPL has position - skipping
+2024-08-23 09:31:00 MSFT open: $411.76
+2024-08-23 09:31:00   MSFT has position - skipping
+2024-08-23 09:31:00 GOOGL open: $162.58
+2024-08-23 09:31:00   GOOGL has position - skipping
+2024-08-26 09:31:00 ==================================================
+2024-08-26 09:31:00 Market open at 2024-08-26 09:30:00
+2024-08-26 09:31:00 AAPL open: $225.85
+2024-08-26 09:31:00   AAPL has position - skipping
+2024-08-26 09:31:00 MSFT open: $413.71
+2024-08-26 09:31:00   MSFT has position - skipping
+2024-08-26 09:31:00 GOOGL open: $164.69
+2024-08-26 09:31:00   GOOGL has position - skipping
+2024-08-27 09:31:00 ==================================================
+2024-08-27 09:31:00 Market open at 2024-08-27 09:30:00
+2024-08-27 09:31:00 AAPL open: $225.81
+2024-08-27 09:31:00   AAPL has position - skipping
+2024-08-27 09:31:00 MSFT open: $409.90
+2024-08-27 09:31:00   MSFT has position - skipping
+2024-08-27 09:31:00 GOOGL open: $165.01
+2024-08-27 09:31:00   GOOGL has position - skipping
+2024-08-28 09:31:00 ==================================================
+2024-08-28 09:31:00 Market open at 2024-08-28 09:30:00
+2024-08-28 09:31:00 AAPL open: $226.86
+2024-08-28 09:31:00   AAPL has position - skipping
+2024-08-28 09:31:00 MSFT open: $410.41
+2024-08-28 09:31:00   MSFT has position - skipping
+2024-08-28 09:31:00 GOOGL open: $163.63
+2024-08-28 09:31:00   GOOGL has position - skipping
+2024-08-29 09:31:00 ==================================================
+2024-08-29 09:31:00 Market open at 2024-08-29 09:30:00
+2024-08-29 09:31:00 AAPL open: $225.38
+2024-08-29 09:31:00   AAPL has position - skipping
+2024-08-29 09:31:00 MSFT open: $407.55
+2024-08-29 09:31:00   MSFT has position - skipping
+2024-08-29 09:31:00 GOOGL open: $161.94
+2024-08-29 09:31:00   GOOGL has position - skipping
+2024-08-30 09:31:00 ==================================================
+2024-08-30 09:31:00 Market open at 2024-08-30 09:30:00
+2024-08-30 09:31:00 AAPL open: $228.56
+2024-08-30 09:31:00   AAPL has position - skipping
+2024-08-30 09:31:00 MSFT open: $409.93
+2024-08-30 09:31:00   MSFT has position - skipping
+2024-08-30 09:31:00 GOOGL open: $160.87
+2024-08-30 09:31:00   GOOGL has position - skipping
+2024-09-03 09:31:00 ==================================================
+2024-09-03 09:31:00 Market open at 2024-09-03 09:30:00
+2024-09-03 09:31:00 AAPL open: $227.91
+2024-09-03 09:31:00   AAPL has position - skipping
+2024-09-03 09:31:00 MSFT open: $413.86
+2024-09-03 09:31:00   MSFT has position - skipping
+2024-09-03 09:31:00 GOOGL open: $162.37
+2024-09-03 09:31:00   GOOGL has position - skipping
+2024-09-03 15:36:00 Exit recorded: GOOGL @ $155.96 (StopLoss, -3.01%)
+2024-09-03 15:36:00 [2024-09-03 15:36:00] [INFO] TRADE: GOOGL long entry=$160.81 exit=$155.96 pnl=$-300.43 (-3.01%) reason=StopLoss
+2024-09-03 15:36:00 [2024-09-03 15:36:00] [INFO] FILL: GOOGL SELL 62.0 @ $155.96
+2024-09-03 15:55:00 [2024-09-03 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-300.43
+2024-09-04 09:31:00 ==================================================
+2024-09-04 09:31:00 Market open at 2024-09-04 09:30:00
+2024-09-04 09:31:00 AAPL open: $221.44
+2024-09-04 09:31:00   AAPL has position - skipping
+2024-09-04 09:31:00 MSFT open: $406.50
+2024-09-04 09:31:00   MSFT has position - skipping
+2024-09-04 09:31:00 GOOGL open: $156.20
+2024-09-04 09:31:00 OCO placed: Long 62@$159.33, Short 65@$153.08
+2024-09-04 09:31:00   OCO orders placed for GOOGL
+2024-09-04 15:55:00 Canceled OCO orders for GOOGL
+2024-09-04 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-09-05 09:31:00 ==================================================
+2024-09-05 09:31:00 Market open at 2024-09-05 09:30:00
+2024-09-05 09:31:00 AAPL open: $220.08
+2024-09-05 09:31:00   AAPL has position - skipping
+2024-09-05 09:31:00 MSFT open: $406.54
+2024-09-05 09:31:00   MSFT has position - skipping
+2024-09-05 09:31:00 GOOGL open: $155.76
+2024-09-05 09:31:00 OCO placed: Long 62@$158.87, Short 65@$152.64
+2024-09-05 09:31:00   OCO orders placed for GOOGL
+2024-09-05 15:55:00 Canceled OCO orders for GOOGL
+2024-09-05 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-09-06 09:31:00 ==================================================
+2024-09-06 09:31:00 Market open at 2024-09-06 09:30:00
+2024-09-06 09:31:00 AAPL open: $220.96
+2024-09-06 09:31:00   AAPL has position - skipping
+2024-09-06 09:31:00 MSFT open: $404.40
+2024-09-06 09:31:00   MSFT has position - skipping
+2024-09-06 09:31:00 GOOGL open: $156.01
+2024-09-06 09:31:00 OCO placed: Long 62@$159.13, Short 65@$152.89
+2024-09-06 09:31:00   OCO orders placed for GOOGL
+2024-09-06 10:31:00 Brackets placed: TP@$145.19, SL@$157.42
+2024-09-06 10:31:00 Entry recorded: GOOGL short @ $152.83
+2024-09-06 10:31:00 [2024-09-06 10:31:00] [INFO] FILL: GOOGL SELL 65.0 @ $152.83
+2024-09-09 09:31:00 ==================================================
+2024-09-09 09:31:00 Market open at 2024-09-09 09:30:00
+2024-09-09 09:31:00 AAPL open: $219.75
+2024-09-09 09:31:00   AAPL has position - skipping
+2024-09-09 09:31:00 MSFT open: $398.71
+2024-09-09 09:31:00   MSFT has position - skipping
+2024-09-09 09:31:00 GOOGL open: $150.04
+2024-09-09 09:31:00   GOOGL has position - skipping
+2024-09-10 09:31:00 ==================================================
+2024-09-10 09:31:00 Market open at 2024-09-10 09:30:00
+2024-09-10 09:31:00 AAPL open: $219.93
+2024-09-10 09:31:00   AAPL has position - skipping
+2024-09-10 09:31:00 MSFT open: $402.52
+2024-09-10 09:31:00   MSFT has position - skipping
+2024-09-10 09:31:00 GOOGL open: $148.05
+2024-09-10 09:31:00   GOOGL has position - skipping
+2024-09-11 09:31:00 ==================================================
+2024-09-11 09:31:00 Market open at 2024-09-11 09:30:00
+2024-09-11 09:31:00 AAPL open: $219.25
+2024-09-11 09:31:00   AAPL has position - skipping
+2024-09-11 09:31:00 MSFT open: $411.60
+2024-09-11 09:31:00   MSFT has position - skipping
+2024-09-11 09:31:00 GOOGL open: $148.26
+2024-09-11 09:31:00   GOOGL has position - skipping
+2024-09-12 09:31:00 ==================================================
+2024-09-12 09:31:00 Market open at 2024-09-12 09:30:00
+2024-09-12 09:31:00 AAPL open: $221.81
+2024-09-12 09:31:00   AAPL has position - skipping
+2024-09-12 09:31:00 MSFT open: $420.22
+2024-09-12 09:31:00   MSFT has position - skipping
+2024-09-12 09:31:00 GOOGL open: $150.77
+2024-09-12 09:31:00   GOOGL has position - skipping
+2024-09-13 09:31:00 ==================================================
+2024-09-13 09:31:00 Market open at 2024-09-13 09:30:00
+2024-09-13 09:31:00 AAPL open: $221.70
+2024-09-13 09:31:00   AAPL has position - skipping
+2024-09-13 09:31:00 MSFT open: $423.23
+2024-09-13 09:31:00   MSFT has position - skipping
+2024-09-13 09:31:00 GOOGL open: $153.96
+2024-09-13 09:31:00   GOOGL has position - skipping
+2024-09-13 09:40:00 Exit recorded: MSFT @ $424.62 (StopLoss, -3.00%)
+2024-09-13 09:40:00 [2024-09-13 09:40:00] [INFO] TRADE: MSFT short entry=$412.25 exit=$424.62 pnl=$-297.05 (-3.00%) reason=StopLoss
+2024-09-13 09:40:00 [2024-09-13 09:40:00] [INFO] FILL: MSFT BUY 24.0 @ $424.62
+2024-09-13 10:40:00 Exit recorded: GOOGL @ $157.43 (StopLoss, -3.01%)
+2024-09-13 10:40:00 [2024-09-13 10:40:00] [INFO] TRADE: GOOGL short entry=$152.83 exit=$157.43 pnl=$-298.57 (-3.01%) reason=StopLoss
+2024-09-13 10:40:00 [2024-09-13 10:40:00] [INFO] FILL: GOOGL BUY 65.0 @ $157.43
+2024-09-13 15:55:00 [2024-09-13 15:55:00] [INFO] Daily Summary: 2 trades, W/L: 0/2, PnL: $-595.62
+2024-09-16 09:31:00 ==================================================
+2024-09-16 09:31:00 Market open at 2024-09-16 09:30:00
+2024-09-16 09:31:00 AAPL open: $221.44
+2024-09-16 09:31:00   AAPL has position - skipping
+2024-09-16 09:31:00 MSFT open: $427.84
+2024-09-16 09:31:00 OCO placed: Long 22@$436.39, Short 23@$419.28
+2024-09-16 09:31:00   OCO orders placed for MSFT
+2024-09-16 09:31:00 GOOGL open: $156.76
+2024-09-16 09:31:00 OCO placed: Long 62@$159.89, Short 65@$153.62
+2024-09-16 09:31:00   OCO orders placed for GOOGL
+2024-09-16 15:55:00 Canceled OCO orders for MSFT
+2024-09-16 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-09-16 15:55:00 Canceled OCO orders for GOOGL
+2024-09-16 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-09-17 09:31:00 ==================================================
+2024-09-17 09:31:00 Market open at 2024-09-17 09:30:00
+2024-09-17 09:31:00 AAPL open: $215.43
+2024-09-17 09:31:00   AAPL has position - skipping
+2024-09-17 09:31:00 MSFT open: $428.27
+2024-09-17 09:31:00 OCO placed: Long 22@$436.84, Short 23@$419.71
+2024-09-17 09:31:00   OCO orders placed for MSFT
+2024-09-17 09:31:00 GOOGL open: $157.46
+2024-09-17 09:31:00 OCO placed: Long 62@$160.60, Short 64@$154.31
+2024-09-17 09:31:00   OCO orders placed for GOOGL
+2024-09-17 09:31:00 Brackets placed: TP@$458.80, SL@$423.84
+2024-09-17 09:31:00 Entry recorded: MSFT long @ $436.95
+2024-09-17 09:31:00 [2024-09-17 09:31:00] [INFO] FILL: MSFT BUY 22.0 @ $436.95
+2024-09-17 15:55:00 Canceled OCO orders for GOOGL
+2024-09-17 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-09-18 09:31:00 ==================================================
+2024-09-18 09:31:00 Market open at 2024-09-18 09:30:00
+2024-09-18 09:31:00 AAPL open: $215.79
+2024-09-18 09:31:00   AAPL has position - skipping
+2024-09-18 09:31:00 MSFT open: $431.69
+2024-09-18 09:31:00   MSFT has position - skipping
+2024-09-18 09:31:00 GOOGL open: $158.60
+2024-09-18 09:31:00 OCO placed: Long 61@$161.77, Short 64@$155.42
+2024-09-18 09:31:00   OCO orders placed for GOOGL
+2024-09-18 15:55:00 Canceled OCO orders for GOOGL
+2024-09-18 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-09-19 09:31:00 ==================================================
+2024-09-19 09:31:00 Market open at 2024-09-19 09:30:00
+2024-09-19 09:31:00 AAPL open: $219.71
+2024-09-19 09:31:00   AAPL has position - skipping
+2024-09-19 09:31:00 MSFT open: $427.49
+2024-09-19 09:31:00   MSFT has position - skipping
+2024-09-19 09:31:00 GOOGL open: $159.22
+2024-09-19 09:31:00 OCO placed: Long 61@$162.41, Short 64@$156.04
+2024-09-19 09:31:00   OCO orders placed for GOOGL
+2024-09-19 09:31:00 Brackets placed: TP@$170.70, SL@$157.69
+2024-09-19 09:31:00 Entry recorded: GOOGL long @ $162.57
+2024-09-19 09:31:00 [2024-09-19 09:31:00] [INFO] FILL: GOOGL BUY 61.0 @ $162.57
+2024-09-20 09:31:00 ==================================================
+2024-09-20 09:31:00 Market open at 2024-09-20 09:30:00
+2024-09-20 09:31:00 AAPL open: $227.28
+2024-09-20 09:31:00   AAPL has position - skipping
+2024-09-20 09:31:00 MSFT open: $435.01
+2024-09-20 09:31:00   MSFT has position - skipping
+2024-09-20 09:31:00 GOOGL open: $161.50
+2024-09-20 09:31:00   GOOGL has position - skipping
+2024-09-23 09:31:00 ==================================================
+2024-09-23 09:31:00 Market open at 2024-09-23 09:30:00
+2024-09-23 09:31:00 AAPL open: $227.26
+2024-09-23 09:31:00   AAPL has position - skipping
+2024-09-23 09:31:00 MSFT open: $432.59
+2024-09-23 09:31:00   MSFT has position - skipping
+2024-09-23 09:31:00 GOOGL open: $162.95
+2024-09-23 09:31:00   GOOGL has position - skipping
+2024-09-24 09:31:00 ==================================================
+2024-09-24 09:31:00 Market open at 2024-09-24 09:30:00
+2024-09-24 09:31:00 AAPL open: $225.32
+2024-09-24 09:31:00   AAPL has position - skipping
+2024-09-24 09:31:00 MSFT open: $430.24
+2024-09-24 09:31:00   MSFT has position - skipping
+2024-09-24 09:31:00 GOOGL open: $161.08
+2024-09-24 09:31:00   GOOGL has position - skipping
+2024-09-24 10:24:00 Exit recorded: MSFT @ $423.82 (StopLoss, -3.01%)
+2024-09-24 10:24:00 [2024-09-24 10:24:00] [INFO] TRADE: MSFT long entry=$436.95 exit=$423.82 pnl=$-288.89 (-3.01%) reason=StopLoss
+2024-09-24 10:24:00 [2024-09-24 10:24:00] [INFO] FILL: MSFT SELL 22.0 @ $423.82
+2024-09-24 15:55:00 [2024-09-24 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-288.89
+2024-09-25 09:31:00 ==================================================
+2024-09-25 09:31:00 Market open at 2024-09-25 09:30:00
+2024-09-25 09:31:00 AAPL open: $225.88
+2024-09-25 09:31:00   AAPL has position - skipping
+2024-09-25 09:31:00 MSFT open: $425.63
+2024-09-25 09:31:00 OCO placed: Long 23@$434.15, Short 23@$417.12
+2024-09-25 09:31:00   OCO orders placed for MSFT
+2024-09-25 09:31:00 GOOGL open: $161.48
+2024-09-25 09:31:00   GOOGL has position - skipping
+2024-09-25 15:55:00 Canceled OCO orders for MSFT
+2024-09-25 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-09-26 09:31:00 ==================================================
+2024-09-26 09:31:00 Market open at 2024-09-26 09:30:00
+2024-09-26 09:31:00 AAPL open: $224.94
+2024-09-26 09:31:00   AAPL has position - skipping
+2024-09-26 09:31:00 MSFT open: $428.57
+2024-09-26 09:31:00 OCO placed: Long 22@$437.14, Short 23@$420.00
+2024-09-26 09:31:00   OCO orders placed for MSFT
+2024-09-26 09:31:00 GOOGL open: $160.64
+2024-09-26 09:31:00   GOOGL has position - skipping
+2024-09-26 15:55:00 Canceled OCO orders for MSFT
+2024-09-26 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-09-27 09:31:00 ==================================================
+2024-09-27 09:31:00 Market open at 2024-09-27 09:30:00
+2024-09-27 09:31:00 AAPL open: $226.52
+2024-09-27 09:31:00   AAPL has position - skipping
+2024-09-27 09:31:00 MSFT open: $428.07
+2024-09-27 09:31:00 OCO placed: Long 22@$436.63, Short 23@$419.50
+2024-09-27 09:31:00   OCO orders placed for MSFT
+2024-09-27 09:31:00 GOOGL open: $161.99
+2024-09-27 09:31:00   GOOGL has position - skipping
+2024-09-27 15:55:00 Canceled OCO orders for MSFT
+2024-09-27 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-09-30 09:31:00 ==================================================
+2024-09-30 09:31:00 Market open at 2024-09-30 09:30:00
+2024-09-30 09:31:00 AAPL open: $226.81
+2024-09-30 09:31:00   AAPL has position - skipping
+2024-09-30 09:31:00 MSFT open: $424.55
+2024-09-30 09:31:00 OCO placed: Long 23@$433.04, Short 24@$416.06
+2024-09-30 09:31:00   OCO orders placed for MSFT
+2024-09-30 09:31:00 GOOGL open: $163.13
+2024-09-30 09:31:00   GOOGL has position - skipping
+2024-09-30 15:55:00 Canceled OCO orders for MSFT
+2024-09-30 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-10-01 09:31:00 ==================================================
+2024-10-01 09:31:00 Market open at 2024-10-01 09:30:00
+2024-10-01 09:31:00 AAPL open: $231.87
+2024-10-01 09:31:00   AAPL has position - skipping
+2024-10-01 09:31:00 MSFT open: $426.83
+2024-10-01 09:31:00 OCO placed: Long 22@$435.36, Short 23@$418.29
+2024-10-01 09:31:00   OCO orders placed for MSFT
+2024-10-01 09:31:00 GOOGL open: $165.21
+2024-10-01 09:31:00   GOOGL has position - skipping
+2024-10-01 09:51:00 Brackets placed: TP@$397.38, SL@$430.84
+2024-10-01 09:51:00 Entry recorded: MSFT short @ $418.29
+2024-10-01 09:51:00 [2024-10-01 09:51:00] [INFO] FILL: MSFT SELL 23.0 @ $418.29
+2024-10-02 09:31:00 ==================================================
+2024-10-02 09:31:00 Market open at 2024-10-02 09:30:00
+2024-10-02 09:31:00 AAPL open: $225.20
+2024-10-02 09:31:00   AAPL has position - skipping
+2024-10-02 09:31:00 MSFT open: $417.37
+2024-10-02 09:31:00   MSFT has position - skipping
+2024-10-02 09:31:00 GOOGL open: $166.32
+2024-10-02 09:31:00   GOOGL has position - skipping
+2024-10-03 09:31:00 ==================================================
+2024-10-03 09:31:00 Market open at 2024-10-03 09:30:00
+2024-10-03 09:31:00 AAPL open: $225.81
+2024-10-03 09:31:00   AAPL has position - skipping
+2024-10-03 09:31:00 MSFT open: $414.45
+2024-10-03 09:31:00   MSFT has position - skipping
+2024-10-03 09:31:00 GOOGL open: $165.27
+2024-10-03 09:31:00   GOOGL has position - skipping
+2024-10-04 09:31:00 ==================================================
+2024-10-04 09:31:00 Market open at 2024-10-04 09:30:00
+2024-10-04 09:31:00 AAPL open: $224.61
+2024-10-04 09:31:00   AAPL has position - skipping
+2024-10-04 09:31:00 MSFT open: $413.73
+2024-10-04 09:31:00   MSFT has position - skipping
+2024-10-04 09:31:00 GOOGL open: $165.25
+2024-10-04 09:31:00   GOOGL has position - skipping
+2024-10-07 09:31:00 ==================================================
+2024-10-07 09:31:00 Market open at 2024-10-07 09:30:00
+2024-10-07 09:31:00 AAPL open: $225.80
+2024-10-07 09:31:00   AAPL has position - skipping
+2024-10-07 09:31:00 MSFT open: $413.16
+2024-10-07 09:31:00   MSFT has position - skipping
+2024-10-07 09:31:00 GOOGL open: $166.41
+2024-10-07 09:31:00   GOOGL has position - skipping
+2024-10-08 09:31:00 ==================================================
+2024-10-08 09:31:00 Market open at 2024-10-08 09:30:00
+2024-10-08 09:31:00 AAPL open: $220.60
+2024-10-08 09:31:00   AAPL has position - skipping
+2024-10-08 09:31:00 MSFT open: $406.26
+2024-10-08 09:31:00   MSFT has position - skipping
+2024-10-08 09:31:00 GOOGL open: $162.17
+2024-10-08 09:31:00   GOOGL has position - skipping
+2024-10-09 09:31:00 ==================================================
+2024-10-09 09:31:00 Market open at 2024-10-09 09:30:00
+2024-10-09 09:31:00 AAPL open: $224.79
+2024-10-09 09:31:00   AAPL has position - skipping
+2024-10-09 09:31:00 MSFT open: $411.98
+2024-10-09 09:31:00   MSFT has position - skipping
+2024-10-09 09:31:00 GOOGL open: $163.70
+2024-10-09 09:31:00   GOOGL has position - skipping
+2024-10-10 09:31:00 ==================================================
+2024-10-10 09:31:00 Market open at 2024-10-10 09:30:00
+2024-10-10 09:31:00 AAPL open: $228.67
+2024-10-10 09:31:00   AAPL has position - skipping
+2024-10-10 09:31:00 MSFT open: $414.63
+2024-10-10 09:31:00   MSFT has position - skipping
+2024-10-10 09:31:00 GOOGL open: $161.19
+2024-10-10 09:31:00   GOOGL has position - skipping
+2024-10-11 09:31:00 ==================================================
+2024-10-11 09:31:00 Market open at 2024-10-11 09:30:00
+2024-10-11 09:31:00 AAPL open: $228.10
+2024-10-11 09:31:00   AAPL has position - skipping
+2024-10-11 09:31:00 MSFT open: $413.04
+2024-10-11 09:31:00   MSFT has position - skipping
+2024-10-11 09:31:00 GOOGL open: $161.36
+2024-10-11 09:31:00   GOOGL has position - skipping
+2024-10-14 09:31:00 ==================================================
+2024-10-14 09:31:00 Market open at 2024-10-14 09:30:00
+2024-10-14 09:31:00 AAPL open: $226.58
+2024-10-14 09:31:00   AAPL has position - skipping
+2024-10-14 09:31:00 MSFT open: $413.23
+2024-10-14 09:31:00   MSFT has position - skipping
+2024-10-14 09:31:00 GOOGL open: $162.49
+2024-10-14 09:31:00   GOOGL has position - skipping
+2024-10-15 09:31:00 ==================================================
+2024-10-15 09:31:00 Market open at 2024-10-15 09:30:00
+2024-10-15 09:31:00 AAPL open: $230.33
+2024-10-15 09:31:00   AAPL has position - skipping
+2024-10-15 09:31:00 MSFT open: $416.15
+2024-10-15 09:31:00   MSFT has position - skipping
+2024-10-15 09:31:00 GOOGL open: $164.26
+2024-10-15 09:31:00   GOOGL has position - skipping
+2024-10-16 09:31:00 ==================================================
+2024-10-16 09:31:00 Market open at 2024-10-16 09:30:00
+2024-10-16 09:31:00 AAPL open: $232.67
+2024-10-16 09:31:00   AAPL has position - skipping
+2024-10-16 09:31:00 MSFT open: $415.10
+2024-10-16 09:31:00   MSFT has position - skipping
+2024-10-16 09:31:00 GOOGL open: $164.60
+2024-10-16 09:31:00   GOOGL has position - skipping
+2024-10-17 09:31:00 ==================================================
+2024-10-17 09:31:00 Market open at 2024-10-17 09:30:00
+2024-10-17 09:31:00 AAPL open: $230.69
+2024-10-17 09:31:00   AAPL has position - skipping
+2024-10-17 09:31:00 MSFT open: $412.94
+2024-10-17 09:31:00   MSFT has position - skipping
+2024-10-17 09:31:00 GOOGL open: $164.42
+2024-10-17 09:31:00   GOOGL has position - skipping
+2024-10-18 09:31:00 ==================================================
+2024-10-18 09:31:00 Market open at 2024-10-18 09:30:00
+2024-10-18 09:31:00 AAPL open: $231.02
+2024-10-18 09:31:00   AAPL has position - skipping
+2024-10-18 09:31:00 MSFT open: $413.63
+2024-10-18 09:31:00   MSFT has position - skipping
+2024-10-18 09:31:00 GOOGL open: $162.11
+2024-10-18 09:31:00   GOOGL has position - skipping
+2024-10-21 09:31:00 ==================================================
+2024-10-21 09:31:00 Market open at 2024-10-21 09:30:00
+2024-10-21 09:31:00 AAPL open: $233.87
+2024-10-21 09:31:00   AAPL has position - skipping
+2024-10-21 09:31:00 MSFT open: $414.97
+2024-10-21 09:31:00   MSFT has position - skipping
+2024-10-21 09:31:00 GOOGL open: $162.65
+2024-10-21 09:31:00   GOOGL has position - skipping
+2024-10-22 09:31:00 ==================================================
+2024-10-22 09:31:00 Market open at 2024-10-22 09:30:00
+2024-10-22 09:31:00 AAPL open: $235.28
+2024-10-22 09:31:00   AAPL has position - skipping
+2024-10-22 09:31:00 MSFT open: $415.57
+2024-10-22 09:31:00   MSFT has position - skipping
+2024-10-22 09:31:00 GOOGL open: $163.28
+2024-10-22 09:31:00   GOOGL has position - skipping
+2024-10-23 09:31:00 ==================================================
+2024-10-23 09:31:00 Market open at 2024-10-23 09:30:00
+2024-10-23 09:31:00 AAPL open: $234.93
+2024-10-23 09:31:00   AAPL has position - skipping
+2024-10-23 09:31:00 MSFT open: $424.55
+2024-10-23 09:31:00   MSFT has position - skipping
+2024-10-23 09:31:00 GOOGL open: $164.47
+2024-10-23 09:31:00   GOOGL has position - skipping
+2024-10-24 09:31:00 ==================================================
+2024-10-24 09:31:00 Market open at 2024-10-24 09:30:00
+2024-10-24 09:31:00 AAPL open: $229.42
+2024-10-24 09:31:00   AAPL has position - skipping
+2024-10-24 09:31:00 MSFT open: $421.35
+2024-10-24 09:31:00   MSFT has position - skipping
+2024-10-24 09:31:00 GOOGL open: $162.04
+2024-10-24 09:31:00   GOOGL has position - skipping
+2024-10-25 09:31:00 ==================================================
+2024-10-25 09:31:00 Market open at 2024-10-25 09:30:00
+2024-10-25 09:31:00 AAPL open: $229.56
+2024-10-25 09:31:00   AAPL has position - skipping
+2024-10-25 09:31:00 MSFT open: $421.78
+2024-10-25 09:31:00   MSFT has position - skipping
+2024-10-25 09:31:00 GOOGL open: $162.12
+2024-10-25 09:31:00   GOOGL has position - skipping
+2024-10-28 09:31:00 ==================================================
+2024-10-28 09:31:00 Market open at 2024-10-28 09:30:00
+2024-10-28 09:31:00 AAPL open: $230.22
+2024-10-28 09:31:00   AAPL has position - skipping
+2024-10-28 09:31:00 MSFT open: $424.77
+2024-10-28 09:31:00   MSFT has position - skipping
+2024-10-28 09:31:00 GOOGL open: $164.49
+2024-10-28 09:31:00   GOOGL has position - skipping
+2024-10-29 09:31:00 ==================================================
+2024-10-29 09:31:00 Market open at 2024-10-29 09:30:00
+2024-10-29 09:31:00 AAPL open: $232.41
+2024-10-29 09:31:00   AAPL has position - skipping
+2024-10-29 09:31:00 MSFT open: $423.56
+2024-10-29 09:31:00   MSFT has position - skipping
+2024-10-29 09:31:00 GOOGL open: $166.04
+2024-10-29 09:31:00   GOOGL has position - skipping
+2024-10-30 09:31:00 ==================================================
+2024-10-30 09:31:00 Market open at 2024-10-30 09:30:00
+2024-10-30 09:31:00 AAPL open: $232.52
+2024-10-30 09:31:00   AAPL has position - skipping
+2024-10-30 09:31:00 MSFT open: $428.66
+2024-10-30 09:31:00   MSFT has position - skipping
+2024-10-30 09:31:00 GOOGL open: $168.99
+2024-10-30 09:31:00   GOOGL has position - skipping
+2024-10-30 09:31:00 Exit recorded: GOOGL @ $179.99 (TakeProfit, +10.71%)
+2024-10-30 09:31:00 [2024-10-30 09:31:00] [INFO] TRADE: GOOGL long entry=$162.57 exit=$179.99 pnl=$1062.39 (+10.71%) reason=TakeProfit
+2024-10-30 09:31:00 [2024-10-30 09:31:00] [INFO] FILL: GOOGL SELL 61.0 @ $179.99
+2024-10-30 09:37:00 Exit recorded: MSFT @ $431.27 (StopLoss, -3.10%)
+2024-10-30 09:37:00 [2024-10-30 09:37:00] [INFO] TRADE: MSFT short entry=$418.29 exit=$431.27 pnl=$-298.55 (-3.10%) reason=StopLoss
+2024-10-30 09:37:00 [2024-10-30 09:37:00] [INFO] FILL: MSFT BUY 23.0 @ $431.27
+2024-10-30 15:55:00 [2024-10-30 15:55:00] [INFO] Daily Summary: 2 trades, W/L: 1/1, PnL: $763.84
+2024-10-31 09:31:00 ==================================================
+2024-10-31 09:31:00 Market open at 2024-10-31 09:30:00
+2024-10-31 09:31:00 AAPL open: $228.82
+2024-10-31 09:31:00   AAPL has position - skipping
+2024-10-31 09:31:00 MSFT open: $429.48
+2024-10-31 09:31:00 OCO placed: Long 22@$438.07, Short 23@$420.89
+2024-10-31 09:31:00   OCO orders placed for MSFT
+2024-10-31 09:31:00 GOOGL open: $173.64
+2024-10-31 09:31:00 OCO placed: Long 56@$177.12, Short 58@$170.17
+2024-10-31 09:31:00   OCO orders placed for GOOGL
+2024-10-31 15:55:00 Canceled OCO orders for MSFT
+2024-10-31 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-10-31 15:55:00 Canceled OCO orders for GOOGL
+2024-10-31 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-11-01 09:31:00 ==================================================
+2024-11-01 09:31:00 Market open at 2024-11-01 09:30:00
+2024-11-01 09:31:00 AAPL open: $225.55
+2024-11-01 09:31:00   AAPL has position - skipping
+2024-11-01 09:31:00 MSFT open: $404.36
+2024-11-01 09:31:00 OCO placed: Long 24@$412.45, Short 25@$396.28
+2024-11-01 09:31:00   OCO orders placed for MSFT
+2024-11-01 09:31:00 GOOGL open: $170.51
+2024-11-01 09:31:00 OCO placed: Long 57@$173.92, Short 59@$167.10
+2024-11-01 09:31:00   OCO orders placed for GOOGL
+2024-11-01 15:55:00 Canceled OCO orders for MSFT
+2024-11-01 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-11-01 15:55:00 Canceled OCO orders for GOOGL
+2024-11-01 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-11-04 09:31:00 ==================================================
+2024-11-04 09:31:00 Market open at 2024-11-04 09:30:00
+2024-11-04 09:31:00 AAPL open: $221.75
+2024-11-04 09:31:00   AAPL has position - skipping
+2024-11-04 09:31:00 MSFT open: $407.07
+2024-11-04 09:31:00 OCO placed: Long 24@$415.22, Short 25@$398.93
+2024-11-04 09:31:00   OCO orders placed for MSFT
+2024-11-04 09:31:00 GOOGL open: $170.52
+2024-11-04 09:31:00 OCO placed: Long 57@$173.93, Short 59@$167.11
+2024-11-04 09:31:00   OCO orders placed for GOOGL
+2024-11-04 15:55:00 Canceled OCO orders for MSFT
+2024-11-04 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-11-04 15:55:00 Canceled OCO orders for GOOGL
+2024-11-04 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-11-05 09:31:00 ==================================================
+2024-11-05 09:31:00 Market open at 2024-11-05 09:30:00
+2024-11-05 09:31:00 AAPL open: $220.81
+2024-11-05 09:31:00   AAPL has position - skipping
+2024-11-05 09:31:00 MSFT open: $405.30
+2024-11-05 09:31:00 OCO placed: Long 24@$413.40, Short 25@$397.19
+2024-11-05 09:31:00   OCO orders placed for MSFT
+2024-11-05 09:31:00 GOOGL open: $168.42
+2024-11-05 09:31:00 OCO placed: Long 58@$171.79, Short 60@$165.05
+2024-11-05 09:31:00   OCO orders placed for GOOGL
+2024-11-05 15:55:00 Canceled OCO orders for MSFT
+2024-11-05 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-11-05 15:55:00 Canceled OCO orders for GOOGL
+2024-11-05 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-11-06 09:31:00 ==================================================
+2024-11-06 09:31:00 Market open at 2024-11-06 09:30:00
+2024-11-06 09:31:00 AAPL open: $222.20
+2024-11-06 09:31:00   AAPL has position - skipping
+2024-11-06 09:31:00 MSFT open: $408.22
+2024-11-06 09:31:00 OCO placed: Long 24@$416.38, Short 24@$400.05
+2024-11-06 09:31:00   OCO orders placed for MSFT
+2024-11-06 09:31:00 GOOGL open: $168.84
+2024-11-06 09:31:00 OCO placed: Long 58@$172.22, Short 60@$165.46
+2024-11-06 09:31:00   OCO orders placed for GOOGL
+2024-11-06 10:27:00 Brackets placed: TP@$437.41, SL@$404.09
+2024-11-06 10:27:00 Entry recorded: MSFT long @ $416.58
+2024-11-06 10:27:00 [2024-11-06 10:27:00] [INFO] FILL: MSFT BUY 24.0 @ $416.58
+2024-11-06 15:55:00 Canceled OCO orders for GOOGL
+2024-11-06 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-11-07 09:31:00 ==================================================
+2024-11-07 09:31:00 Market open at 2024-11-07 09:30:00
+2024-11-07 09:31:00 AAPL open: $221.53
+2024-11-07 09:31:00   AAPL has position - skipping
+2024-11-07 09:31:00 MSFT open: $416.61
+2024-11-07 09:31:00   MSFT has position - skipping
+2024-11-07 09:31:00 GOOGL open: $175.67
+2024-11-07 09:31:00 OCO placed: Long 55@$179.18, Short 58@$172.15
+2024-11-07 09:31:00   OCO orders placed for GOOGL
+2024-11-07 14:12:00 Brackets placed: TP@$188.27, SL@$173.93
+2024-11-07 14:12:00 Entry recorded: GOOGL long @ $179.31
+2024-11-07 14:12:00 [2024-11-07 14:12:00] [INFO] FILL: GOOGL BUY 55.0 @ $179.31
+2024-11-08 09:31:00 ==================================================
+2024-11-08 09:31:00 Market open at 2024-11-08 09:30:00
+2024-11-08 09:31:00 AAPL open: $226.35
+2024-11-08 09:31:00   AAPL has position - skipping
+2024-11-08 09:31:00 MSFT open: $421.98
+2024-11-08 09:31:00   MSFT has position - skipping
+2024-11-08 09:31:00 GOOGL open: $179.92
+2024-11-08 09:31:00   GOOGL has position - skipping
+2024-11-11 09:31:00 ==================================================
+2024-11-11 09:31:00 Market open at 2024-11-11 09:30:00
+2024-11-11 09:31:00 AAPL open: $226.28
+2024-11-11 09:31:00   AAPL has position - skipping
+2024-11-11 09:31:00 MSFT open: $419.54
+2024-11-11 09:31:00   MSFT has position - skipping
+2024-11-11 09:31:00 GOOGL open: $177.52
+2024-11-11 09:31:00   GOOGL has position - skipping
+2024-11-12 09:31:00 ==================================================
+2024-11-12 09:31:00 Market open at 2024-11-12 09:30:00
+2024-11-12 09:31:00 AAPL open: $223.33
+2024-11-12 09:31:00   AAPL has position - skipping
+2024-11-12 09:31:00 MSFT open: $414.45
+2024-11-12 09:31:00   MSFT has position - skipping
+2024-11-12 09:31:00 GOOGL open: $179.42
+2024-11-12 09:31:00   GOOGL has position - skipping
+2024-11-13 09:31:00 ==================================================
+2024-11-13 09:31:00 Market open at 2024-11-13 09:30:00
+2024-11-13 09:31:00 AAPL open: $223.94
+2024-11-13 09:31:00   AAPL has position - skipping
+2024-11-13 09:31:00 MSFT open: $420.26
+2024-11-13 09:31:00   MSFT has position - skipping
+2024-11-13 09:31:00 GOOGL open: $180.75
+2024-11-13 09:31:00   GOOGL has position - skipping
+2024-11-14 09:31:00 ==================================================
+2024-11-14 09:31:00 Market open at 2024-11-14 09:30:00
+2024-11-14 09:31:00 AAPL open: $224.33
+2024-11-14 09:31:00   AAPL has position - skipping
+2024-11-14 09:31:00 MSFT open: $422.06
+2024-11-14 09:31:00   MSFT has position - skipping
+2024-11-14 09:31:00 GOOGL open: $178.12
+2024-11-14 09:31:00   GOOGL has position - skipping
+2024-11-14 11:37:00 Exit recorded: GOOGL @ $173.80 (StopLoss, -3.07%)
+2024-11-14 11:37:00 [2024-11-14 11:37:00] [INFO] TRADE: GOOGL long entry=$179.31 exit=$173.80 pnl=$-302.81 (-3.07%) reason=StopLoss
+2024-11-14 11:37:00 [2024-11-14 11:37:00] [INFO] FILL: GOOGL SELL 55.0 @ $173.80
+2024-11-14 15:55:00 [2024-11-14 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-302.81
+2024-11-15 09:31:00 ==================================================
+2024-11-15 09:31:00 Market open at 2024-11-15 09:30:00
+2024-11-15 09:31:00 AAPL open: $227.25
+2024-11-15 09:31:00   AAPL has position - skipping
+2024-11-15 09:31:00 MSFT open: $423.55
+2024-11-15 09:31:00   MSFT has position - skipping
+2024-11-15 09:31:00 GOOGL open: $174.92
+2024-11-15 09:31:00 OCO placed: Long 56@$178.42, Short 58@$171.43
+2024-11-15 09:31:00   OCO orders placed for GOOGL
+2024-11-15 10:36:00 Brackets placed: TP@$162.85, SL@$176.57
+2024-11-15 10:36:00 Entry recorded: GOOGL short @ $171.42
+2024-11-15 10:36:00 [2024-11-15 10:36:00] [INFO] FILL: GOOGL SELL 58.0 @ $171.42
+2024-11-18 09:31:00 ==================================================
+2024-11-18 09:31:00 Market open at 2024-11-18 09:30:00
+2024-11-18 09:31:00 AAPL open: $224.33
+2024-11-18 09:31:00   AAPL has position - skipping
+2024-11-18 09:31:00 MSFT open: $411.93
+2024-11-18 09:31:00   MSFT has position - skipping
+2024-11-18 09:31:00 GOOGL open: $171.81
+2024-11-18 09:31:00   GOOGL has position - skipping
+2024-11-19 09:31:00 ==================================================
+2024-11-19 09:31:00 Market open at 2024-11-19 09:30:00
+2024-11-19 09:31:00 AAPL open: $227.03
+2024-11-19 09:31:00   AAPL has position - skipping
+2024-11-19 09:31:00 MSFT open: $412.21
+2024-11-19 09:31:00   MSFT has position - skipping
+2024-11-19 09:31:00 GOOGL open: $174.35
+2024-11-19 09:31:00   GOOGL has position - skipping
+2024-11-19 13:05:00 Exit recorded: GOOGL @ $176.59 (StopLoss, -3.01%)
+2024-11-19 13:05:00 [2024-11-19 13:05:00] [INFO] TRADE: GOOGL short entry=$171.42 exit=$176.59 pnl=$-299.70 (-3.01%) reason=StopLoss
+2024-11-19 13:05:00 [2024-11-19 13:05:00] [INFO] FILL: GOOGL BUY 58.0 @ $176.59
+2024-11-19 15:55:00 [2024-11-19 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-299.70
+2024-11-20 09:31:00 ==================================================
+2024-11-20 09:31:00 Market open at 2024-11-20 09:30:00
+2024-11-20 09:31:00 AAPL open: $227.49
+2024-11-20 09:31:00   AAPL has position - skipping
+2024-11-20 09:31:00 MSFT open: $414.46
+2024-11-20 09:31:00   MSFT has position - skipping
+2024-11-20 09:31:00 GOOGL open: $177.45
+2024-11-20 09:31:00 OCO placed: Long 55@$181.00, Short 57@$173.90
+2024-11-20 09:31:00   OCO orders placed for GOOGL
+2024-11-20 10:08:00 Brackets placed: TP@$165.20, SL@$179.11
+2024-11-20 10:08:00 Entry recorded: GOOGL short @ $173.89
+2024-11-20 10:08:00 [2024-11-20 10:08:00] [INFO] FILL: GOOGL SELL 57.0 @ $173.89
+2024-11-21 09:31:00 ==================================================
+2024-11-21 09:31:00 Market open at 2024-11-21 09:30:00
+2024-11-21 09:31:00 AAPL open: $228.00
+2024-11-21 09:31:00   AAPL has position - skipping
+2024-11-21 09:31:00 MSFT open: $412.20
+2024-11-21 09:31:00   MSFT has position - skipping
+2024-11-21 09:31:00 GOOGL open: $175.12
+2024-11-21 09:31:00   GOOGL has position - skipping
+2024-11-21 10:29:00 Exit recorded: GOOGL @ $165.20 (TakeProfit, +5.00%)
+2024-11-21 10:29:00 [2024-11-21 10:29:00] [INFO] TRADE: GOOGL short entry=$173.89 exit=$165.20 pnl=$495.51 (+5.00%) reason=TakeProfit
+2024-11-21 10:29:00 [2024-11-21 10:29:00] [INFO] FILL: GOOGL BUY 57.0 @ $165.20
+2024-11-21 15:55:00 [2024-11-21 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $495.51
+2024-11-22 09:31:00 ==================================================
+2024-11-22 09:31:00 Market open at 2024-11-22 09:30:00
+2024-11-22 09:31:00 AAPL open: $227.66
+2024-11-22 09:31:00   AAPL has position - skipping
+2024-11-22 09:31:00 MSFT open: $410.86
+2024-11-22 09:31:00   MSFT has position - skipping
+2024-11-22 09:31:00 GOOGL open: $166.98
+2024-11-22 09:31:00 OCO placed: Long 58@$170.32, Short 61@$163.64
+2024-11-22 09:31:00   OCO orders placed for GOOGL
+2024-11-22 09:33:00 Brackets placed: TP@$155.31, SL@$168.38
+2024-11-22 09:33:00 Entry recorded: GOOGL short @ $163.48
+2024-11-22 09:33:00 [2024-11-22 09:33:00] [INFO] FILL: GOOGL SELL 61.0 @ $163.48
+2024-11-25 09:31:00 ==================================================
+2024-11-25 09:31:00 Market open at 2024-11-25 09:30:00
+2024-11-25 09:31:00 AAPL open: $229.20
+2024-11-25 09:31:00   AAPL has position - skipping
+2024-11-25 09:31:00 MSFT open: $414.81
+2024-11-25 09:31:00   MSFT has position - skipping
+2024-11-25 09:31:00 GOOGL open: $164.08
+2024-11-25 09:31:00   GOOGL has position - skipping
+2024-11-26 09:31:00 ==================================================
+2024-11-26 09:31:00 Market open at 2024-11-26 09:30:00
+2024-11-26 09:31:00 AAPL open: $231.94
+2024-11-26 09:31:00   AAPL has position - skipping
+2024-11-26 09:31:00 MSFT open: $416.57
+2024-11-26 09:31:00   MSFT has position - skipping
+2024-11-26 09:31:00 GOOGL open: $166.94
+2024-11-26 09:31:00   GOOGL has position - skipping
+2024-11-26 11:40:00 Exit recorded: GOOGL @ $168.42 (StopLoss, -3.02%)
+2024-11-26 11:40:00 [2024-11-26 11:40:00] [INFO] TRADE: GOOGL short entry=$163.48 exit=$168.42 pnl=$-301.17 (-3.02%) reason=StopLoss
+2024-11-26 11:40:00 [2024-11-26 11:40:00] [INFO] FILL: GOOGL BUY 61.0 @ $168.42
+2024-11-26 15:55:00 [2024-11-26 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-301.17
+2024-11-27 09:31:00 ==================================================
+2024-11-27 09:31:00 Market open at 2024-11-27 09:30:00
+2024-11-27 09:31:00 AAPL open: $234.30
+2024-11-27 09:31:00   AAPL has position - skipping
+2024-11-27 09:31:00 MSFT open: $425.74
+2024-11-27 09:31:00   MSFT has position - skipping
+2024-11-27 09:31:00 GOOGL open: $168.55
+2024-11-27 09:31:00 OCO placed: Long 58@$171.92, Short 60@$165.18
+2024-11-27 09:31:00   OCO orders placed for GOOGL
+2024-11-27 15:55:00 Canceled OCO orders for GOOGL
+2024-11-27 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-11-29 09:31:00 ==================================================
+2024-11-29 09:31:00 Market open at 2024-11-29 09:30:00
+2024-11-29 09:31:00 AAPL open: $234.11
+2024-11-29 09:31:00   AAPL has position - skipping
+2024-11-29 09:31:00 MSFT open: $420.73
+2024-11-29 09:31:00   MSFT has position - skipping
+2024-11-29 09:31:00 GOOGL open: $168.51
+2024-11-29 09:31:00 OCO placed: Long 58@$171.88, Short 60@$165.14
+2024-11-29 09:31:00   OCO orders placed for GOOGL
+2024-11-29 12:55:00 Canceled OCO orders for GOOGL
+2024-11-29 12:55:00 Canceled unfilled OCO orders for GOOGL
+2024-12-02 09:31:00 ==================================================
+2024-12-02 09:31:00 Market open at 2024-12-02 09:30:00
+2024-12-02 09:31:00 AAPL open: $236.63
+2024-12-02 09:31:00   AAPL has position - skipping
+2024-12-02 09:31:00 MSFT open: $421.50
+2024-12-02 09:31:00   MSFT has position - skipping
+2024-12-02 09:31:00 GOOGL open: $168.21
+2024-12-02 09:31:00 OCO placed: Long 58@$171.57, Short 60@$164.84
+2024-12-02 09:31:00   OCO orders placed for GOOGL
+2024-12-02 15:55:00 Canceled OCO orders for GOOGL
+2024-12-02 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-12-03 09:31:00 ==================================================
+2024-12-03 09:31:00 Market open at 2024-12-03 09:30:00
+2024-12-03 09:31:00 AAPL open: $238.73
+2024-12-03 09:31:00   AAPL has position - skipping
+2024-12-03 09:31:00 MSFT open: $428.68
+2024-12-03 09:31:00   MSFT has position - skipping
+2024-12-03 09:31:00 GOOGL open: $170.73
+2024-12-03 09:31:00 OCO placed: Long 57@$174.14, Short 59@$167.31
+2024-12-03 09:31:00   OCO orders placed for GOOGL
+2024-12-03 15:55:00 Canceled OCO orders for GOOGL
+2024-12-03 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-12-04 09:31:00 ==================================================
+2024-12-04 09:31:00 Market open at 2024-12-04 09:30:00
+2024-12-04 09:31:00 AAPL open: $241.80
+2024-12-04 09:31:00   AAPL has position - skipping
+2024-12-04 09:31:00 MSFT open: $428.83
+2024-12-04 09:31:00   MSFT has position - skipping
+2024-12-04 09:31:00 GOOGL open: $170.61
+2024-12-04 09:31:00 OCO placed: Long 57@$174.02, Short 59@$167.20
+2024-12-04 09:31:00   OCO orders placed for GOOGL
+2024-12-04 15:04:00 Brackets placed: TP@$182.73, SL@$168.81
+2024-12-04 15:04:00 Entry recorded: GOOGL long @ $174.03
+2024-12-04 15:04:00 [2024-12-04 15:04:00] [INFO] FILL: GOOGL BUY 57.0 @ $174.03
+2024-12-05 09:31:00 ==================================================
+2024-12-05 09:31:00 Market open at 2024-12-05 09:30:00
+2024-12-05 09:31:00 AAPL open: $242.19
+2024-12-05 09:31:00   AAPL has position - skipping
+2024-12-05 09:31:00 MSFT open: $435.31
+2024-12-05 09:31:00   MSFT has position - skipping
+2024-12-05 09:31:00 GOOGL open: $173.60
+2024-12-05 09:31:00   GOOGL has position - skipping
+2024-12-05 09:36:00 Exit recorded: MSFT @ $437.41 (TakeProfit, +5.00%)
+2024-12-05 09:36:00 [2024-12-05 09:36:00] [INFO] TRADE: MSFT long entry=$416.58 exit=$437.41 pnl=$499.86 (+5.00%) reason=TakeProfit
+2024-12-05 09:36:00 [2024-12-05 09:36:00] [INFO] FILL: MSFT SELL 24.0 @ $437.41
+2024-12-05 15:55:00 [2024-12-05 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $499.86
+2024-12-06 09:31:00 ==================================================
+2024-12-06 09:31:00 Market open at 2024-12-06 09:30:00
+2024-12-06 09:31:00 AAPL open: $242.03
+2024-12-06 09:31:00   AAPL has position - skipping
+2024-12-06 09:31:00 MSFT open: $440.26
+2024-12-06 09:31:00 OCO placed: Long 22@$449.07, Short 23@$431.46
+2024-12-06 09:31:00   OCO orders placed for MSFT
+2024-12-06 09:31:00 GOOGL open: $171.77
+2024-12-06 09:31:00   GOOGL has position - skipping
+2024-12-06 15:55:00 Canceled OCO orders for MSFT
+2024-12-06 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-09 09:31:00 ==================================================
+2024-12-09 09:31:00 Market open at 2024-12-09 09:30:00
+2024-12-09 09:31:00 AAPL open: $241.85
+2024-12-09 09:31:00   AAPL has position - skipping
+2024-12-09 09:31:00 MSFT open: $441.20
+2024-12-09 09:31:00 OCO placed: Long 22@$450.02, Short 23@$432.37
+2024-12-09 09:31:00   OCO orders placed for MSFT
+2024-12-09 09:31:00 GOOGL open: $174.00
+2024-12-09 09:31:00   GOOGL has position - skipping
+2024-12-09 15:55:00 Canceled OCO orders for MSFT
+2024-12-09 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-10 09:31:00 ==================================================
+2024-12-10 09:31:00 Market open at 2024-12-10 09:30:00
+2024-12-10 09:31:00 AAPL open: $245.86
+2024-12-10 09:31:00   AAPL has position - skipping
+2024-12-10 09:31:00 MSFT open: $443.01
+2024-12-10 09:31:00 OCO placed: Long 22@$451.87, Short 23@$434.15
+2024-12-10 09:31:00   OCO orders placed for MSFT
+2024-12-10 09:31:00 GOOGL open: $174.71
+2024-12-10 09:31:00   GOOGL has position - skipping
+2024-12-10 09:33:00 Exit recorded: GOOGL @ $182.73 (TakeProfit, +5.00%)
+2024-12-10 09:33:00 [2024-12-10 09:33:00] [INFO] TRADE: GOOGL long entry=$174.03 exit=$182.73 pnl=$495.76 (+5.00%) reason=TakeProfit
+2024-12-10 09:33:00 [2024-12-10 09:33:00] [INFO] FILL: GOOGL SELL 57.0 @ $182.73
+2024-12-10 15:55:00 Canceled OCO orders for MSFT
+2024-12-10 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-10 15:55:00 [2024-12-10 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 1/0, PnL: $495.76
+2024-12-11 09:31:00 ==================================================
+2024-12-11 09:31:00 Market open at 2024-12-11 09:30:00
+2024-12-11 09:31:00 AAPL open: $246.76
+2024-12-11 09:31:00   AAPL has position - skipping
+2024-12-11 09:31:00 MSFT open: $440.60
+2024-12-11 09:31:00 OCO placed: Long 22@$449.41, Short 23@$431.79
+2024-12-11 09:31:00   OCO orders placed for MSFT
+2024-12-11 09:31:00 GOOGL open: $184.56
+2024-12-11 09:31:00 OCO placed: Long 53@$188.25, Short 55@$180.87
+2024-12-11 09:31:00   OCO orders placed for GOOGL
+2024-12-11 15:55:00 Canceled OCO orders for MSFT
+2024-12-11 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-11 15:55:00 Canceled OCO orders for GOOGL
+2024-12-11 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-12-12 09:31:00 ==================================================
+2024-12-12 09:31:00 Market open at 2024-12-12 09:30:00
+2024-12-12 09:31:00 AAPL open: $245.62
+2024-12-12 09:31:00   AAPL has position - skipping
+2024-12-12 09:31:00 MSFT open: $446.49
+2024-12-12 09:31:00 OCO placed: Long 21@$455.42, Short 22@$437.56
+2024-12-12 09:31:00   OCO orders placed for MSFT
+2024-12-12 09:31:00 GOOGL open: $194.77
+2024-12-12 09:31:00 OCO placed: Long 50@$198.67, Short 52@$190.87
+2024-12-12 09:31:00   OCO orders placed for GOOGL
+2024-12-12 15:55:00 Canceled OCO orders for MSFT
+2024-12-12 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-12 15:55:00 Canceled OCO orders for GOOGL
+2024-12-12 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-12-13 09:31:00 ==================================================
+2024-12-13 09:31:00 Market open at 2024-12-13 09:30:00
+2024-12-13 09:31:00 AAPL open: $247.23
+2024-12-13 09:31:00   AAPL has position - skipping
+2024-12-13 09:31:00 MSFT open: $447.28
+2024-12-13 09:31:00 OCO placed: Long 21@$456.23, Short 22@$438.34
+2024-12-13 09:31:00   OCO orders placed for MSFT
+2024-12-13 09:31:00 GOOGL open: $191.38
+2024-12-13 09:31:00 OCO placed: Long 51@$195.20, Short 53@$187.55
+2024-12-13 09:31:00   OCO orders placed for GOOGL
+2024-12-13 15:55:00 Canceled OCO orders for MSFT
+2024-12-13 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-13 15:55:00 Canceled OCO orders for GOOGL
+2024-12-13 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-12-16 09:31:00 ==================================================
+2024-12-16 09:31:00 Market open at 2024-12-16 09:30:00
+2024-12-16 09:31:00 AAPL open: $247.26
+2024-12-16 09:31:00   AAPL has position - skipping
+2024-12-16 09:31:00 MSFT open: $444.71
+2024-12-16 09:31:00 OCO placed: Long 22@$453.60, Short 22@$435.81
+2024-12-16 09:31:00   OCO orders placed for MSFT
+2024-12-16 09:31:00 GOOGL open: $189.22
+2024-12-16 09:31:00 OCO placed: Long 51@$193.00, Short 53@$185.43
+2024-12-16 09:31:00   OCO orders placed for GOOGL
+2024-12-16 09:42:00 Brackets placed: TP@$202.85, SL@$187.39
+2024-12-16 09:42:00 Entry recorded: GOOGL long @ $193.19
+2024-12-16 09:42:00 [2024-12-16 09:42:00] [INFO] FILL: GOOGL BUY 51.0 @ $193.19
+2024-12-16 15:55:00 Canceled OCO orders for MSFT
+2024-12-16 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-17 09:31:00 ==================================================
+2024-12-17 09:31:00 Market open at 2024-12-17 09:30:00
+2024-12-17 09:31:00 AAPL open: $249.96
+2024-12-17 09:31:00   AAPL has position - skipping
+2024-12-17 09:31:00 MSFT open: $448.37
+2024-12-17 09:31:00 OCO placed: Long 21@$457.33, Short 22@$439.40
+2024-12-17 09:31:00   OCO orders placed for MSFT
+2024-12-17 09:31:00 GOOGL open: $195.81
+2024-12-17 09:31:00   GOOGL has position - skipping
+2024-12-17 15:55:00 Canceled OCO orders for MSFT
+2024-12-17 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-18 09:31:00 ==================================================
+2024-12-18 09:31:00 Market open at 2024-12-18 09:30:00
+2024-12-18 09:31:00 AAPL open: $252.65
+2024-12-18 09:31:00   AAPL has position - skipping
+2024-12-18 09:31:00 MSFT open: $452.38
+2024-12-18 09:31:00 OCO placed: Long 21@$461.43, Short 22@$443.34
+2024-12-18 09:31:00   OCO orders placed for MSFT
+2024-12-18 09:31:00 GOOGL open: $194.93
+2024-12-18 09:31:00   GOOGL has position - skipping
+2024-12-18 15:01:00 Brackets placed: TP@$420.95, SL@$456.40
+2024-12-18 15:01:00 Entry recorded: MSFT short @ $443.11
+2024-12-18 15:01:00 [2024-12-18 15:01:00] [INFO] FILL: MSFT SELL 22.0 @ $443.11
+2024-12-18 15:41:00 Exit recorded: GOOGL @ $187.20 (StopLoss, -3.10%)
+2024-12-18 15:41:00 [2024-12-18 15:41:00] [INFO] TRADE: GOOGL long entry=$193.19 exit=$187.20 pnl=$-305.49 (-3.10%) reason=StopLoss
+2024-12-18 15:41:00 [2024-12-18 15:41:00] [INFO] FILL: GOOGL SELL 51.0 @ $187.20
+2024-12-18 15:55:00 [2024-12-18 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-305.49
+2024-12-19 09:31:00 ==================================================
+2024-12-19 09:31:00 Market open at 2024-12-19 09:30:00
+2024-12-19 09:31:00 AAPL open: $247.74
+2024-12-19 09:31:00   AAPL has position - skipping
+2024-12-19 09:31:00 MSFT open: $436.91
+2024-12-19 09:31:00   MSFT has position - skipping
+2024-12-19 09:31:00 GOOGL open: $188.13
+2024-12-19 09:31:00 OCO placed: Long 52@$191.89, Short 54@$184.36
+2024-12-19 09:31:00   OCO orders placed for GOOGL
+2024-12-19 09:32:00 Brackets placed: TP@$201.68, SL@$186.32
+2024-12-19 09:32:00 Entry recorded: GOOGL long @ $192.08
+2024-12-19 09:32:00 [2024-12-19 09:32:00] [INFO] FILL: GOOGL BUY 52.0 @ $192.08
+2024-12-20 09:31:00 ==================================================
+2024-12-20 09:31:00 Market open at 2024-12-20 09:30:00
+2024-12-20 09:31:00 AAPL open: $249.14
+2024-12-20 09:31:00   AAPL has position - skipping
+2024-12-20 09:31:00 MSFT open: $435.25
+2024-12-20 09:31:00   MSFT has position - skipping
+2024-12-20 09:31:00 GOOGL open: $187.97
+2024-12-20 09:31:00   GOOGL has position - skipping
+2024-12-20 09:40:00 Exit recorded: GOOGL @ $186.13 (StopLoss, -3.10%)
+2024-12-20 09:40:00 [2024-12-20 09:40:00] [INFO] TRADE: GOOGL long entry=$192.08 exit=$186.13 pnl=$-309.40 (-3.10%) reason=StopLoss
+2024-12-20 09:40:00 [2024-12-20 09:40:00] [INFO] FILL: GOOGL SELL 52.0 @ $186.13
+2024-12-20 15:55:00 [2024-12-20 15:55:00] [INFO] Daily Summary: 1 trades, W/L: 0/1, PnL: $-309.40
+2024-12-23 09:31:00 ==================================================
+2024-12-23 09:31:00 Market open at 2024-12-23 09:30:00
+2024-12-23 09:31:00 AAPL open: $253.33
+2024-12-23 09:31:00   AAPL has position - skipping
+2024-12-23 09:31:00 MSFT open: $433.31
+2024-12-23 09:31:00   MSFT has position - skipping
+2024-12-23 09:31:00 GOOGL open: $190.43
+2024-12-23 09:31:00 OCO placed: Long 51@$194.24, Short 53@$186.62
+2024-12-23 09:31:00   OCO orders placed for GOOGL
+2024-12-23 15:51:00 Brackets placed: TP@$204.10, SL@$188.55
+2024-12-23 15:51:00 Entry recorded: GOOGL long @ $194.38
+2024-12-23 15:51:00 [2024-12-23 15:51:00] [INFO] FILL: GOOGL BUY 51.0 @ $194.38
+2024-12-24 09:31:00 ==================================================
+2024-12-24 09:31:00 Market open at 2024-12-24 09:30:00
+2024-12-24 09:31:00 AAPL open: $254.35
+2024-12-24 09:31:00   AAPL has position - skipping
+2024-12-24 09:31:00 MSFT open: $432.66
+2024-12-24 09:31:00   MSFT has position - skipping
+2024-12-24 09:31:00 GOOGL open: $194.09
+2024-12-24 09:31:00   GOOGL has position - skipping
+2024-12-26 09:31:00 ==================================================
+2024-12-26 09:31:00 Market open at 2024-12-26 09:30:00
+2024-12-26 09:31:00 AAPL open: $257.16
+2024-12-26 09:31:00   AAPL has position - skipping
+2024-12-26 09:31:00 MSFT open: $436.70
+2024-12-26 09:31:00   MSFT has position - skipping
+2024-12-26 09:31:00 GOOGL open: $195.35
+2024-12-26 09:31:00   GOOGL has position - skipping
+2024-12-27 09:31:00 ==================================================
+2024-12-27 09:31:00 Market open at 2024-12-27 09:30:00
+2024-12-27 09:31:00 AAPL open: $258.21
+2024-12-27 09:31:00   AAPL has position - skipping
+2024-12-27 09:31:00 MSFT open: $435.81
+2024-12-27 09:31:00   MSFT has position - skipping
+2024-12-27 09:31:00 GOOGL open: $194.97
+2024-12-27 09:31:00   GOOGL has position - skipping
+2024-12-30 09:31:00 ==================================================
+2024-12-30 09:31:00 Market open at 2024-12-30 09:30:00
+2024-12-30 09:31:00 AAPL open: $254.69
+2024-12-30 09:31:00   AAPL has position - skipping
+2024-12-30 09:31:00 MSFT open: $428.07
+2024-12-30 09:31:00   MSFT has position - skipping
+2024-12-30 09:31:00 GOOGL open: $191.95
+2024-12-30 09:31:00   GOOGL has position - skipping
+2024-12-30 09:31:00 Exit recorded: GOOGL @ $188.50 (StopLoss, -3.03%)
+2024-12-30 09:31:00 [2024-12-30 09:31:00] [INFO] TRADE: GOOGL long entry=$194.38 exit=$188.50 pnl=$-299.92 (-3.03%) reason=StopLoss
+2024-12-30 09:31:00 [2024-12-30 09:31:00] [INFO] FILL: GOOGL SELL 51.0 @ $188.50
+2024-12-30 09:54:00 Exit recorded: MSFT @ $420.95 (TakeProfit, +5.00%)
+2024-12-30 09:54:00 [2024-12-30 09:54:00] [INFO] TRADE: MSFT short entry=$443.11 exit=$420.95 pnl=$487.41 (+5.00%) reason=TakeProfit
+2024-12-30 09:54:00 [2024-12-30 09:54:00] [INFO] FILL: MSFT BUY 22.0 @ $420.95
+2024-12-30 15:55:00 [2024-12-30 15:55:00] [INFO] Daily Summary: 2 trades, W/L: 1/1, PnL: $187.49
+2024-12-31 09:31:00 ==================================================
+2024-12-31 09:31:00 Market open at 2024-12-31 09:30:00
+2024-12-31 09:31:00 AAPL open: $251.53
+2024-12-31 09:31:00   AAPL has position - skipping
+2024-12-31 09:31:00 MSFT open: $423.13
+2024-12-31 09:31:00 OCO placed: Long 23@$431.60, Short 24@$414.67
+2024-12-31 09:31:00   OCO orders placed for MSFT
+2024-12-31 09:31:00 GOOGL open: $190.83
+2024-12-31 09:31:00 OCO placed: Long 51@$194.64, Short 53@$187.01
+2024-12-31 09:31:00   OCO orders placed for GOOGL
+2024-12-31 15:55:00 Canceled OCO orders for MSFT
+2024-12-31 15:55:00 Canceled unfilled OCO orders for MSFT
+2024-12-31 15:55:00 Canceled OCO orders for GOOGL
+2024-12-31 15:55:00 Canceled unfilled OCO orders for GOOGL
+2024-12-31 16:00:00 Algorithm Id:(977b1bfaf2452ef3621d6b3e1632dee9) completed in 8.06 seconds at 73k data points per second. Processing total of 586,452 data points.
