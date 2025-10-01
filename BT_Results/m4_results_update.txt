@@ -1,0 +1,49 @@
+Comparative Analysis: M3 vs M4 Backtest Results
+
+  Key Behavioral Differences Confirmed:
+
+  1. Position Holding Periods  
+
+M3 (No time-stop):
+  - AAPL: Jan 8 → Jan 22 = 14 days held
+  - GOOGL: Jan 8 → Jan 19 = 11 days held
+  - Positions could stay open indefinitely until TP/SL hit
+
+  M4 (D+4 time-stop enforced):
+  - ZERO positions exceed 4 trading days
+  - 104 TimeStop exits at exactly D+4
+  - Examples: AAPL Jan 8 → Jan 12 (4 days), META Jan 21 → Jan 25 (4 days)
+
+ - D+4 time-stop working perfectly
+
+  2. Stop-Loss Adjustments
+
+  M3:
+  - NO capture point logic
+  - No SL adjustments found in entire backtest
+  - Only static TP/SL exits
+
+  M4:
+  - Capture point at +4% triggers SL → breakeven+1%
+  - Multiple "StopLoss_Adjusted" exits confirmed
+  - Examples:
+    - AAPL Feb 2: Exit @ breakeven+1%
+    - META Feb 16: Exit @ breakeven+1%
+    - META Sep 24: Exit @ breakeven+1%
+
+  - Capture point logic working correctly
+
+  3. Exit Type Distribution
+
+  M3 Exit Types:
+  - TakeProfit
+  - StopLoss
+  - (No TimeStop, No StopLoss_Adjusted)
+
+  M4 Exit Types:
+  - TakeProfit
+  - StopLoss
+  - TimeStop (new - 104 instances)
+  - StopLoss_Adjusted (new - capture point exits)
+
+ - M4: Maximum 4-day exposure with dynamic risk management

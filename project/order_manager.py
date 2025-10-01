@@ -11,7 +11,7 @@ class OrderManager:
     def __init__(self, algorithm):
         self.algo = algorithm
         self.oco_pairs = {}  # ticker -> {'long': order_id, 'short': order_id}
-        self.position_brackets = {}  # ticker -> {'tp': order_id, 'sl': order_id, 'entry_price': price}
+        self.position_brackets = {}  # ticker -> {'tp': order_id, 'sl': order_id, 'entry_price': price, 'sl_adjusted': bool}
         self.order_info = {}  # order_id -> order details
         
     def round_to_tick(self, price):
@@ -26,6 +26,7 @@ class OrderManager:
     def place_oco_orders(self, symbol, signals):
         """
         Place OCO entry orders. Returns True if successful.
+        OCO entries use stop-limit with cushion to avoid chasing.
         """
         ticker = str(symbol).split(' ')[0]
         
@@ -41,7 +42,7 @@ class OrderManager:
         long_stop = self.round_to_tick(signals['long_stop'])
         short_stop = self.round_to_tick(signals['short_stop'])
         
-        # Add cushion for limit prices (0.1%)
+        # Add cushion for limit prices (0.1% - this is OK for entries)
         long_limit = self.round_to_tick(long_stop * 1.001)
         short_limit = self.round_to_tick(short_stop * 0.999)
         
@@ -54,7 +55,7 @@ class OrderManager:
             return False
             
         try:
-            # Place long entry order
+            # Place long entry order - stop-limit is OK for entries
             long_order = self.algo.stop_limit_order(
                 symbol,
                 long_quantity,
@@ -62,7 +63,7 @@ class OrderManager:
                 long_limit
             )
             
-            # Place short entry order
+            # Place short entry order - stop-limit is OK for entries
             short_order = self.algo.stop_limit_order(
                 symbol,
                 -short_quantity,
@@ -101,6 +102,8 @@ class OrderManager:
     def place_bracket_orders(self, symbol, entry_price, direction, quantity):
         """
         Place bracket orders (TP and SL) after entry fill.
+        TP uses limit order (want specific price).
+        SL uses STOP-MARKET order (exit immediately when triggered).
         """
         ticker = str(symbol).split(' ')[0]
         
@@ -116,26 +119,31 @@ class OrderManager:
             # Long brackets
             tp_price = self.round_to_tick(entry_price * (1 + tp_pct))
             sl_stop = self.round_to_tick(entry_price * (1 - sl_pct))
-            sl_limit = self.round_to_tick(sl_stop * 0.999)
             
+            # TP as limit order (want specific price)
             tp_order = self.algo.limit_order(symbol, -quantity, tp_price)
-            sl_order = self.algo.stop_limit_order(symbol, -quantity, sl_stop, sl_limit)
+            
+            # SL as STOP-MARKET order (exit immediately when hit - no limit!)
+            sl_order = self.algo.stop_market_order(symbol, -quantity, sl_stop)
             
         else:  # short
             # Short brackets
             tp_price = self.round_to_tick(entry_price * (1 - tp_pct))
             sl_stop = self.round_to_tick(entry_price * (1 + sl_pct))
-            sl_limit = self.round_to_tick(sl_stop * 1.001)
             
+            # TP as limit order (want specific price)
             tp_order = self.algo.limit_order(symbol, quantity, tp_price)
-            sl_order = self.algo.stop_limit_order(symbol, quantity, sl_stop, sl_limit)
+            
+            # SL as STOP-MARKET order (exit immediately when hit - no limit!)
+            sl_order = self.algo.stop_market_order(symbol, quantity, sl_stop)
             
         # Track brackets
         self.position_brackets[ticker] = {
             'tp': tp_order.order_id,
             'sl': sl_order.order_id,
             'entry_price': entry_price,
-            'direction': direction
+            'direction': direction,
+            'sl_adjusted': False  # Track if SL has been adjusted to breakeven
         }
         
         # Track order info
@@ -149,12 +157,82 @@ class OrderManager:
             'type': 'bracket_sl'
         }
         
-        self.algo.debug(f"Brackets placed: TP@${tp_price:.2f}, SL@${sl_stop:.2f}")
+        self.algo.debug(f"Brackets placed: TP@${tp_price:.2f}, SL@${sl_stop:.2f} (market)")
+    
+    def adjust_sl_to_breakeven(self, symbol, ticker, entry_price, direction):
+        """
+        Adjust stop-loss to breakeven + offset when capture point is hit.
+        Uses STOP-MARKET order for immediate exit when triggered.
+        Returns True if successful.
+        """
+        if ticker not in self.position_brackets:
+            self.algo.debug(f"No brackets found for {ticker}")
+            return False
+            
+        brackets = self.position_brackets[ticker]
+        
+        # Check if already adjusted
+        if brackets.get('sl_adjusted', False):
+            self.algo.debug(f"{ticker} SL already adjusted")
+            return False
+            
+        old_sl_id = brackets['sl']
+        
+        # Get the breakeven offset from parameters
+        breakeven_offset = self.algo.parameters['breakeven_offset']
+        
+        # Calculate new SL at breakeven + offset
+        if direction == 'long':
+            new_sl_stop = self.round_to_tick(entry_price * (1 + breakeven_offset))
+            
+            # Get current position quantity
+            quantity = abs(self.algo.portfolio[symbol].quantity)
+            if quantity <= 0:
+                self.algo.debug(f"No position found for {ticker}")
+                return False
+                
+            # Cancel old SL
+            self.algo.transactions.cancel_order(old_sl_id)
+            
+            # Place new SL as STOP-MARKET (exit immediately when hit)
+            new_sl = self.algo.stop_market_order(symbol, -quantity, new_sl_stop)
+            
+        else:  # short
+            new_sl_stop = self.round_to_tick(entry_price * (1 - breakeven_offset))
+            
+            # Get current position quantity
+            quantity = abs(self.algo.portfolio[symbol].quantity)
+            if quantity <= 0:
+                self.algo.debug(f"No position found for {ticker}")
+                return False
+                
+            # Cancel old SL
+            self.algo.transactions.cancel_order(old_sl_id)
+            
+            # Place new SL as STOP-MARKET (exit immediately when hit)
+            new_sl = self.algo.stop_market_order(symbol, quantity, new_sl_stop)
+        
+        # Update tracking
+        brackets['sl'] = new_sl.order_id
+        brackets['sl_adjusted'] = True
+        
+        # Track the new order info
+        self.order_info[new_sl.order_id] = {
+            'ticker': ticker,
+            'type': 'bracket_sl_adjusted'
+        }
+        
+        # Clean up old order info
+        if old_sl_id in self.order_info:
+            del self.order_info[old_sl_id]
+        
+        self.algo.debug(f"{ticker} SL adjusted to breakeven+{breakeven_offset*100:.1f}%: ${new_sl_stop:.2f} (market)")
+        return True
     
     def handle_order_event(self, order_event):
         """
         Process order events and return fill type for main.py.
-        Returns: 'entry_long', 'entry_short', 'exit_tp', 'exit_sl', or None
+        Returns: 'entry_long', 'entry_short', 'exit_tp', 'exit_sl', 'exit_sl_adjusted', or None
         """
         order_id = order_event.order_id
         
@@ -171,7 +249,10 @@ class OrderManager:
                 # Long entry filled - cancel short OCO
                 if ticker in self.oco_pairs:
                     short_id = self.oco_pairs[ticker]['short']
-                    self.algo.transactions.cancel_order(short_id)
+                    try:
+                        self.algo.transactions.cancel_order(short_id)
+                    except:
+                        pass  # Already canceled
                     
                     # Place brackets
                     self.place_bracket_orders(
@@ -181,8 +262,9 @@ class OrderManager:
                         order_data['quantity']
                     )
                     
-                    # Cleanup OCO
-                    del self.oco_pairs[ticker]
+                    # Cleanup OCO - check before deleting
+                    if ticker in self.oco_pairs:
+                        del self.oco_pairs[ticker]
                     
                 return 'entry_long'
                 
@@ -190,7 +272,10 @@ class OrderManager:
                 # Short entry filled - cancel long OCO
                 if ticker in self.oco_pairs:
                     long_id = self.oco_pairs[ticker]['long']
-                    self.algo.transactions.cancel_order(long_id)
+                    try:
+                        self.algo.transactions.cancel_order(long_id)
+                    except:
+                        pass  # Already canceled
                     
                     # Place brackets
                     self.place_bracket_orders(
@@ -200,8 +285,9 @@ class OrderManager:
                         order_data['quantity']
                     )
                     
-                    # Cleanup OCO
-                    del self.oco_pairs[ticker]
+                    # Cleanup OCO - check before deleting
+                    if ticker in self.oco_pairs:
+                        del self.oco_pairs[ticker]
                     
                 return 'entry_short'
                 
@@ -209,19 +295,37 @@ class OrderManager:
                 # Take profit hit - cancel stop loss
                 if ticker in self.position_brackets:
                     sl_id = self.position_brackets[ticker]['sl']
-                    self.algo.transactions.cancel_order(sl_id)
+                    try:
+                        self.algo.transactions.cancel_order(sl_id)
+                    except:
+                        pass  # Already canceled
                     del self.position_brackets[ticker]
                     
                 return 'exit_tp'
                 
             elif order_type == 'bracket_sl':
-                # Stop loss hit - cancel take profit
+                # Original stop loss hit - cancel take profit
                 if ticker in self.position_brackets:
                     tp_id = self.position_brackets[ticker]['tp']
-                    self.algo.transactions.cancel_order(tp_id)
+                    try:
+                        self.algo.transactions.cancel_order(tp_id)
+                    except:
+                        pass  # Already canceled
                     del self.position_brackets[ticker]
                     
                 return 'exit_sl'
+                
+            elif order_type == 'bracket_sl_adjusted':
+                # Adjusted stop loss hit (breakeven) - cancel take profit
+                if ticker in self.position_brackets:
+                    tp_id = self.position_brackets[ticker]['tp']
+                    try:
+                        self.algo.transactions.cancel_order(tp_id)
+                    except:
+                        pass  # Already canceled
+                    del self.position_brackets[ticker]
+                    
+                return 'exit_sl_adjusted'
                 
         elif order_event.status == OrderStatus.CANCELED:
             # Clean up canceled orders
@@ -234,8 +338,14 @@ class OrderManager:
         """Cancel OCO orders for a ticker."""
         if ticker in self.oco_pairs:
             oco = self.oco_pairs[ticker]
-            self.algo.transactions.cancel_order(oco['long'])
-            self.algo.transactions.cancel_order(oco['short'])
+            try:
+                self.algo.transactions.cancel_order(oco['long'])
+            except:
+                pass  # Order might already be canceled
+            try:
+                self.algo.transactions.cancel_order(oco['short'])
+            except:
+                pass  # Order might already be canceled
             del self.oco_pairs[ticker]
             self.algo.debug(f"Canceled OCO orders for {ticker}")
     
@@ -244,7 +354,7 @@ class OrderManager:
         return ticker in self.oco_pairs
     
     def cleanup_ticker(self, ticker):
-        """Clean up all orders for a ticker (used when halting)."""
+        """Clean up all orders for a ticker (used when halting or time-stop)."""
         # Cancel OCO if exists
         if ticker in self.oco_pairs:
             self.cancel_oco_orders(ticker)
@@ -252,8 +362,14 @@ class OrderManager:
         # Cancel brackets if exist
         if ticker in self.position_brackets:
             brackets = self.position_brackets[ticker]
-            self.algo.transactions.cancel_order(brackets['tp'])
-            self.algo.transactions.cancel_order(brackets['sl'])
+            try:
+                self.algo.transactions.cancel_order(brackets['tp'])
+            except:
+                pass  # Order might already be canceled
+            try:
+                self.algo.transactions.cancel_order(brackets['sl'])
+            except:
+                pass  # Order might already be canceled
             del self.position_brackets[ticker]
             
         # Clean up order info
