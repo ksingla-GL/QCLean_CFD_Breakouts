@@ -33,6 +33,7 @@ class CFDBreakoutStrategy(QCAlgorithm):
         self.reconciliation_halts = set()
         self.capture_point_adjusted = {}  # Track which positions had SL adjusted
         self.last_trading_day = None  # Track trading days
+        self.traded_today = set()  # Track tickers that have traded today
         
         # Setup universe
         self.setup_universe()
@@ -245,6 +246,11 @@ class CFDBreakoutStrategy(QCAlgorithm):
                 
                 self.debug(f"{ticker} open: ${open_price:.2f}")
                 
+                # Check if ticker already traded today
+                if ticker in self.traded_today:
+                    self.debug(f"  {ticker} already traded today - no new entries")
+                    continue
+                
                 # Check earnings blackout for new entries
                 if self.is_in_earnings_blackout(ticker):
                     self.debug(f"  {ticker} in earnings blackout - no new trades")
@@ -323,6 +329,9 @@ class CFDBreakoutStrategy(QCAlgorithm):
                 
                 # Log the trade with correct PnL
                 self.logger.log_trade(ticker, direction, entry_price, exit_price, pnl, "TimeStop")
+                
+                # Mark ticker as traded today - PREVENT RE-ENTRY
+                self.traded_today.add(ticker)
                 
                 # Reset position state
                 self.bot_positions[ticker]['has_position'] = False
@@ -406,7 +415,9 @@ class CFDBreakoutStrategy(QCAlgorithm):
                 self.position_metadata[ticker]['trading_days_held'] = 0  # Reset counter
                 self.capture_point_adjusted[ticker] = False
                 
-                # No persistence in paper trading - just log the entry
+                # Mark ticker as traded today
+                self.traded_today.add(ticker)
+                
                 self.debug(f"Entry recorded: {ticker} long @ ${order_event.fill_price:.2f}")
                 
             elif fill_type == 'entry_short':
@@ -419,7 +430,9 @@ class CFDBreakoutStrategy(QCAlgorithm):
                 self.position_metadata[ticker]['trading_days_held'] = 0  # Reset counter
                 self.capture_point_adjusted[ticker] = False
                 
-                # No persistence in paper trading - just log the entry
+                # Mark ticker as traded today
+                self.traded_today.add(ticker)
+                
                 self.debug(f"Entry recorded: {ticker} short @ ${order_event.fill_price:.2f}")
                 
             elif fill_type in ['exit_tp', 'exit_sl', 'exit_sl_adjusted']:
@@ -448,6 +461,9 @@ class CFDBreakoutStrategy(QCAlgorithm):
                 
                 # Log the trade
                 self.logger.log_trade(ticker, direction, entry_price, exit_price, pnl, exit_reason)
+                
+                # Mark ticker as traded today - PREVENT RE-ENTRY
+                self.traded_today.add(ticker)
                 
                 # Reset position state
                 self.bot_positions[ticker]['has_position'] = False
@@ -481,6 +497,11 @@ class CFDBreakoutStrategy(QCAlgorithm):
                 
         if self.reconciliation_halts:
             self.debug(f"Halted tickers: {self.reconciliation_halts}")
+            
+        # Clear traded today set for next trading day
+        if self.traded_today:
+            self.debug(f"Traded today (blocked re-entry): {self.traded_today}")
+        self.traded_today.clear()
             
         # Daily summary
         self.logger.daily_summary(self.time)
