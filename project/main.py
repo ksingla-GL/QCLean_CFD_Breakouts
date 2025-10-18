@@ -35,6 +35,10 @@ class CFDBreakoutStrategy(QCAlgorithm):
         self.last_trading_day = None  # Track trading days
         self.traded_today = set()  # Track tickers that have traded today
         
+        # Risk control state
+        self.daily_pnl = 0.0  # Track cumulative daily PnL
+        self.daily_loss_limit_hit = False  # Flag when daily loss limit reached
+        
         # Setup universe
         self.setup_universe()
         
@@ -60,11 +64,14 @@ class CFDBreakoutStrategy(QCAlgorithm):
             'use_cfds': self.get_parameter("use_cfds") or "false",
             'capture_point_pct': float(self.get_parameter("capture_point_pct") or 0.04),  # 4% capture point
             'breakeven_offset': float(self.get_parameter("breakeven_offset") or 0.01),  # 1% above breakeven
-            # Earnings dates format: "TICKER:YYYY-MM-DD,TICKER:YYYY-MM-DD"
+            # Risk controls
+            'trading_enabled': self.get_parameter("trading_enabled") or "true",  # Kill-switch
+            'max_daily_loss': float(self.get_parameter("max_daily_loss") or 2000),  # $ amount (positive, will be negated)
+            # Earnings dates format: "TICKER:YYYY-MM-DD,TICKER:YYYY-MM-DD" (multiple dates per ticker allowed)
             'earnings_dates': self.get_parameter("earnings_dates") or ""
         }
         
-        # Parse earnings dates
+        # Parse earnings dates - support multiple dates per ticker
         self.earnings_calendar = {}
         if self.parameters['earnings_dates']:
             for entry in self.parameters['earnings_dates'].split(','):
@@ -72,7 +79,10 @@ class CFDBreakoutStrategy(QCAlgorithm):
                     ticker, date_str = entry.split(':')
                     try:
                         earnings_date = datetime.strptime(date_str.strip(), '%Y-%m-%d')
-                        self.earnings_calendar[ticker.strip()] = earnings_date
+                        ticker_clean = ticker.strip()
+                        if ticker_clean not in self.earnings_calendar:
+                            self.earnings_calendar[ticker_clean] = []
+                        self.earnings_calendar[ticker_clean].append(earnings_date)
                     except:
                         self.debug(f"Invalid earnings date format: {entry}")
             
@@ -134,19 +144,53 @@ class CFDBreakoutStrategy(QCAlgorithm):
         self.debug("Scheduling configured")
         
     def is_in_earnings_blackout(self, ticker):
-        """Check if ticker is in earnings blackout period (D-2 to D+1)"""
+        """Check if ticker is in earnings blackout period (D-2 to D+1) for ANY earnings date"""
         if ticker not in self.earnings_calendar:
             return False
-            
-        earnings_date = self.earnings_calendar[ticker]
+        
         current_date = self.time.date()
-        earnings_date_only = earnings_date.date()
         
-        # D-2 to D+1 blackout window
-        blackout_start = earnings_date_only - timedelta(days=2)
-        blackout_end = earnings_date_only + timedelta(days=1)
+        # Check all earnings dates for this ticker
+        for earnings_date in self.earnings_calendar[ticker]:
+            earnings_date_only = earnings_date.date()
+            
+            # D-2 to D+1 blackout window
+            blackout_start = earnings_date_only - timedelta(days=2)
+            blackout_end = earnings_date_only + timedelta(days=1)
+            
+            if blackout_start <= current_date <= blackout_end:
+                return True
         
-        return blackout_start <= current_date <= blackout_end
+        return False
+    
+    def check_kill_switch(self):
+        """Check if trading is enabled (kill-switch)"""
+        enabled = self.parameters['trading_enabled'].lower() == "true"
+        if not enabled:
+            self.debug("KILL-SWITCH ACTIVE - Trading disabled")
+        return enabled
+    
+    def check_daily_loss_limit(self):
+        """Check if daily loss limit has been exceeded"""
+        max_loss = self.parameters['max_daily_loss']  # Positive value like 2000
+
+        if self.daily_pnl <= -max_loss:  # Compare against negative of parameter
+            if not self.daily_loss_limit_hit:
+                self.debug("="*50)
+                self.debug(f"DAILY LOSS LIMIT HIT: ${self.daily_pnl:.2f} <= $-{max_loss:.2f}")
+                self.debug("Halting new trades and canceling all open orders")
+                self.debug("="*50)
+                self.daily_loss_limit_hit = True
+                
+                # Cancel all open orders across all tickers
+                for ticker in self.tickers:
+                    self.order_manager.cleanup_ticker(ticker)
+                    if self.bot_positions[ticker]['is_entry_pending']:
+                        self.bot_positions[ticker]['is_entry_pending'] = False
+            
+            return False  # Don't allow new trades
+        
+        return True  # OK to trade
         
     def reconcile_positions(self, ticker=None, is_startup=False):
         """Reconcile bot state with broker positions"""
@@ -226,8 +270,20 @@ class CFDBreakoutStrategy(QCAlgorithm):
         # Check for overnight manual interventions
         self.reconcile_positions(is_startup=False)
         
-        # First, check for D+4 time-stops
+        # First, check for D+4 time-stops (these update daily_pnl)
         self.process_timestops()
+        
+        # Check kill-switch
+        if not self.check_kill_switch():
+            self.debug("Kill-switch active - skipping all new entries")
+            self.processed_today = True
+            return
+        
+        # Check daily loss limit (after timestops might have triggered)
+        if not self.check_daily_loss_limit():
+            self.debug(f"Daily loss limit exceeded (${self.daily_pnl:.2f}) - skipping all new entries")
+            self.processed_today = True
+            return
         
         self.daily_open_prices = {}
         
@@ -325,8 +381,14 @@ class CFDBreakoutStrategy(QCAlgorithm):
                     pnl = (entry_price - exit_price) * quantity
                     pnl_pct = ((entry_price - exit_price) / entry_price) * 100
                 
-                self.debug(f"TimeStop executed: {ticker} @ ${exit_price:.2f} (D+{trading_days_held}, {pnl_pct:+.2f}%)")
-                
+                # Update daily PnL
+                self.daily_pnl += pnl
+
+                self.debug(f"TimeStop executed: {ticker} @ ${exit_price:.2f} (D+{trading_days_held}, {pnl_pct:+.2f}%, Daily PnL: ${self.daily_pnl:.2f})")
+
+                # Check if daily loss limit exceeded after timestop
+                self.check_daily_loss_limit()
+
                 # Log the trade with correct PnL
                 self.logger.log_trade(ticker, direction, entry_price, exit_price, pnl, "TimeStop")
                 
@@ -448,7 +510,10 @@ class CFDBreakoutStrategy(QCAlgorithm):
                 else:
                     pnl = (entry_price - exit_price) * abs(order_event.fill_quantity)
                     pnl_pct = ((entry_price - exit_price) / entry_price) * 100
-                    
+                
+                # Update daily PnL
+                self.daily_pnl += pnl
+
                 # Determine exit reason
                 if fill_type == 'exit_tp':
                     exit_reason = "TakeProfit"
@@ -456,9 +521,12 @@ class CFDBreakoutStrategy(QCAlgorithm):
                     exit_reason = "StopLoss_Adjusted"
                 else:
                     exit_reason = "StopLoss"
-                    
-                self.debug(f"Exit recorded: {ticker} @ ${exit_price:.2f} ({exit_reason}, {pnl_pct:+.2f}%)")
-                
+
+                self.debug(f"Exit recorded: {ticker} @ ${exit_price:.2f} ({exit_reason}, {pnl_pct:+.2f}%, Daily PnL: ${self.daily_pnl:.2f})")
+
+                # Check if daily loss limit exceeded after exit
+                self.check_daily_loss_limit()
+
                 # Log the trade
                 self.logger.log_trade(ticker, direction, entry_price, exit_price, pnl, exit_reason)
                 
@@ -502,9 +570,13 @@ class CFDBreakoutStrategy(QCAlgorithm):
         if self.traded_today:
             self.debug(f"Traded today (blocked re-entry): {self.traded_today}")
         self.traded_today.clear()
-            
-        # Daily summary
-        self.logger.daily_summary(self.time)
+        
+        # Daily summary (includes daily PnL)
+        self.logger.daily_summary(self.time, self.daily_pnl)
+        
+        # Reset daily PnL and loss limit flag for next day
+        self.daily_pnl = 0.0
+        self.daily_loss_limit_hit = False
         
     def setup_logging(self):
         """Initial logging"""
@@ -519,6 +591,9 @@ class CFDBreakoutStrategy(QCAlgorithm):
         self.debug(f"Time-stop: D+{self.parameters['timestop_days']}")
         self.debug(f"Position size: ${self.parameters['position_size']}")
         self.debug(f"Tickers: {self.parameters['tickers']}")
+        self.debug("--- Risk Controls ---")
+        self.debug(f"Trading enabled: {self.parameters['trading_enabled']}")
+        self.debug(f"Max daily loss: $-{self.parameters['max_daily_loss']}")
         if self.earnings_calendar:
-            self.debug(f"Earnings dates loaded: {len(self.earnings_calendar)} tickers")
+            self.debug(f"Earnings dates loaded: {sum(len(dates) for dates in self.earnings_calendar.values())} dates across {len(self.earnings_calendar)} tickers")
         self.debug("="*50)
